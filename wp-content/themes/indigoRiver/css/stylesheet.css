@@ -50,6 +50,22 @@ p {
     line-height: 30px;
 }
 
+/* ================================ HEADER ================================= */
+
+.homeLogo {
+    width: 210px;
+    height: auto;
+    position: absolute;
+    left: 16.5%;
+    top: 60px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
+.homeLogo img {
+	width: 100%;
+}
+
 /*Sidebar left*/
 
 #pageLocator {
