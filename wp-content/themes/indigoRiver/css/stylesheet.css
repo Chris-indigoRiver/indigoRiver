@@ -8,13 +8,14 @@
 	color:#202020;
 }
 
-/*Body copy*/
+/*Headers*/
 
-p {
-    font-family: 'fira-sans-2';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
+h1 {
+    font-family: 'bebas_neue',serif;
+	font-size: 85px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -32,3 +33,13 @@ h3 {
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
+
+/*Body copy*/
+
+p {
+    font-family: 'fira-sans-2';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
