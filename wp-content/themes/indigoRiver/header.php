@@ -14,11 +14,3 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
-<div id="wrapper" class="hfeed">
-<header id="header" role="banner">
-
-
-
-</header>
-<div id="container">
