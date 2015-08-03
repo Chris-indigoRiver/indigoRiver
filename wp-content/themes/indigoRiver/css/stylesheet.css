@@ -1,3 +1,10 @@
+/*Fonts*/
+
+@font-face {
+    font-family: 'bebas_neue';
+    src: url(fonts/BebasNeue2/BebasNeue_Bold.ttf);
+}
+
 /*Black & White colours used throughout the site*/
 
 .white {
@@ -41,6 +48,30 @@ p {
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
+}
+
+/*Sidebar left*/
+
+#pageLocator {
+	width: 10%;
+	height: 100%;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+/*Sidebar right*/
+
+#pageMenu {
+	width: 10%;
+	height: 100%;
+	background: #202020;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 99999;
 }
 
 /*Menu Icon*/
@@ -151,7 +182,6 @@ p {
 	-webkit-animation-delay: 500ms;
 	animation-delay: 500ms;
 }
-
 
 /*Gradients*/
 
