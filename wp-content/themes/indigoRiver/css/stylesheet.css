@@ -78,6 +78,65 @@ p {
 	z-index: 99999;
 }
 
+.locatorText {
+    position: absolute;
+    top: 140px;
+	left: 15px;
+    text-align: right;
+    width: 170px;
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.locatorText p {
+	margin: 0px;	
+}
+
+#LLOne {
+    position: fixed;
+    width: 10px;
+    height: 1px;
+    bottom: 130px;
+    left: 5%;
+    background: #202020;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+#LLTwo {
+    position: fixed;
+    width: 10px;
+    height: 1px;
+    bottom: 110px;
+    left: 5%;
+    background: #CBCBCB;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+#LLThree {
+    position: fixed;
+    width: 10px;
+    height: 1px;
+    bottom: 90px;
+    left: 5%;
+    background: #CBCBCB;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+#LLFour {
+    position: fixed;
+    width: 10px;
+    height: 1px;
+    bottom: 70px;
+    left: 5%;
+    background: #CBCBCB;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
 /*Sidebar right*/
 
 #pageMenu {
