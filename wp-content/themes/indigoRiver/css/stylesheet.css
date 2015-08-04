@@ -410,11 +410,28 @@ header {
 	font-size:18px;
 }
 
+/* ============ SELECT SERVICES ============*/
+
 #homeSelectServices {
     padding: 0 10% 0 11%;
     position: relative;
     background-color: #fff;
     margin-top: 55%;
+}
+
+.slider_service_title {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    z-index: 999;
+    text-align: left !important;
+    color: #202020 !important;
+    font-family: 'bebas_neue',serif !important;
+    font-weight: 900 !important;
+    font-size: 4.5vw !important;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 1% 0 !important;
 }
 
 /*Gradients*/
