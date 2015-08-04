@@ -23,8 +23,8 @@ $(document).ready(function(){
 			$('.menuLogo').css({'display' : 'block'});
 			$('.locatorLine').addClass('animated fadeOut');
 		}else{
-			$(this).css('background' , '#f9f9f9');
-			$(this).animate({'width': '10%'}, 500);
+			//$('#pageMenu').css('background' , '#f9f9f9');
+			$('#pageMenu').animate({'width': '10%'}, 500);
 			$('#pageLocator').animate({'width': '11%'}, 200);
 			$('.nav').css('display' , 'none');
 			$('.appointments').css('display' , 'none');
