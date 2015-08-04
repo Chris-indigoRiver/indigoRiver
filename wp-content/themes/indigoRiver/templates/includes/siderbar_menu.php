@@ -4,7 +4,7 @@
         <div class="two"></div>
         <div class="three"></div>
     </div>
-    <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>../../img/IndigoRiver_Logo_White-01.svg"></a>
+    <a class="homeNavLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
     <div class="nav">
     	<ul>
         	<li><h2 class="white animated fadeInRight">US</h2></li>
