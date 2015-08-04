@@ -19,9 +19,9 @@
         </div>
     </div>
     <div class="appointments">
-    	<ul class="bxslider">
+    	<ul class="navNews">
           <li><img src="<?php bloginfo('template_url');?>/img/PrintPress.jpg" /></li>
-          <li><img src="/<?php bloginfo('template_url');?>/img/strategy.jpg" /></li>
+          <li><img src="<?php bloginfo('template_url');?>/img/strategy.jpg" /></li>
           <li><img src="<?php bloginfo('template_url');?>/img/Video.jpg" /></li>
         </ul>
     </div>
