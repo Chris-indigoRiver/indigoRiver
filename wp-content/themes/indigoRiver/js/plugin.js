@@ -8,6 +8,8 @@ $(document).ready(function(){
     $(".windowHeight").height(bodyheight);
 	
 	
+	/* ========== Nav ========== */
+	
 	//* menu nav transition *//
 	
 	$('#defaultBG').hide();
@@ -37,6 +39,14 @@ $(document).ready(function(){
 			$('.homeNavLogo').addClass('animated fadeIn');
 		}
 	});
+	
+	//* vertical news slider *//
+	
+	$('.bxslider').bxSlider({
+	  mode: 'vertical',
+	  slideMargin: 5
+	});
+	
 	
 	/* ========== Homepage ========== */
 	

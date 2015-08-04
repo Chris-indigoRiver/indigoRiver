@@ -19,5 +19,10 @@
         </div>
     </div>
     <div class="appointments">
+    	<ul class="bxslider">
+          <li><img src="/images/730_200/hill_trees.jpg" /></li>
+          <li><img src="/images/730_200/me_trees.jpg" /></li>
+          <li><img src="/images/730_200/houses.jpg" /></li>
+        </ul>
     </div>
 </div>
