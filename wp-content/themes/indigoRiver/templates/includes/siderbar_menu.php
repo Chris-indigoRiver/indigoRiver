@@ -20,9 +20,9 @@
     </div>
     <div class="appointments">
     	<ul class="bxslider">
-          <li><img src="/images/730_200/hill_trees.jpg" /></li>
-          <li><img src="/images/730_200/me_trees.jpg" /></li>
-          <li><img src="/images/730_200/houses.jpg" /></li>
+          <li><img src="<?php bloginfo('template_url');?>/img/PrintPress.jpg" /></li>
+          <li><img src="/<?php bloginfo('template_url');?>/img/strategy.jpg" /></li>
+          <li><img src="<?php bloginfo('template_url');?>/img/Video.jpg" /></li>
         </ul>
     </div>
 </div>
