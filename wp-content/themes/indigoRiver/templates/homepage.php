@@ -15,9 +15,9 @@ get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div id="mainWrapper">
-	<div id="introHome" class="windowHeight">
-    
-    </div>
+	<article id="introHome" class="windowHeight">
+    	<h1>With Us<br/>it's always<br/></h1>
+    </article>
 </div>
 
 <?php endwhile; endif; ?>
