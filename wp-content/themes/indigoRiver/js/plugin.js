@@ -21,7 +21,7 @@ $(document).ready(function(){
 			$('#pageLocator').animate({'width': '50%'}, 200);
 			$(this).css({'left' : '50px' , 'width' : '10%'});
 			$('.nav').css({'display' : 'block'});
-			$('.appointments').css({'display' : 'block'});
+			$('.appointments').animate({'width' : '50%'});
 			$('.menuLogo').css({'display' : 'block'});
 			$('.locatorLine').addClass('animated fadeOut');
 		}else{
@@ -30,7 +30,7 @@ $(document).ready(function(){
 			$('#pageLocator').animate({'width': '11%'}, 200);
 			$(this).css('left' , '50%');
 			$('.nav').fadeOut();
-			$('.appointments').css('display' , 'none');
+			$('.appointments').animate({'width' : '0%'});
 			$('.menuLogo').css('display' , 'none');
 		}
 	});
