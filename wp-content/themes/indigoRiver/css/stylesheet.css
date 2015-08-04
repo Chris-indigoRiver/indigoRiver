@@ -448,6 +448,18 @@ header {
 	float:left;	
 }
 
+.sliderThumbnail {
+	width: 65%;
+	float: left;
+	background: #969696;
+}
+
+.sliderText {
+	width: 35%;
+	float: left;
+	background: #666;
+}
+
 #bx-pager {
     position: absolute;
     top: 27%;

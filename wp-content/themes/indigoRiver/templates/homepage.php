@@ -45,36 +45,11 @@ get_header(); ?>
         	<ul class="servicesSlider">
               <li>
               	<div class="sliderContainer">
-                	<div class="" id="">
-                    123
+                	<div class="sliderThumbnail" id="">
+                    	111
                     </div>
-                </div>
-              </li>
-              <li>
-              	<div class="sliderContainer">
-                	<div class="" id="">
-                    123
-                    </div>
-                </div>
-              </li>
-              <li>
-              	<div class="sliderContainer">
-                	<div class="" id="">
-                    123
-                    </div>
-                </div>
-              </li>
-              <li>
-              	<div class="sliderContainer">
-                	<div class="" id="">
-                    123
-                    </div>
-                </div>
-              </li>
-              <li>
-              	<div class="sliderContainer">
-                	<div class="" id="">
-                    123
+                    <div class="sliderText" id="">
+                    	111
                     </div>
                 </div>
               </li>
