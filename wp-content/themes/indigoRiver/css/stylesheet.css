@@ -305,6 +305,10 @@ p {
     animation-delay: 2s;
 }
 
+.introCopy p {
+    color: #fff;
+}
+
 /*Gradients*/
 
 .background_opaque {
