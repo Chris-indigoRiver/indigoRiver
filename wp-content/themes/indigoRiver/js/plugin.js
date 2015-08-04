@@ -8,10 +8,13 @@ $(document).ready(function(){
     $(".windowHeight").height(bodyheight);
 	
 	
+	/* ========== Nav ========== */
+	
 	//* menu nav transition *//
 	
 	$('#defaultBG').hide();
 	$('.nav').hide();
+	$('.homeNavLogo').hide();
 	
 	$( ".menuIcon" ).click(function() {
 		$(this).toggleClass('on');
@@ -24,6 +27,7 @@ $(document).ready(function(){
 			$('.appointments').animate({'width' : '50%'});
 			$('.menuLogo').css({'display' : 'block'});
 			$('.locatorLine').addClass('animated fadeOut');
+			$('.homeNavLogo').addClass('animated fadeOut');
 		}else{
 			//$('#pageMenu').css('background' , '#f9f9f9');
 			$('#pageMenu').animate({'width': '10%'}, 500);
@@ -32,8 +36,17 @@ $(document).ready(function(){
 			$('.nav').fadeOut();
 			$('.appointments').animate({'width' : '0%'});
 			$('.menuLogo').css('display' , 'none');
+			$('.homeNavLogo').addClass('animated fadeIn');
 		}
 	});
+	
+	//* vertical news slider *//
+	
+	$('.bxslider').bxSlider({
+	  mode: 'vertical',
+	  slideMargin: 5
+	});
+	
 	
 	/* ========== Homepage ========== */
 	

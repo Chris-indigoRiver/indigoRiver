@@ -4,7 +4,7 @@
         <div class="two"></div>
         <div class="three"></div>
     </div>
-    <a class="homeNavLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
+    <a class="homeNavLogo animated fadeIn" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
     <div class="nav">
     	<ul>
         	<li><h2 class="white animated fadeInRight">US</h2></li>
@@ -19,5 +19,10 @@
         </div>
     </div>
     <div class="appointments">
+    	<ul class="bxslider">
+          <li><img src="<?php bloginfo('template_url');?>/img/PrintPress.jpg" /></li>
+          <li><img src="/<?php bloginfo('template_url');?>/img/strategy.jpg" /></li>
+          <li><img src="<?php bloginfo('template_url');?>/img/Video.jpg" /></li>
+        </ul>
     </div>
 </div>
