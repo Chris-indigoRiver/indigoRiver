@@ -15,7 +15,7 @@ get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div id="mainWrapper">
-	<div id="introHome windowHeight">
+	<div id="introHome" class="windowHeight">
     
     </div>
 </div>
