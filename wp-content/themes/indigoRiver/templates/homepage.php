@@ -15,13 +15,20 @@ get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div id="mainWrapper">
+<<<<<<< HEAD
 	<div id="introHome windowHeight">
+=======
+	<div id="introHome" class="windowHeight">
+>>>>>>> 8ed92558998b3851f14fb29835ebc8479d249305
     
     </div>
 </div>
 
 <?php endwhile; endif; ?>
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 8ed92558998b3851f14fb29835ebc8479d249305
 <?php get_footer(); ?>

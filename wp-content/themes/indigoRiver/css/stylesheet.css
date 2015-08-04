@@ -269,6 +269,7 @@ p {
     background-position-x: -105px;
     position: fixed;
     top: 0;
+	width: 100%;
 }
 
 /*Gradients*/
