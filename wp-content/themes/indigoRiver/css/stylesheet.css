@@ -294,6 +294,17 @@ p {
     line-height: 1;
 }
 
+.introCopy {
+	position: relative;
+    z-index: 10;
+    width: 87%;
+    max-width: 1120px;
+    height: auto;
+    padding-left: 16.6666667%;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
 /*Gradients*/
 
 .background_opaque {
