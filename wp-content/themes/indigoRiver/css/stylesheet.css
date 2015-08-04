@@ -442,6 +442,71 @@ header {
     z-index: 99;
 }
 
+#strategyServiceImg {
+	background: url(img/Bobbi_mac.png) center no-repeat;
+	background-size: cover;
+	width: 60%;
+	height: 65.4%;
+	top: 34.6%;
+	position: absolute;
+	z-index: 180 !important;
+}
+#brandingServiceImg {
+	background:url(img/Branding.jpg) center no-repeat;
+	background-size: cover;
+	width: 60%;
+	height: 65.4%;
+	top: 34.6%;
+	position: absolute;
+	z-index: 180 !important;
+}
+#digitalServiceImg {
+	background:url(img/digital-image.jpeg) center no-repeat;
+	background-size: cover;
+	width: 60%;
+	height: 65.4%;
+	top: 34.6%;
+	position: absolute;
+	z-index: 180 !important;
+}
+#printServiceImg {
+	background:url(img/PrintPress.jpg) center no-repeat;
+	background-size: cover;
+	width: 60%;
+	height: 65.4%;
+	top: 34.6%;
+	position: absolute;
+	z-index: 180 !important;
+}
+#videoServiceImg {
+	background:url(img/Video.jpg) center no-repeat;
+	background-size: cover;
+	width: 60%;
+	height: 65.4%;
+	top: 34.6%;
+	position: absolute;
+	z-index: 180 !important;
+}
+#eventsServiceImg {
+	background:url(img/events-image.jpeg) center no-repeat;
+	background-size: cover;
+	width: 60%;
+	height: 65.4%;
+	top: 34.6%;
+	position: absolute;
+	z-index: 180 !important;
+}
+
+.selectServicesDisc {
+    position: absolute;
+    top: 34.6%;
+    right: 0%;
+    width: 40%;
+    height: 65.4%;
+    background-color: #414141;
+    z-index: 99999;
+}
+
 /*Gradients*/
 
 .background_opaque {
