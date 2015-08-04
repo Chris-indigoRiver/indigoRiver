@@ -43,16 +43,24 @@ get_header(); ?>
         
         <div class="slider">
         	<ul class="servicesSlider">
-              <li>
-              	<div class="sliderContainer">
-                	<div class="sliderThumbnail" id="">
-                    	111
+              	<?php $loop = new WP_Query( array( 'post_type' => 'services', 'posts_per_page' => -1 ) ); ?>
+				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                <li>
+                    <div class="sliderContainer">
+                        <div class="sliderThumbnail" id="">
+                            <?php 
+								if ( has_post_thumbnail() ) { 
+								// check if the post has a Post Thumbnail assigned to it.
+									the_post_thumbnail();
+								} 
+							?>
+                        </div>
+                        <div class="sliderText" id="">
+                            <?php the_content(); ?>
+                        </div>
                     </div>
-                    <div class="sliderText" id="">
-                    	111
-                    </div>
-                </div>
-              </li>
+              	</li>
+                <?php endwhile; wp_reset_query(); ?>
             </ul>
         </div>
         
