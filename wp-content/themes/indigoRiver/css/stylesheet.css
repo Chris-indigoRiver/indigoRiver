@@ -44,8 +44,9 @@ h3 {
 /*Body copy*/
 
 p {
-    font-family: 'fira-sans-2';
-    font-weight: 500;
+	font-family: "fira-sans-2",sans-serif;
+	font-style: normal;
+	font-weight: 500;
     font-size: 16px;
     color: #202020;
     line-height: 30px;
