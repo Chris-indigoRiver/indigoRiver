@@ -152,15 +152,14 @@ p {
 /*Menu Icon*/
 
 .menuIcon {
-	position:fixed !important; 
-	top:0% !important; 
-	right:0% !important; 
-	height:100%;
-	width:10%;
+	position: fixed !important; 
+	top: 0% !important; 
+	right: 0% !important; 
+	height: 100%;
 	background: #202020 !important; 
-	z-index:999999 !important;
-	padding: 5.1% 3.3% 27% 3.3%;
+	z-index: 999999 !important;
 	cursor:pointer;
+	padding: 10% 3.9% 0px 3.9%;
 }
 
 .menuIcon:hover .one {
@@ -176,7 +175,7 @@ p {
 	-o-transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 	transition-duration: 0.2s;
-	width:27px;
+	width: 27px;
 }
 
 .menuIcon:hover .three {
@@ -192,7 +191,7 @@ p {
 	height: 2px;
 	background: #f9f9f9;
 	backface-visibility: hidden;
-	margin-top:0px !important;
+	margin-top: 0px !important;
 	margin-bottom: 4px;
 	-moz-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
@@ -256,6 +255,21 @@ p {
 	z-index: 999999;
 	-webkit-animation-delay: 500ms;
 	animation-delay: 500ms;
+}
+
+/* ========== Home Main Structure ==========*/
+
+#mainWrapper {
+	width: 100%;	
+}
+
+#introHome {
+    background: url(../img/people/HEADER_BW2-2.png) center center no-repeat;
+    background-color: #fff;
+    background-size: cover;
+    background-position-x: -105px;
+    position: fixed;
+    top: 0;
 }
 
 /*Gradients*/
