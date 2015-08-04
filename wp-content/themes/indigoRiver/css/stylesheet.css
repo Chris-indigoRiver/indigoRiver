@@ -370,6 +370,44 @@ header {
 	background:#fff;
 }
 
+.navNewsWrapper {
+	height: 100%;
+    width: 100%;
+}
+
+.navNewsWrapper .bx-wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.navNewsWrapper .bx-wrapper .bx-viewport {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 350px;
+}
+
+.navNews {
+	width: 100%;
+    position: relative;
+    transition-duration: 0s;
+    transform: translate3d(0px, -5px, 0px);
+    height: 350px;
+}
+
+.navNewsWrapper .bx-wrapper .bx-viewport ul li {
+	width: 100%;
+	margin-bottom: 5px;
+	height: 340px;
+}
+
+.navNewsWrapper .bx-wrapper img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
 
 /* ========== Home Main Structure ==========*/
 
