@@ -7,10 +7,13 @@
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/animate.css" />
+
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="//use.typekit.net/ozh5zle.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/plugin.js"></script>
+<script src="//use.typekit.net/ozh5zle.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
 
 <?php wp_head(); ?>
 </head>

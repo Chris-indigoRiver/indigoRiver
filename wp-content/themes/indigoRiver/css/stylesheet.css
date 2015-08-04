@@ -44,11 +44,21 @@ h3 {
 /*Body copy*/
 
 p {
-    font-family: 'fira-sans-2';
-    font-weight: 500;
+	font-family: "fira-sans-2",sans-serif;
+	font-style: normal;
+	font-weight: 500;
     font-size: 16px;
     color: #202020;
     line-height: 30px;
+}
+
+small {
+	font-family: 'fira-sans-2';
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 12px;
+    width: 400px;
+    font-size: 10px;
 }
 
 /* ================================ HEADER ================================= */
@@ -310,6 +320,42 @@ header {
 	-webkit-animation-delay: 500ms;
 	animation-delay: 500ms;
 }
+
+/* ========== Nav open ==========*/
+
+.nav {
+	position:absolute;
+	left:150px;
+	top:200px;
+}
+
+.nav ul {
+	padding:0;
+}
+
+
+.nav ul li {
+	list-style-type:none;
+}
+
+.nav ul li h2 {
+	font-size:120px;
+	margin-top:0;
+}
+
+.terms {
+	width: 320px;
+}
+
+.appointments {
+	position:absolute;
+	right:0;
+	top:0;
+	width:0%;
+	height:100%;
+	background:#fff;
+}
+
 
 /* ========== Home Main Structure ==========*/
 

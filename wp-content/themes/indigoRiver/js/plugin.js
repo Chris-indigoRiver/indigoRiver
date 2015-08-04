@@ -11,6 +11,7 @@ $(document).ready(function(){
 	//* menu nav transition *//
 	
 	$('#defaultBG').hide();
+	$('.nav').hide();
 	
 	$( ".menuIcon" ).click(function() {
 		$(this).toggleClass('on');
@@ -18,9 +19,9 @@ $(document).ready(function(){
 			//$('#pageMenu').css('background' , 'transparent');
 			$('#pageMenu').delay(100).animate({'width': '99%'}, 500);
 			$('#pageLocator').animate({'width': '50%'}, 200);
-			$(this).css('left' , '50px');
+			$(this).css({'left' : '50px' , 'width' : '10%'});
 			$('.nav').css({'display' : 'block'});
-			$('.appointments').css({'display' : 'block'});
+			$('.appointments').animate({'width' : '50%'});
 			$('.menuLogo').css({'display' : 'block'});
 			$('.locatorLine').addClass('animated fadeOut');
 		}else{
@@ -28,8 +29,8 @@ $(document).ready(function(){
 			$('#pageMenu').animate({'width': '10%'}, 500);
 			$('#pageLocator').animate({'width': '11%'}, 200);
 			$(this).css('left' , '50%');
-			$('.nav').css('display' , 'none');
-			$('.appointments').css('display' , 'none');
+			$('.nav').fadeOut();
+			$('.appointments').animate({'width' : '0%'});
 			$('.menuLogo').css('display' , 'none');
 		}
 	});
