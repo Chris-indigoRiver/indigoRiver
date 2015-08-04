@@ -42,7 +42,7 @@ $(document).ready(function(){
 	
 	//* vertical news slider *//
 	
-	$('.bxslider').bxSlider({
+	$('.navNews').bxSlider({
 	  mode: 'vertical',
 	  slideMargin: 5
 	});
