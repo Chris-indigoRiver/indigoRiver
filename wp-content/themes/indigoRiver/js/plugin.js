@@ -50,20 +50,9 @@ $(document).ready(function(){
 	
 	/* ========== Homepage ========== */
 	
-	$('.bxslider').bxSlider({
-	//nextSelector: '#slider-next',
-	//prevSelector: '#slider-prev',
-	//nextText: 'Onward →',
-	//prevText: '← Go back',
-	onSlideAfter: function (currentSlideNumber, totalSlideQty, currentSlideHtmlObject) {
-		console.log(currentSlideHtmlObject);
-		$('.active-slide').removeClass('active-slide');
-		$('.bxslider>li').eq(currentSlideHtmlObject + 1).addClass('active-slide');
-		//$('.bxslider>li').css('opacity','0');
-	},
-	onSliderLoad: function () {
-		$('.bxslider>li').eq(1).addClass('active-slide')
-	},});
+	$('.servicesSlider').bxSlider({
+		
+	});
 	
 	
 });

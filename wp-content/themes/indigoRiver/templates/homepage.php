@@ -42,7 +42,7 @@ get_header(); ?>
         </div>
         
         <div class="slider">
-        	<ul class="bxslider">
+        	<ul class="servicesSlider">
               <li>
               	<div class="sliderContainer">
                 	<div class="" id="">
