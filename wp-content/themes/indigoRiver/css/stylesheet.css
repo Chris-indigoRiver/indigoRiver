@@ -357,6 +357,13 @@ p {
 	font-size:18px;
 }
 
+#homeSelectServices {
+    padding: 0 10% 0 11%;
+    position: relative;
+    background-color: #fff;
+    margin-top: 55%;
+}
+
 /*Gradients*/
 
 .background_opaque {
