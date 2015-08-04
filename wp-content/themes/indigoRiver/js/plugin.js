@@ -8,14 +8,14 @@ $(document).ready(function(){
     $(".windowHeight").height(bodyheight);
 	
 	
-	//*  *//
+	//* menu nav transition *//
 	
 	$('#defaultBG').hide();
 	
 	$( ".menuIcon" ).click(function() {
 		$(this).toggleClass('on');
 		if($(this).hasClass('on')){
-			$('#pageMenu').css('background' , 'transparent');
+			//$('#pageMenu').css('background' , 'transparent');
 			$('#pageMenu').delay(100).animate({'width': '99%'}, 500);
 			$('#pageLocator').animate({'width': '50%'}, 200);
 			$('.nav').css({'display' : 'block'});
