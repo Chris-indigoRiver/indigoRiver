@@ -7,7 +7,14 @@ get_header(); ?>
 <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
 
 <?php include('includes/siderbar_menu.php'); ?>
-
+	<div class="SM-HomeHorizontal homeSM">
+        <a target="_blank" href="https://www.facebook.com/IndigoRiverCreative">
+        	<div class="facebookLight SMimg"></div></a>
+        <a target="_blank" href="https://twitter.com/indigoriverco">
+        	<div class="twitterLight SMimg"></div></a>
+        <a target="_blank" href="https://instagram.com/indigo.river/">
+        	<div class="instagramLight SMimg"></div></a>
+    </div>
 </header>
 
 <?php include('includes/sidebar_left.php'); ?>
