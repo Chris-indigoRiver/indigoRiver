@@ -433,19 +433,19 @@ header {
     margin-top: 55%;
 }
 
-.slider_service_title {
-    position: absolute;
-    left: 54%;
-    top: 7.4%;
-	z-index: 999;
-    text-align: left !important;
-    color: #202020 !important;
-    font-family: 'bebas_neue',serif !important;
-    font-weight: 900 !important;
-    font-size: 4.5vw !important;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: 1% 0 !important;
+#homeSelectServices .header .slider_title {
+	margin: 60px 0px 60px 0px;
+	text-align: center;
+	display: block;
+    float: left;
+    width: 100%;
+}
+
+.sliderContainer {
+	height: 200px;
+	width: 100%;
+	background: #000;
+	float:left;	
 }
 
 #bx-pager {
