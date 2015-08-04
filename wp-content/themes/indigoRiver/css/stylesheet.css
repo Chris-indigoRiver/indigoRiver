@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'bebas_neue';
-    src: url(fonts/BebasNeue2/BebasNeue_Bold.ttf);
+    src: url(../fonts/BebasNeue2/BebasNeue_Bold.ttf);
 }
 
 /*Black & White colours used throughout the site*/
@@ -271,6 +271,12 @@ p {
     position: fixed;
     top: 0;
 	width: 100%;
+}
+
+.cd-intro {
+    -webkit-animation-delay: 1s !important;
+    animation-delay: 1s !important;
+    padding-top: 130px !important;
 }
 
 .cd-headline {

@@ -16,7 +16,9 @@ get_header(); ?>
 
 <div id="mainWrapper">
 	<article id="introHome" class="windowHeight">
-    	<h1>With Us<br/>it's always<br/></h1>
+    	<section class="cd-intro animated fadeIn">
+        	<h1 class="cd-headline">With Us<br/>it's always<br/></h1>
+        </section>
     </article>
 </div>
 
