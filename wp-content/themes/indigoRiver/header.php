@@ -11,8 +11,6 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="//use.typekit.net/ozh5zle.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/plugin.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url');?>/js/main.js"></script>
-
 
 <?php wp_head(); ?>
 </head>

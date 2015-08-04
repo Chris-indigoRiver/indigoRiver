@@ -18,6 +18,7 @@ $(document).ready(function(){
 			//$('#pageMenu').css('background' , 'transparent');
 			$('#pageMenu').delay(100).animate({'width': '99%'}, 500);
 			$('#pageLocator').animate({'width': '50%'}, 200);
+			$(this).css('left' , '50px');
 			$('.nav').css({'display' : 'block'});
 			$('.appointments').css({'display' : 'block'});
 			$('.menuLogo').css({'display' : 'block'});
@@ -26,6 +27,7 @@ $(document).ready(function(){
 			//$('#pageMenu').css('background' , '#f9f9f9');
 			$('#pageMenu').animate({'width': '10%'}, 500);
 			$('#pageLocator').animate({'width': '11%'}, 200);
+			$(this).css('left' , '50%');
 			$('.nav').css('display' , 'none');
 			$('.appointments').css('display' , 'none');
 			$('.menuLogo').css('display' , 'none');
