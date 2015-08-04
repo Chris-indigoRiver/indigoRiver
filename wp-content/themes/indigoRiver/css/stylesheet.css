@@ -333,6 +333,10 @@ header {
     z-index: 99999;
 }
 
+.homeNavLogo img {
+	width:100%;
+}
+
 .nav {
 	position:absolute;
 	left:150px;
