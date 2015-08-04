@@ -15,9 +15,9 @@ $(document).ready(function(){
 	$( ".menuIcon" ).click(function() {
 		$(this).toggleClass('on');
 		if($(this).hasClass('on')){
-			$(this).css('background' , 'transparent');
-			$(this).delay(100).animate({'width': '99%'}, 500);
-			$('.pageLocator').animate({'width': '50%'}, 200);
+			$('#pageMenu').css('background' , 'transparent');
+			$('#pageMenu').delay(100).animate({'width': '99%'}, 500);
+			$('#pageLocator').animate({'width': '50%'}, 200);
 			$('.nav').css({'display' : 'block'});
 			$('.appointments').css({'display' : 'block'});
 			$('.menuLogo').css({'display' : 'block'});
@@ -25,7 +25,7 @@ $(document).ready(function(){
 		}else{
 			$(this).css('background' , '#f9f9f9');
 			$(this).animate({'width': '10%'}, 500);
-			$('.pageLocator').animate({'width': '11%'}, 200);
+			$('#pageLocator').animate({'width': '11%'}, 200);
 			$('.nav').css('display' , 'none');
 			$('.appointments').css('display' , 'none');
 			$('.menuLogo').css('display' , 'none');
