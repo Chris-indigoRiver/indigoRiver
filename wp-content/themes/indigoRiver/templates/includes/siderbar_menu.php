@@ -16,5 +16,7 @@
             <br>
             <small>indigoRiver 2015 ©</small>
         </div>
+        <div class="appointments">
+        </div>
     </div>
 </div>

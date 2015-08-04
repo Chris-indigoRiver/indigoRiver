@@ -340,6 +340,15 @@ small {
 	width: 320px;
 }
 
+.appointments {
+	position:absolute;
+	right:0;
+	top:0;
+	width:50%;
+	height:100%;
+	background:#fff;
+}
+
 
 /* ========== Home Main Structure ==========*/
 
