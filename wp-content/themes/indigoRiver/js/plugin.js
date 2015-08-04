@@ -11,6 +11,7 @@ $(document).ready(function(){
 	//* menu nav transition *//
 	
 	$('#defaultBG').hide();
+	$('.nav').hide();
 	
 	$( ".menuIcon" ).click(function() {
 		$(this).toggleClass('on');
