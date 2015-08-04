@@ -323,6 +323,16 @@ header {
 
 /* ========== Nav open ==========*/
 
+.homeNavLogo {
+    width: 210px;
+    height: auto;
+    position: absolute;
+    left: 150px;
+    top: 90px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
 .nav {
 	position:absolute;
 	left:150px;
