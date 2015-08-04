@@ -304,6 +304,18 @@ p {
 	animation-delay: 500ms;
 }
 
+/* ========== Nav open ==========*/
+
+.nav {
+	position:absolute;
+	left:100px;
+	top:200px;
+}
+
+.nav ul li {
+	list-style-type:none;
+}
+
 /* ========== Home Main Structure ==========*/
 
 #mainWrapper {
