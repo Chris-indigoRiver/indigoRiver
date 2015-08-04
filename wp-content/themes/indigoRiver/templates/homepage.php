@@ -8,16 +8,18 @@ get_header(); ?>
 
 </header>
 
-<section id="content" role="main">
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
 <?php include('includes/sidebar_left.php'); ?>
 
-<?php get_template_part( 'entry' ); ?>
-<?php comments_template(); ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+<div id="mainWrapper">
+	<div id="introHome">
+    
+    </div>
+</div>
+
 <?php endwhile; endif; ?>
-<?php get_template_part( 'nav', 'below' ); ?>
-</section>
+
 <?php include('includes/siderbar_menu.php'); ?>
 
 <?php get_footer(); ?>
