@@ -421,9 +421,9 @@ header {
 
 .slider_service_title {
     position: absolute;
-    top: 10%;
-    left: 55%;
-    z-index: 999;
+    left: 54%;
+    top: 7.4%;
+	z-index: 999;
     text-align: left !important;
     color: #202020 !important;
     font-family: 'bebas_neue',serif !important;
@@ -432,6 +432,14 @@ header {
     text-transform: uppercase;
     cursor: pointer;
     margin: 1% 0 !important;
+}
+
+#bx-pager {
+    position: absolute;
+    top: 27%;
+    width: 80%;
+    right: 2.5%;
+    z-index: 99;
 }
 
 /*Gradients*/
