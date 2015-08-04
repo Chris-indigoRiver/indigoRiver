@@ -11,8 +11,8 @@
             <li><h2 class="white animated fadeInLeft">CONTACT</h2></li>
         </ul>
         <div class="Terms">
-        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-        	<p>indigoRiver 2015 ©</p>
+        	<small>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</small>
+        	<small>indigoRiver 2015 ©</small>
         </div>
     </div>
 </div>
