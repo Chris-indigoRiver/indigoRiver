@@ -32,6 +32,9 @@ get_header(); ?>
             <p>TEL +44 (0)1527 757010</p>
             <p>EMAIL talk2us@indigo-river.com</p>
         </section>
+        <div class="accreditationsHome">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/accreditations2.png" alt="Marketing Agency Digital Rar top 100 agency">
+        </div>
     </article>
 </div>
 
