@@ -28,6 +28,8 @@ $(document).ready(function(){
 			$('.menuLogo').css({'display' : 'block'});
 			$('.locatorLine').addClass('animated fadeOut');
 			$('.homeNavLogo').addClass('animated fadeIn');
+		}if ($(window).width() <= 600){
+			$('.appointments').animate({'width' : '50%'});
 		}else{
 			//$('#pageMenu').css('background' , '#f9f9f9');
 			$('#pageMenu').animate({'width': '10%'}, 500);
