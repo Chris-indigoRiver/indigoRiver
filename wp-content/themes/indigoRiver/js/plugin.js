@@ -65,9 +65,9 @@ $(document).ready(function(){
 
 	function resizeOurPeople(){
 		var ourPeople = $('.ourPeople').first().height();
-		$('.ourPeople').each(function() {
-			$(this).height($(this).width() + $(this).width() / 100 * 30);
-		});
+		//$('.ourPeople').each(function() {
+		//	$(this).height($(this).width() + $(this).width() / 100 * 30);
+		//});
 		$(".peopleIntro").css({'height':($(".ourPeople").height())});
 		$(".joinCTA").css({'height':($(".ourPeople").height())});
 		$('.ourPeople img').centerImage();
