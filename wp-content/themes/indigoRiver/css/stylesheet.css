@@ -573,6 +573,10 @@ header {
 
 /* ============ THE TEAM ============*/
 
+.homeOurPeople {
+	padding: 0 10%;
+}
+
 .ourPeopleIntro {
 	background: #202020;
 }
