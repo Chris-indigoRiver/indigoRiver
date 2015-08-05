@@ -59,10 +59,10 @@ $(document).ready(function(){
 		
 	});
 	
-	('.ourPeople').each(function() {
+	$('.ourPeople').each(function() {
 		$(this).height($(this).width() + 100);
 	});
-	
+
 	$(window).resize(function(){
 		resizeOurPeople();		
 	});
