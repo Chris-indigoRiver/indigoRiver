@@ -407,10 +407,6 @@ header {
     height: auto;
     width: 100%;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 81356bdef37116d54599948d61ea537666b2fe3c
 
 /* ========== Home Main Structure ==========*/
 
@@ -622,10 +618,7 @@ header {
 	width:100%;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 81356bdef37116d54599948d61ea537666b2fe3c
 /* ==========================================*/
 /* ============= RESPONSIVENESS =============*/
 /* ==========================================*/
@@ -651,6 +644,17 @@ header {
 
 /* ========== Nav open ==========*/
 
+.homeNavLogo {
+    left: 40px;
+    top: 110px;
+}
+
+.nav {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
 .nav ul li h2 {
 	font-size:90px;
 	margin-top:0;
@@ -664,8 +668,6 @@ header {
 @media only screen and (min-width: 1061px) {
 }
 
-<<<<<<< HEAD
+
 /*SPECIFIC*/
-=======
-/*GENERAL*/
->>>>>>> 81356bdef37116d54599948d61ea537666b2fe3c
+
