@@ -60,7 +60,7 @@ $(document).ready(function(){
 	});
 
 	$('.ourPeople').each(function() {
-		$(this).height($(this).width() + $(this).width() / 100 * 30);
+		$(this).height($(this).width() + $(this).width() / 100 * 50);
 	});
 
 	$('.ourPeople img').centerImage();
