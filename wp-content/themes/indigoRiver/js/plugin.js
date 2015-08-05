@@ -58,10 +58,12 @@ $(document).ready(function(){
 	$('.servicesSlider').bxSlider({
 		
 	});
-	
+
 	$('.ourPeople').each(function() {
 		$(this).height($(this).width() + $(this).width() / 100 * 30);
 	});
+
+	resizeOurPeople();
 
 	function resizeOurPeople(){
 		var ourPeople = $('.ourPeople').first().height();
