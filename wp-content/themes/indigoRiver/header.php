@@ -8,6 +8,7 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/jquery.bxslider.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/plugin.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url');?>/js/center/jquery.blImageCenter.js"></script>
 <script src="//use.typekit.net/ozh5zle.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 

@@ -63,6 +63,8 @@ $(document).ready(function(){
 		$(this).height($(this).width() + $(this).width() / 100 * 30);
 	});
 
+	$('.ourPeople img').centerImage();
+
 	resizeOurPeople();
 
 	function resizeOurPeople(){
@@ -73,7 +75,7 @@ $(document).ready(function(){
 		//});
 		$(".peopleIntro").css({'height':($(".ourPeople").height())});
 		$(".joinCTA").css({'height':($(".ourPeople").height())});
-		//$('.ourPeople img').centerImage();
+		$('.ourPeople img').centerImage();
 
 		$('.ourPeople').each(function(){
 			$(this).height(ourPeople);
