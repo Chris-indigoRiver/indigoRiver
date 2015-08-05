@@ -93,7 +93,6 @@ $(document).ready(function(){
 	/* Contact us Accordian */
 
 	$(".accord-header").click(function() {
-		alert("clicked");
 		if($(this).next("div").is(":visible")){
 			$(this).next("div").slideUp("slow");
 		 } else {
