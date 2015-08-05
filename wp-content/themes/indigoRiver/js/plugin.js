@@ -6,6 +6,10 @@ $(document).ready(function(){
 	
 	var bodyheight = $(window).height();
     $(".windowHeight").height(bodyheight);
+
+    /* Change Height of work Items */
+    var workItemHeight = $(".workItem").width();
+    $(".workItem").height(workItemHeight);
 	
 	
 	/* ========== Nav ========== */
