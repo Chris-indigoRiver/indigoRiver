@@ -14,6 +14,7 @@ $(document).ready(function(){
 	
 	$('#defaultBG').hide();
 	$('.nav').hide();
+	$('.appointments').hide();
 	//$('.homeNavLogo').hide();
 	
 	$( ".menuIcon" ).click(function() {
@@ -29,7 +30,7 @@ $(document).ready(function(){
 			$('.locatorLine').addClass('animated fadeOut');
 			$('.homeNavLogo').addClass('animated fadeIn');
 			if ($(window).width() <= 600){
-				$('.appointments').animate({'width' : '50%'});
+				$('.appointments').animate({'width' : '100%'});
 			}
 		}else{
 			//$('#pageMenu').css('background' , '#f9f9f9');
@@ -42,6 +43,7 @@ $(document).ready(function(){
 			$('.homeNavLogo').addClass('animated fadeIn');
 		}
 	});
+	
 	
 	//* vertical news slider *//
 	
@@ -57,5 +59,17 @@ $(document).ready(function(){
 		
 	});
 	
+	$(window).resize(function(){
+		resizeOurPeople();		
+	});
+
+	function resizeOurPeople(){
+		$('.ourPeople').each(function() {
+			$(this).height($(this).width() + 100);
+		});
+		$(".peopleIntro").css({'height':($(".ourPeople").height())});
+		$(".joinCTA").css({'height':($(".ourPeople").height())});
+		$('.ourPeople img').centerImage();
+	}
 	
 });
