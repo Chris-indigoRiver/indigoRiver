@@ -63,17 +63,23 @@ $(document).ready(function(){
 		$(this).height($(this).width() + $(this).width() / 100 * 30);
 	});
 
-	$(window).resize(function(){
-		resizeOurPeople();		
-	});
-
 	function resizeOurPeople(){
+		var ourPeople = $('.ourPeople').first().height();
 		$('.ourPeople').each(function() {
 			$(this).height($(this).width() + $(this).width() / 100 * 30);
 		});
 		$(".peopleIntro").css({'height':($(".ourPeople").height())});
 		$(".joinCTA").css({'height':($(".ourPeople").height())});
 		$('.ourPeople img').centerImage();
+
+		$('.ourPeople').each(function(){
+			$(this).height(ourPeople);
+		});
+
 	}
+
+	$(window).resize(function(){
+		resizeOurPeople();		
+	});
 	
 });
