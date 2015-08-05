@@ -65,6 +65,7 @@ $(document).ready(function(){
 
 	function resizeOurPeople(){
 		var ourPeople = $('.ourPeople').first().height();
+		console.log(ourPeople);
 		//$('.ourPeople').each(function() {
 		//	$(this).height($(this).width() + $(this).width() / 100 * 30);
 		//});
