@@ -4,6 +4,17 @@
         <div class="two"></div>
         <div class="three"></div>
     </div>
+    <div class="menuSM">
+        <a href="https://www.facebook.com/IndigoRiverCreative"><div class="singleMenuSM">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/icons/fb-01.svg">
+        </div></a>
+        <a href="https://twitter.com/indigoriverco"><div class="singleMenuSM">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/icons/twitter-01.svg">
+        </div></a>
+        <a href="https://instagram.com/indigo.river/"><div class="singleMenuSM">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/icons/instagram-01.svg">
+        </div></a>
+    </div>
     <a class="homeNavLogo animated fadeIn" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
     <div class="nav">
     	<ul>

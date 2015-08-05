@@ -7,14 +7,6 @@ get_header(); ?>
 <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
 
 <?php include('includes/siderbar_menu.php'); ?>
-	<div class="SM-HomeHorizontal homeSM">
-        <a target="_blank" href="https://www.facebook.com/IndigoRiverCreative">
-        	<div class="facebookLight SMimg"></div></a>
-        <a target="_blank" href="https://twitter.com/indigoriverco">
-        	<div class="twitterLight SMimg"></div></a>
-        <a target="_blank" href="https://instagram.com/indigo.river/">
-        	<div class="instagramLight SMimg"></div></a>
-    </div>
 </header>
 
 <?php include('includes/sidebar_left.php'); ?>
@@ -80,89 +72,93 @@ get_header(); ?>
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-W.png" alt="indigoriver digital marketing agency art director"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Emma W</h2>
+                <p>Art Director</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JAX.png" alt="indigoriver digital marketing agency web developer"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Jax</h2>
+                <p>Our Shy Junior Web Developer</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SARAH.png" alt="indigoriver digital marketing agency financial"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Sarah</h2>
+                <p>Financial & HR</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/DAMIAN2.png" alt="indigoriver digital marketing agency md"/>
              <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Damian</h2>
+                <p>MD & CD</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/LORNA2.png" alt="indigoriver digital marketing agency business development"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Lorna</h2>
+                <p>Head of Business Development</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/CLARE2.png" alt="indigoriver digital marketing agency creative"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Clare</h2>
+                <p>Creative</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-H2.png" alt="indigoriver digital marketing agency operations"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Emma H</h2>
+                <p>Head of Operations</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JACK2.png" alt="indigoriver digital marketing agency ux &amp; ui"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Jack</h2>
+                <p>UX & UI</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/BOBBI2.png" alt="indigoriver digital marketing agency strategist"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Bobbi</h2>
+                <p>Strategist / Senior Account Manager</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/CHRIS.png" alt="indigoriver digital marketing agency web developer"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Chris</h2>
+                <p>Web Developer</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SIMON.png" alt="indigoriver digital marketing agency senior artworker"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Simon</h2>
+                <p>Senior Artworker</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/GUNEET.png" alt="indigoriver digital marketing agency creative services"/>
             <div class="ourPeopleFill">
-                <h2>Jay</h2>
-                <p>Senior Web Developer</p>
+                <h2>Guneet</h2>
+                <p>Creative Services Manager</p>
             </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/MITCH.png" alt="indigoriver digital marketing agency account executive"/>
+            <div class="ourPeopleFill">
+                <h2>Mitch</h2>
+                <p>Account Executive</p>
+            </div>
         </div><?php
         ?><div class="joinCTA">
             <h2>Intrigued? Join us

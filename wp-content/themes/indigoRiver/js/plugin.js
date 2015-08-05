@@ -18,7 +18,7 @@ $(document).ready(function(){
 	
 	$('#defaultBG').hide();
 	$('.nav').hide();
-	//$('.homeNavLogo').hide();
+	$('.homeNavLogo').hide();
 	
 	$( ".menuIcon" ).click(function() {
 		$(this).toggleClass('on');
@@ -31,7 +31,7 @@ $(document).ready(function(){
 			$('.appointments').animate({'width' : '50%'});
 			$('.menuLogo').css({'display' : 'block'});
 			$('.locatorLine').addClass('animated fadeOut');
-			$('.homeNavLogo').addClass('animated fadeIn');
+			$('.homeNavLogo').css({'display' : 'block'});
 			if ($(window).width() <= 600){
 				$('.appointments').animate({'width' : '100%'});
 			}
@@ -39,11 +39,11 @@ $(document).ready(function(){
 			//$('#pageMenu').css('background' , '#f9f9f9');
 			$('#pageMenu').animate({'width': '10%'}, 500);
 			$('#pageLocator').animate({'width': '11%'}, 200);
-			$(this).css('left' , '50%');
+			$(this).css({'left' : '50%' , 'width' : '30%'});
 			$('.nav').fadeOut();
 			$('.appointments').animate({'width' : '0%'});
 			$('.menuLogo').css('display' , 'none');
-			$('.homeNavLogo').addClass('animated fadeIn');
+			$('.homeNavLogo').fadeOut();
 		}
 	});
 	
@@ -58,6 +58,8 @@ $(document).ready(function(){
 	
 	/* ========== Homepage ========== */
 	
+	$('#homeSelectServices').css('margin-top' , ($(window).height()));
+
 	$('.servicesSlider').bxSlider({
 		
 	});
@@ -90,6 +92,16 @@ $(document).ready(function(){
 		resizeOurPeople();		
 	});
 
+	//responsiveness for homepage
+
+	if ($(window).width() <= 1060){
+		$('.joinCTA').css({'height' : '255px'});
+		$('.joinCTA h2').css({'padding' : '4% 14% 0% 7%'});
+		$('.joinCTA p').css({'padding' : '0% 7%'});
+		$('.ourPeopleIntro h1').css({'padding' : '0% 7%' , 'margin-top' : '7.5%'});
+		$('.ourPeopleIntro p').css({'padding' : '0% 7%'});
+	}
+
 	/* Contact us Accordian */
 
 	$(".accord-header").click(function() {
@@ -99,6 +111,5 @@ $(document).ready(function(){
 			$(".accordion .accord-content").slideUp("slow");
 			$(this).next("div").slideToggle("slow");
 		 }
-	});
-	
+	});	
 });
