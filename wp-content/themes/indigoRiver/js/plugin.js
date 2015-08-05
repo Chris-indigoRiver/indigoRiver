@@ -89,5 +89,17 @@ $(document).ready(function(){
 	$(window).resize(function(){
 		resizeOurPeople();		
 	});
+
+	/* Contact us Accordian */
+
+	$(".accord-header").click(function() {
+		alert("clicked");
+		if($(this).next("div").is(":visible")){
+			$(this).next("div").slideUp("slow");
+		 } else {
+			$(".accordion .accord-content").slideUp("slow");
+			$(this).next("div").slideToggle("slow");
+		 }
+	});
 	
 });
