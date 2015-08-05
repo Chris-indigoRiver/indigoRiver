@@ -370,6 +370,20 @@ header {
 	background:#fff;
 }
 
+.navNewsWrapper {
+	height:100%;
+	width:100%;
+}
+
+.navNewsWrapper .bx-wrapper {
+	height:100%;
+	width:100%;
+}
+
+.navNewsWrapper .bx-viewport {
+	height:100%;
+	width:100%;
+}
 
 /* ========== Home Main Structure ==========*/
 
