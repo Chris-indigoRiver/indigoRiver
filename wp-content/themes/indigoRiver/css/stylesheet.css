@@ -5,8 +5,8 @@ body {
 /*Fonts*/
 
 @font-face {
-    font-family: "bebas_neue",serif;
-    src: url(../fonts/BebasNeue2/BebasNeue_Bold.ttf);
+    font-family: "bebas_neue";
+    src: url("../fonts/BebasNeue2/BebasNeue_Bold.ttf");
 }
 
 /*Black & White colours used throughout the site*/
@@ -63,6 +63,10 @@ small {
     line-height: 12px;
     width: 400px;
     font-size: 10px;
+}
+
+a {
+	text-decoration: none;
 }
 
 /* ================================ HEADER ================================= */
@@ -700,6 +704,235 @@ header {
 ***  Lap and up
 ****************************/
 @media only screen and (min-width: 601px) {
+
+.terms {
+	display:block;
+}
+
+.appointments {
+	display:block;
+}
+
+/* ========== Homepage ==========*/
+	
+.ourPeople {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+	overflow: hidden;
+}
+
+.ourPeopleIntro {
+	width: 60%;
+}    
+
+.ourPeopleIntro h1 {
+	padding: 0 14%;
+}
+
+.ourPeopleIntro p {
+	padding: 0 14%;
+}
+
+.joinCTA {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    height: 100%;
+    background: #f9f9f9;
+}
+
+.joinCTA h2 {
+	letter-spacing:2px; 
+	font-size: 27px; 
+	color:#202020;
+	padding: 10% 14% 0% 10%;
+}
+
+.joinCTA p {
+	color:#202020;
+	padding: 0% 10%;
+}
+
+#homeValues {
+	width: 100%;
+    padding: 100px 0 5% 16.6%;
+    font-size: 60px;
+    height: auto;
+    background: rgb(32, 32, 32);
+    position: relative;
+}
+
+.valuesTop {
+	width:100%; 
+	height:auto; 
+	margin-bottom:30px;
+}
+
+.ourBelief {
+	width:65%;
+    height: auto;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ourBelief p {
+	color: #C0C0C0;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.valuesBottom {
+	width: 80%;
+    height: auto;
+}
+
+.valueThird {
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5%;
+    color: #f5f5f5;
+}
+
+.valueThird h3 {
+	color:#f5f5f5; 
+	font-size: 27px; 
+	letter-spacing: 2px;
+}
+
+.valueThird p {
+	color:#C0C0C0; 
+}
+
+/* ========== Footer ==========*/
+
+.footerContact {
+    background: #202020;
+    width: 68%;
+    height: 250px;
+    padding: 40px 16.6% 0 16.6%;
+    position: relative;
+}
+
+.fcBorder {
+	height: 1px; 
+	background: rgba(255, 255, 255, 0.22); 
+	margin: 0 auto;
+}
+
+.footerDetails {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.footerLeft {
+    width: 45%;
+    height: 200px;
+}
+
+.footerCenter {
+    width: 40%;
+    height: 200px;
+}
+
+.footerRight {
+    width: 15%;
+    height: 200px;
+}
+
+.footerDetails h3 {
+    padding-top: 0%;
+    padding-left: 0%;
+    color: #f9f9f9;
+    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.footerDetails p {
+    color: #fff;
+    font-family: "fira-sans-2", serif;
+    display: inline;
+}
+
+.footerRight a {
+    cursor: pointer;
+}
+
+.footerSM img {
+    height: 15px;
+    vertical-align: middle;
+    margin: -1.5% 6.5% 0 -2%;
+    cursor: pointer;
+}
+
+.contactMap2 {
+    background: url(../img/Contact_BG.jpg) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    margin-top: -50px;
+}
+
+.contactMap2 .footerMessage h2 {
+	font-family: "bebas_neue";
+	font-size:50px;  
+	padding-top: 12%;
+}
+
+.background_opaque h2 {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 100px;
+}
+
+.contactMap2 .background_opaque h2 {
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.contactMap2 .background_opaque:hover h2 {
+    margin-top: -50px;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.footerMessage p {
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    padding: 0 30% 0 30%;
+    opacity: 0;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.contactMap2 .background_opaque:hover p {
+    opacity: 1;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    margin-top: 50px;
+}
+
 }
 
 /****************************
@@ -745,20 +978,7 @@ header {
 ****************************/
 @media only screen and (min-width: 1061px) {
 	
-/* ========== Homepage ==========*/
-	
-.ourPeople {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-	overflow: hidden;
-}
 
-.ourPeopleIntro {
-	width: 60%;
-}
-
-}
 
 /*SPECIFIC*/
 

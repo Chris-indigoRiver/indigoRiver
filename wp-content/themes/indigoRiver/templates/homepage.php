@@ -67,53 +67,135 @@ get_header(); ?>
     </article>
     <article id="homeOurPeople">
     	<div class="ourPeopleIntro">
-        	<h1 class="People_title">We Specialise In</h1>
-            <p>The heartbeat of our agency, where the magic happens. Without these guys and girls none of the things we do would be possible. In fact, there’s only one thing our team cares about more than our business and that’s our clients’ business.</p>
+        	<h1 class="People_title white">Our People</h1>
+            <p class="white">The heartbeat of our agency, where the magic happens. Without these guys and girls none of the things we do would be possible. In fact, there’s only one thing our team cares about more than our business and that’s our clients’ business.</p>
         </div><?php
         ?><div class="ourPeople">
         	<img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JAY.png" alt="indigoriver digital marketing agency web developer"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-W.png" alt="indigoriver digital marketing agency art director"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JAX.png" alt="indigoriver digital marketing agency web developer"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SARAH.png" alt="indigoriver digital marketing agency financial"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/DAMIAN2.png" alt="indigoriver digital marketing agency md"/>
+             <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/LORNA2.png" alt="indigoriver digital marketing agency business development"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/CLARE2.png" alt="indigoriver digital marketing agency creative"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-H2.png" alt="indigoriver digital marketing agency operations"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JACK2.png" alt="indigoriver digital marketing agency ux &amp; ui"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/BOBBI2.png" alt="indigoriver digital marketing agency strategist"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/CHRIS.png" alt="indigoriver digital marketing agency web developer"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SIMON.png" alt="indigoriver digital marketing agency senior artworker"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/GUNEET.png" alt="indigoriver digital marketing agency creative services"/>
+            <div class="ourPeopleFill">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/MITCH.png" alt="indigoriver digital marketing agency account executive"/>
+        </div><?php
+        ?><div class="joinCTA">
+            <h2>Intrigued? Join us
+            </h2>
+            <p>We always love hearing from fun and committed people so if you’re the sort of person who plays seriously and works with a smile on their face.<br> Why not <a href="mailto:careers@indigo-river.com?subject=Hello indigoRiver"><span class="black" style="border-bottom:1px solid; font-weight:800;">drop us a line?</span></a>
+            </p>
         </div>
     </article>
-    
+    <article id="homeValues">
+        <div class="valuesTop">
+            <div class="ourBelief">
+                <h2 class="white">Our core belief</h2>
+                <p class="white">We value courage above all else. Courage to stand up for the things we and our clients believe in, courage to follow our gut instinct when we know it’s right and courage to create brave work that changes how people behave.
+                </p>
+            </div>
+        </div>
+        <div class="valuesBottom">
+        <div class="valueThird">
+            <h3>Our favourite question</h3>
+            <p>Why? One little word that can unlock an infinite number of possibilities. Walk around the indigoRiver office and you’ll hear those three letters constantly. Why? Well we’re at our best when we’re pushing boundaries, questioning the way things are and striving to come up with something better.
+            </p>
+        </div><div class="valueThird">
+            <h3>Our thirst for knowledge</h3>
+            <p>The more open-minded we are, the better the solutions we come up with. So we’re always seeking to learn more, develop our skills and grow what we know. Conferences, books, magazines, blogs, that tricky crossword at the back of the paper; we love them all.
+            </p>
+        </div><div class="valueThird">
+            <h3>Our environment</h3>
+            <p>You don’t come up with ground-breaking ideas if you’re chained to the desk. So we’ve set the place up with plenty of space to be ourselves. Have you ever had a strategy meeting over a game of ping-pong? No? Then drop us a line and we’ll set one up. (Warning: we’re pretty good).
+            </p>
+        </div>
+    </div>
+    </article>
+
     
     
     

@@ -14,7 +14,6 @@ $(document).ready(function(){
 	
 	$('#defaultBG').hide();
 	$('.nav').hide();
-	$('.appointments').hide();
 	//$('.homeNavLogo').hide();
 	
 	$( ".menuIcon" ).click(function() {
@@ -73,7 +72,7 @@ $(document).ready(function(){
 		//$('.ourPeople').each(function() {
 		//	$(this).height($(this).width() + $(this).width() / 100 * 30);
 		//});
-		$(".peopleIntro").css({'height':($(".ourPeople").height())});
+		$(".ourPeopleIntro").css({'height':($(".ourPeople").height())});
 		$(".joinCTA").css({'height':($(".ourPeople").height())});
 		$('.ourPeople img').centerImage();
 
