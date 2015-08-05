@@ -69,6 +69,24 @@ a {
 	text-decoration: none;
 }
 
+/* ========== Opacities ========== */
+
+.background_opaque2 {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(28,28,28,1) 86%, rgba(32,32,32,1) 97%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(86%,rgba(28,28,28,1)), color-stop(97%,rgba(32,32,32,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(28,28,28,1) 86%,rgba(32,32,32,1) 97%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(28,28,28,1) 86%,rgba(32,32,32,1) 97%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(28,28,28,1) 86%,rgba(32,32,32,1) 97%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(28,28,28,1) 86%,rgba(32,32,32,1) 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#202020',GradientType=0 );
+    height: 100%;
+    width: 100%;
+}
+
 /* ================================ HEADER ================================= */
 
 header {
@@ -434,7 +452,8 @@ header {
 /* ========== Home Main Structure ==========*/
 
 #mainWrapper {
-	width: 100%;	
+	width: 100%;
+	overflow: hidden;	
 }
 
 #introHome {
@@ -777,6 +796,107 @@ header {
 	    width: auto;
 	}
 
+/* ========== CONTACT US PAGE ========== */
+
+#contactUsIntro {
+    background: url(../img/contactHeader.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 0px 0 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+	.contactUsHeader {
+		padding-top: 30%;
+	    padding-left: 16.6%;
+	    color: #f9f9f9;
+	    margin-bottom: 30px;
+	    font-size: 50px;
+	    position: relative;
+	}
+
+#vacancies {
+	background: #202020;
+	overflow: hidden;
+}
+
+.vacanciesHeader {
+	padding-top: 2%;
+    padding-left: 16.6%;
+    color: #f9f9f9;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.vacanciesCopy {
+	padding: 0 16.6%;
+	color: #FFF;
+}
+
+	/* ========== CONTACT US PAGE ACCORDIAN ========== */
+
+	.accordian {
+	    padding-left: 16.6%;
+	    padding-right: 16.6%;
+	}
+
+	.accord-header:nth-child(1) {
+	    border-top: 0px !important;
+	}
+
+	.accord-header {
+	    border-top: 1px solid rgba(255, 255, 255, 0.22);
+	    position: relative;
+	    font-family: 'fira-sans-2';
+	    font-weight: 800;
+	    color: #fff;
+	    font-size: 20px;
+	    padding: 10px 0;
+	    cursor: pointer;
+	}
+
+	.accord-header h3 {
+	    padding: 30px 0;
+	    font-size: 25px;
+	    font-family: 'bebas_neue';
+	    letter-spacing: 1px;
+	    font-weight: 800;
+	    color: #fff;
+	}
+
+	.plus {
+	    position: absolute;
+	    right: 20px;
+	    top: 30px;
+	    height: 20px;
+	    width: 20px;
+	    background: url(../img/plus.png) center center no-repeat;
+	    background-size: cover;
+	    cursor: pointer;
+	}
+
+	.accord-content {
+	    display: none;
+	    overflow: hidden;
+	}
+
+	.accord-content p {
+	    color: #fff;
+	    padding: 0 0 30px 0;
+	    width: 90%;
+	}
+
+	.accord-content a {
+	    color: #fff;
+	    padding: 0 0 30px 0;
+	    width: 90%;
+	    float: left;
+	    font-size: 18px;
+    	font-weight: 800;
+	}
+
 /* ==========================================*/
 /* ============= RESPONSIVENESS =============*/
 /* ==========================================*/
@@ -1028,6 +1148,7 @@ header {
     display: inline-block;
     vertical-align: top;
     margin-top: 20px;
+    float: left;
 }
 
 .footerLeft {

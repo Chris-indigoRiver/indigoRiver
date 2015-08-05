@@ -92,6 +92,8 @@ $(document).ready(function(){
 		resizeOurPeople();		
 	});
 
+	//responsiveness for homepage
+
 	if ($(window).width() <= 1060){
 		$('.joinCTA').css({'height' : '255px'});
 		$('.joinCTA h2').css({'padding' : '4% 14% 0% 7%'});
@@ -99,5 +101,16 @@ $(document).ready(function(){
 		$('.ourPeopleIntro h1').css({'padding' : '0% 7%' , 'margin-top' : '7.5%'});
 		$('.ourPeopleIntro p').css({'padding' : '0% 7%'});
 	}
-	
+
+	/* Contact us Accordian */
+
+	$(".accord-header").click(function() {
+		alert("clicked");
+		if($(this).next("div").is(":visible")){
+			$(this).next("div").slideUp("slow");
+		 } else {
+			$(".accordion .accord-content").slideUp("slow");
+			$(this).next("div").slideToggle("slow");
+		 }
+	});	
 });
