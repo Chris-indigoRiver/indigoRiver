@@ -681,6 +681,19 @@ header {
 	display:none;
 }
 
+/* ========== Homepage ==========*/
+	
+.ourPeople {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+	overflow: hidden;
+}
+
+.ourPeopleIntro {
+	width: 100%;
+}
+
 }
 
 /****************************
@@ -710,6 +723,19 @@ header {
 .nav ul li h2 {
 	font-size:90px;
 	margin-top:0;
+}
+
+/* ========== Homepage ==========*/
+	
+.ourPeople {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33333333%;
+	overflow: hidden;
+}
+
+.ourPeopleIntro {
+	width: 100%;
 }
 
 }
