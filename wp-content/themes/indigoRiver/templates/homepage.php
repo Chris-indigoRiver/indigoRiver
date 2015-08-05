@@ -69,8 +69,8 @@ get_header(); ?>
     	<div class="ourPeopleIntro">
         	<h1 class="People_title">We Specialise In</h1>
             <p>The heartbeat of our agency, where the magic happens. Without these guys and girls none of the things we do would be possible. In fact, there’s only one thing our team cares about more than our business and that’s our clients’ business.</p>
-        </div>
-        <div class="ourPeople">
+        </div><?php
+        ?><div class="ourPeople">
         	<img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JAY.png" alt="indigoriver digital marketing agency web developer"/>
         </div><?php
 		?><div class="ourPeople">
