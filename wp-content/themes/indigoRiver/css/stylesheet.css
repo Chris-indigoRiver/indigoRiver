@@ -571,6 +571,12 @@ header {
     z-index: 99999;
 }
 
+/* ============ THE TEAM ============*/
+
+.ourPeopleIntro {
+	background: #202020;
+}
+
 /*Gradients*/
 
 .background_opaque {
@@ -710,6 +716,10 @@ header {
     vertical-align: top;
     width: 20%;
 	overflow: hidden;
+}
+
+.ourPeopleIntro {
+	width: 60%;
 }
 
 }
