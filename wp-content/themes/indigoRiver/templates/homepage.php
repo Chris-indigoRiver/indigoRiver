@@ -74,36 +74,44 @@ get_header(); ?>
         	<img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JAY.png" alt="indigoriver digital marketing agency web developer"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-W.png" alt="indigoriver digital marketing agency art director"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JAX.png" alt="indigoriver digital marketing agency web developer"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SARAH.png" alt="indigoriver digital marketing agency financial"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/DAMIAN2.png" alt="indigoriver digital marketing agency md"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/LORNA2.png" alt="indigoriver digital marketing agency business development"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/CLARE2.png" alt="indigoriver digital marketing agency creative"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-H2.png" alt="indigoriver digital marketing agency operations"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JACK2.png" alt="indigoriver digital marketing agency ux &amp; ui"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/BOBBI2.png" alt="indigoriver digital marketing agency strategist"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/CHRIS.png" alt="indigoriver digital marketing agency web developer"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SIMON.png" alt="indigoriver digital marketing agency senior artworker"/>
         </div><?php
 		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/GUNEET.png" alt="indigoriver digital marketing agency creative services"/>
         </div><?php
 		?><div class="ourPeople">
-        </div><?php
-		?><div class="ourPeople">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/MITCH.png" alt="indigoriver digital marketing agency account executive"/>
         </div>
-        
-        
-        
     </article>
     
     
