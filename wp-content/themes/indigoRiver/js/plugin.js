@@ -71,7 +71,7 @@ $(document).ready(function(){
 		//});
 		$(".peopleIntro").css({'height':($(".ourPeople").height())});
 		$(".joinCTA").css({'height':($(".ourPeople").height())});
-		$('.ourPeople img').centerImage();
+		//$('.ourPeople img').centerImage();
 
 		$('.ourPeople').each(function(){
 			$(this).height(ourPeople);
