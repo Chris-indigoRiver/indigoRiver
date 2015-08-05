@@ -631,14 +631,16 @@ header {
 @media only screen and (max-width: 600px) {
 	
 .homeNavLogo {
-    left: 40px;
-    top: 110px;
+    left: auto;
+    right: 24px;
+    top: 33px;
+	width: 160px;
 }
 
 .nav {
     position: absolute;
-    left: 50px;
-    top: 200px;
+    left: 20px;
+    top: 120px;
 }
 
 .nav ul li h2 {
