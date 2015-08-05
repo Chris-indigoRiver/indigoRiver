@@ -60,7 +60,7 @@ $(document).ready(function(){
 	});
 	
 	$('.ourPeople').each(function() {
-		$(this).height($(this).width() + $(this).width() / 100 * 20);
+		$(this).height($(this).width() + $(this).width() / 100 * 30);
 	});
 
 	$(window).resize(function(){
@@ -69,7 +69,7 @@ $(document).ready(function(){
 
 	function resizeOurPeople(){
 		$('.ourPeople').each(function() {
-			$(this).height($(this).width() + $(this).width() / 100 * 20);
+			$(this).height($(this).width() + $(this).width() / 100 * 30);
 		});
 		$(".peopleIntro").css({'height':($(".ourPeople").height())});
 		$(".joinCTA").css({'height':($(".ourPeople").height())});
