@@ -20,6 +20,10 @@ $(document).ready(function(){
 	$('.nav').hide();
 	$('.homeNavLogo').hide();
 	$('.appointments').css({'width' : '0%'});
+
+	if ($(window).width() <= 600){
+		$('.appointments').hide()
+	}
 	
 	$( ".menuIcon" ).click(function() {
 		$(this).toggleClass('on');
@@ -37,7 +41,7 @@ $(document).ready(function(){
 			if ($(window).width() <= 600){
 				$('.appointments').animate({'width' : '100%'});
 				$('#pageMenu').animate({'height': '100%'});
-				$('.appointments').hide();
+				$('.appointments').fadeIn();
 				$('#pageLocator').animate({'width': '100%'}, 200);
 				$('.homeNavLogo').delay(1000).fadeIn(400);
 			}
