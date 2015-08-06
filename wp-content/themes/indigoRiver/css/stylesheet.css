@@ -481,7 +481,7 @@ header {
     position: fixed;
     top: 0;
 	width: 100%;
-	z-index: -1;
+	z-index: 0;
 }
 
 .cd-intro {
@@ -1287,7 +1287,45 @@ header {
 }
 
 /* ========== Homepage ==========*/
-	
+
+.introCopy a p {
+	font-size: 15px;
+    width: 300px;
+    padding: 10px 0px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 100px;
+    font-weight: 600;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.introCopy a p:hover {
+	background: #fff;
+	color: #202020;
+	-moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.introCopy a p span {
+	-moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.introCopy a p:hover span {
+	margin-left: 10px;
+	-moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
 .ourPeople {
     display: inline-block;
     vertical-align: top;
