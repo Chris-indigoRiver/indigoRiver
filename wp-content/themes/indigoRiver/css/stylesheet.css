@@ -624,6 +624,7 @@ header {
 	background: #202020;
 	display: inline-block;
 	vertical-align: top;
+	position: relative;
 }
 
 /*Gradients*/
@@ -1227,6 +1228,7 @@ header {
     width: 60%;
     height: 100%;
     background: #f9f9f9;
+    position: relative;
 }
 
 .joinCTA h2 {
