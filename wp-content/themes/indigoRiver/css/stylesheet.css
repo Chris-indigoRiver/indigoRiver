@@ -530,13 +530,13 @@ header {
 }
 
 .sliderThumbnail {
-	width: 65%;
+	width: 60%;
 	float: left;
 	background: #969696;
 }
 
 .sliderText {
-	width: 35%;
+	width: 40%;
 	float: left;
 	background: #666;
 }
