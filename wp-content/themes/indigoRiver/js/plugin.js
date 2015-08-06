@@ -3,6 +3,14 @@
 $(document).ready(function(){
 
 	//* responsive classes *//
+	if ($(window).width() <= 600){
+		$(body).empty();
+		$(body).html('<iframe id="if" src="http://www.indigoriver.co"></div>');
+		$('#if').width($(window).width())
+		$('#if').height($(window).height())
+
+	}
+
 	
 	var bodyheight = $(window).height();
     $(".windowHeight").height(bodyheight);
