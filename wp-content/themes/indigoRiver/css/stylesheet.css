@@ -1211,6 +1211,7 @@ header {
 #footer {
 	padding: 35px 25px;
 	background: #202020;
+	position: relative;
 }
 
 .contactMap2 {
