@@ -481,7 +481,7 @@ header {
     position: fixed;
     top: 0;
 	width: 100%;
-	z-index: -1;
+	z-index: 0;
 }
 
 .cd-intro {
@@ -1101,6 +1101,38 @@ header {
 }
 
 /* ========== Homepage ==========*/
+
+.cd-headline {
+    padding-left: 0%;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'bebas_neue', serif;
+    font-weight: 900;
+    font-size: 85px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+    height: 290px;
+    line-height: 1;
+}
+
+.cd-intro {
+	padding-top: 80px !important;
+}
+
+.accreditationsHome {
+    width: 100%;
+    position: absolute;
+    top: auto;
+    right:auto;
+    bottom: 70px;
+    padding: 0 0 0 8px;
+}
+
+.accreditationsHome img {
+    width: 70%;
+}
 
 #homeOurPeople {
     padding: 0;
