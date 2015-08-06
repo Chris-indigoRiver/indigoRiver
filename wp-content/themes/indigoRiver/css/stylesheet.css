@@ -1333,6 +1333,7 @@ header {
     vertical-align: top;
     width: 20%;
 	overflow: hidden;
+	position: relative;
 }
 
 .ourPeopleIntro {
@@ -1433,7 +1434,7 @@ header {
 
 #homeValues {
 	width: 100%;
-    padding: 100px 0 5% 16.6%;
+    padding: 20px 0 5% 16.6%;
     font-size: 60px;
     height: auto;
     background: rgb(32, 32, 32);
