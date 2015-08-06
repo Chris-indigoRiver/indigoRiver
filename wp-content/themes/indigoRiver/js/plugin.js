@@ -24,6 +24,23 @@ $(document).ready(function(){
 	if ($(window).width() <= 600){
 		$('.appointments').hide()
 	}
+
+	var allowResize = true;
+	$( window ).scroll(function() {
+	    allowResize = false;
+	    clearTimeout( $.data( this, 'scrollCheck' ) );
+	    $.data( this, 'scrollCheck', setTimeout(function() {
+	        allowResize = true;
+	    }, 500) );
+	});
+
+	// If resize is allowed -> resize.
+
+	$(window).resize(function() {
+	    if (allowResize === true) {
+	        // DO STUFF.
+	    }}
+	);
 	
 	$( ".menuIcon" ).click(function() {
 		$(this).toggleClass('on');
