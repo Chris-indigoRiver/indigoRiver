@@ -860,6 +860,25 @@ header {
 	    width: auto;
 	}
 
+/* ========== Single Journal Page ========== */
+
+.singleJournal {
+	position: relative;
+	background: red;
+}
+
+#journalThumbnail {
+	position: relative;
+	height: 700px;
+}
+
+#journalThumbnail h1 {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	color: #FFF;		
+}	
+
 /* ========== CONTACT US PAGE ========== */
 
 .page-template-contactus header {
@@ -1269,8 +1288,6 @@ header {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     margin-top: 50px;
-}
-
 }
 
 /****************************
