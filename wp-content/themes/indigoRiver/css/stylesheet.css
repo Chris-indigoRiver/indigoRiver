@@ -1177,6 +1177,28 @@ header {
 	margin-top: 0px;
 }
 
+.footerSM {
+	border: 1px solid grey;
+    padding: 15px 10px 11px 10px;
+    margin: 10px 0;
+}
+
+.footerSM img {
+	width: 40px;
+    display: inline;
+    margin-right: 7%;
+}
+
+.footerContact p {
+    color: #fff;
+    margin-top: 0px;
+    display: inline;
+}    
+
+.footerSM p {
+	position: absolute;
+}
+
 }
 
 /****************************
