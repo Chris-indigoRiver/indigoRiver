@@ -16,7 +16,7 @@ get_header(); ?>
         <div class="background_opaque_header">
         </div>
     	<section class="cd-intro animated fadeIn">
-        	<h1 class="cd-headline">With Us<br/>it's always<br/></h1>
+        	<h1 class="cd-headline">With Us<br/>it's always<br/>text</h1>
         </section>
         <section class="introCopy animated fadeIn">
             <!--<p>Hi there, thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>-->
