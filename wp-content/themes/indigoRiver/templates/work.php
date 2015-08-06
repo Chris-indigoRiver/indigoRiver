@@ -29,7 +29,7 @@ get_header(); ?>
     <div id="workWrapper">
         <?php $loop = new WP_Query( array( 'post_type' => 'Journals', 'posts_per_page' => -1 ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-            <div class="workItem">                
+            <a class="workItem" href="">                
                 <?php 
                     if ( has_post_thumbnail() ) { 
                     // check if the post has a Post Thumbnail assigned to it.
@@ -42,7 +42,7 @@ get_header(); ?>
                         <p><?php the_excerpt(); ?></p>
                     </article>
                 </div>
-            </div>
+            </a>
         <?php endwhile; wp_reset_query(); ?>
     </div>
     <div id="ourFriends">

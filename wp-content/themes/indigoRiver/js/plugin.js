@@ -111,5 +111,6 @@ $(document).ready(function(){
 			$(".accordion .accord-content").slideUp("slow");
 			$(this).next("div").slideToggle("slow");
 		 }
-	});	
+	});
+
 });

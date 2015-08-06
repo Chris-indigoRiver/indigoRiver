@@ -464,7 +464,7 @@ header {
     position: fixed;
     top: 0;
 	width: 100%;
-	z-index: -1;
+	z-index: 0;
 }
 
 .cd-intro {
@@ -702,7 +702,6 @@ header {
 
 #workWrapper {
 	padding: 0 10% 0px 10%;
-	background: red;
 	overflow: hidden;
 }
 
@@ -715,9 +714,43 @@ header {
     float: left;
 }
 
+	.workItem:hover .workHalfFill {
+		background: rgba(20, 20, 20, 0.9);
+		-webkit-transition: ease-out 0.1s;
+	    -moz-transition: ease-out 0.1s;
+	    -o-transition: ease-out 0.1s;
+	    transition: ease-out 0.1s;
+	}
+
+	.workItem:hover .workHalfFill h2 {
+		opacity:1;
+		-webkit-transition: ease-out 0.1s;
+	    -moz-transition: ease-out 0.1s;
+	    -o-transition: ease-out 0.1s;
+	    transition: ease-out 0.1s;
+	}
+
+	.workItem:hover .workHalfFill p {
+		opacity:1;
+		-webkit-transition: ease-out 0.1s;
+	    -moz-transition: ease-out 0.1s;
+	    -o-transition: ease-out 0.1s;
+	    transition: ease-out 0.1s;
+	}
+
 	.workItem img {
 		width: 100%;
 		height: auto;
+	}
+
+	.workItem:hover img {
+	    -ms-transform: scale(1.1);
+	    -webkit-transform: scale(1.1);
+	    transform: scale(1.1);
+	    -webkit-transition: ease-out 0.2s;
+	    -moz-transition: ease-out 0.2s;
+	    -o-transition: ease-out 0.2s;
+	    transition: ease-out 0.2s;
 	}
 
 .workHalfFill {
@@ -736,7 +769,7 @@ header {
 
 .workContentWrap {
 	position: absolute;
-	bottom: 20px;
+	bottom: 40px;
 	left: 20px;
 }
 
@@ -756,6 +789,7 @@ header {
 		padding: 0 30px 0 0;
 	    color: #fff;
 	    opacity: 0;
+	    width: 90%;
 	}
 
 .ourFriends {
@@ -842,60 +876,60 @@ header {
 	    padding-right: 16.6%;
 	}
 
-	.accord-header:nth-child(1) {
-	    border-top: 0px !important;
-	}
+		.accord-header:nth-child(1) {
+		    border-top: 0px !important;
+		}
 
-	.accord-header {
-	    border-top: 1px solid rgba(255, 255, 255, 0.22);
-	    position: relative;
-	    font-family: 'fira-sans-2';
-	    font-weight: 800;
-	    color: #fff;
-	    font-size: 20px;
-	    padding: 10px 0;
-	    cursor: pointer;
-	}
+		.accord-header {
+		    border-top: 1px solid rgba(255, 255, 255, 0.22);
+		    position: relative;
+		    font-family: 'fira-sans-2';
+		    font-weight: 800;
+		    color: #fff;
+		    font-size: 20px;
+		    padding: 10px 0;
+		    cursor: pointer;
+		}
 
-	.accord-header h3 {
-	    padding: 30px 0;
-	    font-size: 25px;
-	    font-family: 'bebas_neue';
-	    letter-spacing: 1px;
-	    font-weight: 800;
-	    color: #fff;
-	}
+		.accord-header h3 {
+		    padding: 30px 0;
+		    font-size: 25px;
+		    font-family: 'bebas_neue';
+		    letter-spacing: 1px;
+		    font-weight: 800;
+		    color: #fff;
+		}
 
-	.plus {
-	    position: absolute;
-	    right: 20px;
-	    top: 30px;
-	    height: 20px;
-	    width: 20px;
-	    background: url(../img/plus.png) center center no-repeat;
-	    background-size: cover;
-	    cursor: pointer;
-	}
+		.plus {
+		    position: absolute;
+		    right: 20px;
+		    top: 30px;
+		    height: 20px;
+		    width: 20px;
+		    background: url(../img/plus.png) center center no-repeat;
+		    background-size: cover;
+		    cursor: pointer;
+		}
 
-	.accord-content {
-	    display: none;
-	    overflow: hidden;
-	}
+		.accord-content {
+		    display: none;
+		    overflow: hidden;
+		}
 
-	.accord-content p {
-	    color: #fff;
-	    padding: 0 0 30px 0;
-	    width: 90%;
-	}
+			.accord-content p {
+			    color: #fff;
+			    padding: 0 0 30px 0;
+			    width: 90%;
+			}
 
-	.accord-content a {
-	    color: #fff;
-	    padding: 0 0 30px 0;
-	    width: 90%;
-	    float: left;
-	    font-size: 18px;
-    	font-weight: 800;
-	}
+			.accord-content a {
+			    color: #fff;
+			    padding: 0 0 30px 0;
+			    width: 90%;
+			    float: left;
+			    font-size: 18px;
+		    	font-weight: 800;
+			}
 
 /* ==========================================*/
 /* ============= RESPONSIVENESS =============*/
