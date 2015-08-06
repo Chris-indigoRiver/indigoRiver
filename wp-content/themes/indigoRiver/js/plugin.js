@@ -1,13 +1,26 @@
 // JavaScript Document
 
 $(document).ready(function(){
+function inIframe () {
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        return true;
+    }
+}
 
 	//* responsive classes *//
 	if ($(window).width() <= 600){
-		$('html').empty();
-		$('html').html('<iframe id="if" style="border:1px solid red;" src="http://www.indigoriver.co"></div>');
-		$('#if').width($(window).width());
-		$('#if').height($(window).height());
+		if(inIframe){
+
+
+		}else{
+
+			$('html').empty();
+			$('html').html('<iframe id="if" style="border:1px solid red;" src="http://www.indigoriver.co"></div>');
+			$('#if').width($(window).width());
+			$('#if').height($(window).height());
+		}
 
 	}
 
