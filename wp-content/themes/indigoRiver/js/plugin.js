@@ -39,6 +39,7 @@ $(document).ready(function(){
 				$('#pageMenu').animate({'height': '100%'});
 				$('.appointments').hide();
 				$('#pageLocator').animate({'width': '100%'}, 200);
+				$('.homeNavLogo').delay(1000).fadeIn(400);
 			}
 		}else{
 			if ($(window).width() <= 600){

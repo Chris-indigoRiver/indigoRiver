@@ -50,7 +50,7 @@ h3 {
 p {
 	font-family: "fira-sans-2",sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
     font-size: 16px;
     color: #202020;
     line-height: 30px;
@@ -58,7 +58,7 @@ p {
 
 small {
 	font-family: 'fira-sans-2';
-    font-weight: 500;
+    font-weight: 400;
     color: #FFFFFF;
     line-height: 12px;
     width: 400px;
@@ -398,6 +398,10 @@ header {
 	margin-top:0;
 }
 
+.nav ul li h2 a {
+	color:#fff;
+}
+
 .terms {
 	width: 320px;
 }
@@ -707,7 +711,7 @@ header {
 
 .workIntroCopy {
 	font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     width: 70%;
     padding-left: 16.6% !important;
 }
@@ -1233,7 +1237,7 @@ header {
     display: none;
     text-align: center;
     color: #B2B2B2;
-    font-weight: 800;
+    font-weight: 400;
     -webkit-transition: ease-out 0.1s;
     -moz-transition: ease-out 0.1s;
     -o-transition: ease-out 0.1s;
@@ -1431,7 +1435,7 @@ header {
     color: #fff;
     font-size: 18px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 0 30% 0 30%;
     opacity: 0;
     -moz-transition-duration: 0.3s;
