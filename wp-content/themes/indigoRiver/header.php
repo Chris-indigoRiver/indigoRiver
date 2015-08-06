@@ -9,8 +9,8 @@
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/jquery.bxslider.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/plugin.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/center/jquery.blImageCenter.js"></script>
-<script src="//use.typekit.net/ozh5zle.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+<script src="//use.typekit.net/fge5ldw.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/stylesheet.css" />
