@@ -1180,7 +1180,7 @@ header {
 .footerSM {
 	border: 1px solid grey;
     padding: 15px 10px 11px 10px;
-    margin: 10px 0;
+    margin: 18px 0;
 }
 
 .footerSM img {
@@ -1197,6 +1197,9 @@ header {
 
 .footerSM p {
 	position: absolute;
+	font-family: "bebas_neue", serif;
+	font-size: 30px;
+    padding-top: 5px;
 }
 
 }
