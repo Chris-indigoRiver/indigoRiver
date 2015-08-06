@@ -15,6 +15,8 @@ get_header(); ?>
 
 <div id="mainWrapper">
 	<article id="introHome" class="windowHeight">
+        <div class="background_opaque_header">
+        </div>
     	<section class="cd-intro animated fadeIn">
         	<h1 class="cd-headline">With Us<br/>it's always<br/></h1>
         </section>
@@ -75,10 +77,18 @@ get_header(); ?>
                 <h2>Jay</h2>
                 <p>Senior Web Developer</p>
             </div>
+            <div class="ourPeopleMobFill mob">
+                <h2>Jay</h2>
+                <p>Senior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-W.png" alt="indigoriver digital marketing agency art director"/>
             <div class="ourPeopleFill">
+                <h2>Emma W</h2>
+                <p>Art Director</p>
+            </div>
+             <div class="ourPeopleMobFill mob">
                 <h2>Emma W</h2>
                 <p>Art Director</p>
             </div>
@@ -89,10 +99,18 @@ get_header(); ?>
                 <h2>Jax</h2>
                 <p>Our Shy Junior Web Developer</p>
             </div>
+             <div class="ourPeopleMobFill mob">
+                <h2>Jax</h2>
+                <p>Our Shy Junior Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SARAH.png" alt="indigoriver digital marketing agency financial"/>
             <div class="ourPeopleFill">
+                <h2>Sarah</h2>
+                <p>Financial & HR</p>
+            </div>
+             <div class="ourPeopleMobFill mob">
                 <h2>Sarah</h2>
                 <p>Financial & HR</p>
             </div>
@@ -103,10 +121,18 @@ get_header(); ?>
                 <h2>Damian</h2>
                 <p>MD & CD</p>
             </div>
+             <div class="ourPeopleMobFill mob">
+                <h2>Damian</h2>
+                <p>MD & CD</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/LORNA2.png" alt="indigoriver digital marketing agency business development"/>
             <div class="ourPeopleFill">
+                <h2>Lorna</h2>
+                <p>Head of Business Development</p>
+            </div>
+             <div class="ourPeopleMobFill mob">
                 <h2>Lorna</h2>
                 <p>Head of Business Development</p>
             </div>
@@ -117,10 +143,18 @@ get_header(); ?>
                 <h2>Clare</h2>
                 <p>Creative</p>
             </div>
+             <div class="ourPeopleMobFill mob">
+                 <h2>Clare</h2>
+                <p>Creative</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-H2.png" alt="indigoriver digital marketing agency operations"/>
             <div class="ourPeopleFill">
+                <h2>Emma H</h2>
+                <p>Head of Operations</p>
+            </div>
+             <div class="ourPeopleMobFill mob">
                 <h2>Emma H</h2>
                 <p>Head of Operations</p>
             </div>
@@ -131,10 +165,18 @@ get_header(); ?>
                 <h2>Jack</h2>
                 <p>UX & UI</p>
             </div>
+             <div class="ourPeopleMobFill mob">
+                 <h2>Jack</h2>
+                <p>UX & UI</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/BOBBI2.png" alt="indigoriver digital marketing agency strategist"/>
             <div class="ourPeopleFill">
+                <h2>Bobbi</h2>
+                <p>Strategist / Senior Account Manager</p>
+            </div>
+             <div class="ourPeopleMobFill mob">
                 <h2>Bobbi</h2>
                 <p>Strategist / Senior Account Manager</p>
             </div>
@@ -145,10 +187,18 @@ get_header(); ?>
                 <h2>Chris</h2>
                 <p>Web Developer</p>
             </div>
+             <div class="ourPeopleMobFill mob">
+                <h2>Chris</h2>
+                <p>Web Developer</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SIMON.png" alt="indigoriver digital marketing agency senior artworker"/>
             <div class="ourPeopleFill">
+                <h2>Simon</h2>
+                <p>Senior Artworker</p>
+            </div>
+             <div class="ourPeopleMobFill mob">
                 <h2>Simon</h2>
                 <p>Senior Artworker</p>
             </div>
@@ -159,10 +209,18 @@ get_header(); ?>
                 <h2>Guneet</h2>
                 <p>Creative Services Manager</p>
             </div>
+             <div class="ourPeopleMobFill mob">
+                <h2>Guneet</h2>
+                <p>Creative Services Manager</p>
+            </div>
         </div><?php
 		?><div class="ourPeople">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/MITCH.png" alt="indigoriver digital marketing agency account executive"/>
             <div class="ourPeopleFill">
+                <h2>Mitch</h2>
+                <p>Account Executive</p>
+            </div>
+             <div class="ourPeopleMobFill mob">
                 <h2>Mitch</h2>
                 <p>Account Executive</p>
             </div>
