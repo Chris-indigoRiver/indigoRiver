@@ -19,10 +19,10 @@ get_header(); ?>
         	<h1 class="cd-headline">With Us<br/>it's always<br/></h1>
         </section>
         <section class="introCopy animated fadeIn">
-            <p>Hi there, thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
-            <a href=""><p>Change how your business talks <span>→</span><p></a>
-            <p>TEL +44 (0)1527 757010</p>
-            <p>EMAIL talk2us@indigo-river.com</p>
+            <!--<p>Hi there, thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>-->
+            <a href=""><p>Learn more <span>→</span> <p></a>
+            <!--<p>TEL +44 (0)1527 757010</p>
+            <p>EMAIL talk2us@indigo-river.com</p>-->
         </section>
         <div class="accreditationsHome">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/accreditations2.png" alt="Marketing Agency Digital Rar top 100 agency">
