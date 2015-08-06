@@ -76,14 +76,28 @@ $(document).ready(function(){
 	  mode: 'vertical',
 	  slideMargin: 5
 	});
-	
+	  
 	
 	/* ========== Homepage ========== */
 	
 	$('#homeSelectServices').css('margin-top' , ($(window).height()));
 
 	$('.servicesSlider').bxSlider({
-		pagerCustom: '#servicesPager'
+		mode: 'fade',
+		speed: 500,
+		auto: true,
+		autoDelay: 10000,
+		pagerCustom: '#servicesPager',
+		onSlidePrev: function($slideElement, oldIndex, newIndex){
+			
+		}, onSlideBefore: function($slideElement, oldIndex, newIndex){
+			var title = $slideElement.attr("id");
+			$(".serviceName").empty().text(title);
+			$('.sliderThumbnail img').centerImage();
+			
+		}, onSlideAfter: function($slideElement, oldIndex, newIndex) {
+				
+		}
 	});
 
 		/* SET HEIGHT OF SLIDER */

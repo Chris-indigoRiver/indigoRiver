@@ -532,6 +532,10 @@ header {
  	overflow: visible !important;
  }
 
+ .servicesSlider {
+	padding: 0px; 
+ }
+
 .sliderHeader {
 	overflow: hidden;
 }
@@ -558,8 +562,8 @@ header {
 }
 
 .slider_title {
-	text-align: center;
-	padding-right: 360px;			
+	text-align: center;	
+	font-size:  4.5vw;			
 }
 
 .sliderThumbnail {
@@ -594,6 +598,12 @@ header {
     color: #202020;
     font-family: 'bebas_neue',serif;
     font-size: 20px !important;
+    width: 10%;
+    display: inline-block;
+}
+
+#servicesPager a.active {
+    color: #CCC;
 }
 
 .selectServicesDisc {
@@ -606,11 +616,7 @@ header {
     z-index: 99999;
 }
 
-.serviceName {
-	position: absolute;
-    top: -30.2%;
-    left: 55%;
-    z-index: 999;
+.serviceName {	
     text-align: left !important;
     color: #202020 !important;
     font-family: 'bebas_neue',serif !important;
@@ -620,6 +626,8 @@ header {
     cursor: pointer;
     margin: 1% 0 !important;
     text-decoration: underline;
+    transition: all 0.5s ease;
+    overflow: hidden;      
 }
 
 /* ============ THE TEAM ============*/
