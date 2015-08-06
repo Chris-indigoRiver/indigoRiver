@@ -29,11 +29,18 @@ get_header(); ?>
         </div>
     </article>
     <article id="homeSelectServices" class="windowHeight">
-    	<div class="header">
+    	<div class="sliderHeader">
         	<h1 class="slider_title">We Specialise In</h1>
-        </div>
-        
-        <div class="slider">
+            <div id="servicesPager">
+                <?php $loop = new WP_Query( array( 'post_type' => 'services', 'posts_per_page' => -1 ) ); ?>
+                <?php $num = 0; ?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                    <a data-slide-index="<?php echo $num; ?>" href=""><?php echo the_title(); ?></a>    
+                <?php $num++; ?>
+                <?php endwhile; wp_reset_query(); ?>
+            </div>
+        </div>        
+        <div class="servicesSliderContainer">
         	<ul class="servicesSlider">
               	<?php $loop = new WP_Query( array( 'post_type' => 'services', 'posts_per_page' => -1 ) ); ?>
 				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>

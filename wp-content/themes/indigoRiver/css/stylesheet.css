@@ -508,8 +508,16 @@ header {
 
 /* ============ SELECT SERVICES ============*/
 
+.servicesSliderContainer {
+
+}
+
+.sliderHeader {
+	overflow: hidden;
+}
+
 #homeSelectServices {
-    padding: 0 10% 0 11%;
+    padding: 0 10% 0 10%;
     position: relative;
     background-color: #fff;
 }
@@ -529,8 +537,13 @@ header {
 	float:left;	
 }
 
+.slider_title {
+	text-align: center;			
+}
+
 .sliderThumbnail {
 	width: 65%;
+	height: 100%;
 	float: left;
 	background: #969696;
 }
@@ -541,12 +554,25 @@ header {
 	background: #666;
 }
 
-#bx-pager {
-    position: absolute;
-    top: 27%;
-    width: 80%;
-    right: 2.5%;
-    z-index: 99;
+.sliderText p {    
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 18px !important;
+    line-height: 26px !important;
+}
+
+#servicesPager {
+	margin: 50px auto 20px auto;    
+    text-align: center;
+}
+
+#servicesPager a {
+	text-align: center;
+    font-weight: 900;
+    padding: 10px 0px;
+    color: #202020;
+    font-family: 'bebas_neue',serif;
+    font-size: 20px !important;
 }
 
 #strategyServiceImg {
