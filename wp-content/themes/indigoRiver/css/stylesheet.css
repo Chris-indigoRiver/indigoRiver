@@ -546,12 +546,8 @@ header {
 }
 
 .sliderThumbnail {
-<<<<<<< HEAD
 	width: 60%;
-=======
-	width: 65%;
 	height: 100%;
->>>>>>> 57eb85ee272088839184fb4abd64608e0d31664b
 	float: left;
 	background: #969696;
 }
