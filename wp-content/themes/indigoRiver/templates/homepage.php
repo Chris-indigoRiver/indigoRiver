@@ -20,7 +20,7 @@ get_header(); ?>
         </section>
         <section class="introCopy animated fadeIn">
             <p>Hi there, thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
-            <a href=""><p>Change how your business talks <span>→</span><p></a>
+            <a href="">Change how your business talks →</a>
             <p>TEL +44 (0)1527 757010</p>
             <p>EMAIL talk2us@indigo-river.com</p>
         </section>
