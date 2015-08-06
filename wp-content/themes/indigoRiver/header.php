@@ -26,10 +26,3 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
-<div style="    backface-visibility: visible;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: visible;">
