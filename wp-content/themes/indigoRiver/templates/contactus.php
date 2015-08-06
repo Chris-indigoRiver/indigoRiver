@@ -6,7 +6,7 @@ get_header(); ?>
 <header>
 <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
 
-<?php include('includes/siderbar_menu.php'); ?>
+
 	<div class="SM-HomeHorizontal homeSM">
         <a target="_blank" href="https://www.facebook.com/IndigoRiverCreative">
         	<div class="facebookLight SMimg"></div></a>
@@ -17,6 +17,7 @@ get_header(); ?>
     </div>
 </header>
 
+<?php include('includes/siderbar_menu.php'); ?>
 <?php include('includes/sidebar_left.php'); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
