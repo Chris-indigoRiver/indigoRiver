@@ -29,21 +29,24 @@ $(document).ready(function(){
 		$(this).toggleClass('on');
 		if($(this).hasClass('on')){
 			//$('#pageMenu').css('background' , 'transparent');
-			$('#pageMenu').delay(100).animate({'width': '100%'}, 500);
-			$('#pageLocator').animate({'width': '50%'}, 200);
-			$(this).css({'left' : '50px' , 'width' : '10%'});
-			$('.menuSM').css({'padding-left' : '50px'});
-			$('.nav').css({'display' : 'block'});
-			$('.appointments').animate({'width' : '50%'});
-			$('.menuLogo').css({'display' : 'block'});
-			$('.locatorLine').addClass('animated fadeOut');
-			$('.homeNavLogo').css({'display' : 'block'});
 			if ($(window).width() <= 600){
 				$('.appointments').animate({'width' : '100%'});
 				$('#pageMenu').animate({'height': '100%'});
 				$('.appointments').fadeIn();
 				$('#pageLocator').animate({'width': '100%'}, 200);
 				$('.homeNavLogo').delay(1000).fadeIn(400);
+				$('.nav').css({'display' : 'block'});
+			}
+			else if ($(window).width() >= 601){
+				$('#pageLocator').animate({'width': '50%'}, 200);
+				$('#pageMenu').delay(100).animate({'width': '100%'}, 500);
+				$(".menuIcon").css({'left' : '50px' , 'width' : '10%'});
+				$('.menuSM').css({'padding-left' : '50px'});
+				$('.nav').css({'display' : 'block'});
+				$('.appointments').animate({'width' : '50%'});
+				$('.menuLogo').css({'display' : 'block'});
+				$('.locatorLine').addClass('animated fadeOut');
+				$('.homeNavLogo').css({'display' : 'block'});
 			}
 		}else{
 			if ($(window).width() <= 600){

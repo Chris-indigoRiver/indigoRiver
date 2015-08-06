@@ -1015,16 +1015,17 @@ header {
 }
 
 .homeNavLogo {
-    left: auto;
-    right: 24px;
-    top: 33px;
-	width: 160px;
+    left: 20px;
+    right: auto;
+    top: 63px;
+    width: 160px;
 }
 
 .nav {
     position: absolute;
     left: 20px;
-    top: 120px;
+    top: auto;
+    bottom: 27%;
 }
 
 .nav ul li h2 {
