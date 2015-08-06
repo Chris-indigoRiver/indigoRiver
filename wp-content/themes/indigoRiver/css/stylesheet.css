@@ -942,7 +942,21 @@ header {
 ****************************/
 @media only screen and (max-width: 600px) {
 
-/* ========== Nav open ==========*/
+/* ========== Nav ==========*/
+
+#pageMenu {
+    width: 100%;
+    height: 55px;
+    background: #202020;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+}
+
+.menuIcon {
+	top: 20px;
+}
 
 .homeNavLogo {
     left: auto;
@@ -976,8 +990,66 @@ header {
 	display:none;
 }
 
+/* ========== Locator bar ==========*/
+
+#pageLocator {
+    width: 100%;
+    height: 55px;
+    top: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.locatorText {
+    position: absolute;
+    top: 13px;
+    left: auto;
+    right: 10px;
+    text-align: right;
+    width: 170px;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+#LLOne {
+    position: fixed;
+    width: 1px;
+    height: 10px;
+    bottom: 23px;
+    left: 15px;
+}
+
+#LLTwo {
+    position: fixed;
+    width: 1px;
+    height: 10px;
+    bottom: 23px;
+    left: 30px;
+}
+
+#LLThree {
+    position: fixed;
+    width: 1px;
+    height: 10px;
+    bottom: 23px;
+    left: 45px;
+}
+
+#LLFour {
+    position: fixed;
+    width: 1px;
+    height: 10px;
+    bottom: 23px;
+    left: 60px;
+}
+
 /* ========== Homepage ==========*/
-	
+
+#homeOurPeople {
+    padding: 0;
+}
+
 .ourPeople {
     display: inline-block;
     vertical-align: top;
@@ -987,6 +1059,46 @@ header {
 
 .ourPeopleIntro {
 	width: 100%;
+}
+
+.joinCTA {
+	background: #fff;
+}
+
+.joinCTA h2 {
+	margin-top: 0;
+}
+
+#homeValues {
+	background: #202020;
+	padding: 35px 25px;
+}
+
+.ourBelief h2 {
+	margin-top: 0;
+}
+
+.valuesBottom {
+	color: #fff;
+}
+
+.valueThird p {
+	color: #fff;
+}
+
+/* ========== Footer ==========*/
+
+.footerContact {
+	background: #202020;
+}
+
+.footerContact h3 {
+	margin-top:0;
+	color: #fff;
+}
+
+.footerContact p {
+	color: #fff;
 }
 
 }
@@ -1367,7 +1479,15 @@ header {
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
 
-
+#pageMenu {
+    width: 100%;
+    height: 70px;
+    background: #202020;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+}
 
 }
 

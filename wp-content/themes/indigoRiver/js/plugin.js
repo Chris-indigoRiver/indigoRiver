@@ -19,14 +19,16 @@ $(document).ready(function(){
 	$('#defaultBG').hide();
 	$('.nav').hide();
 	$('.homeNavLogo').hide();
+	$('.appointments').css({'width' : '0%'});
 	
 	$( ".menuIcon" ).click(function() {
 		$(this).toggleClass('on');
 		if($(this).hasClass('on')){
 			//$('#pageMenu').css('background' , 'transparent');
-			$('#pageMenu').delay(100).animate({'width': '99%'}, 500);
+			$('#pageMenu').delay(100).animate({'width': '100%'}, 500);
 			$('#pageLocator').animate({'width': '50%'}, 200);
 			$(this).css({'left' : '50px' , 'width' : '10%'});
+			$('.menuSM').css({'padding-left' : '50px'});
 			$('.nav').css({'display' : 'block'});
 			$('.appointments').animate({'width' : '50%'});
 			$('.menuLogo').css({'display' : 'block'});
@@ -34,16 +36,31 @@ $(document).ready(function(){
 			$('.homeNavLogo').css({'display' : 'block'});
 			if ($(window).width() <= 600){
 				$('.appointments').animate({'width' : '100%'});
+				$('#pageMenu').animate({'height': '100%'});
+				$('.appointments').hide();
+				$('#pageLocator').animate({'width': '100%'}, 200);
 			}
 		}else{
-			//$('#pageMenu').css('background' , '#f9f9f9');
+			if ($(window).width() <= 600){
+				$('.appointments').animate({'width' : '100%'});
+				$('#pageMenu').animate({'width': '100%'});
+				$('#pageMenu').animate({'height': '55px'})
+				$(this).css({'left' : '50%' , 'width' : '30%'});
+				$('#pageLocator').animate({'width': '100%'}, 200);
+				$('.appointments').hide();
+				$('.nav').fadeOut();
+				$('.menuLogo').fadeOut();
+			}
+			else {
 			$('#pageMenu').animate({'width': '10%'}, 500);
 			$('#pageLocator').animate({'width': '11%'}, 200);
 			$(this).css({'left' : '50%' , 'width' : '30%'});
+			$('.menuSM').css({'padding-left' : '50%'});
 			$('.nav').fadeOut();
 			$('.appointments').animate({'width' : '0%'});
-			$('.menuLogo').css('display' , 'none');
+			$('.menuLogo').fadeOut();
 			$('.homeNavLogo').fadeOut();
+			}
 		}
 	});
 	
@@ -95,11 +112,12 @@ $(document).ready(function(){
 	//responsiveness for homepage
 
 	if ($(window).width() <= 1060){
-		$('.joinCTA').css({'height' : '255px'});
+		$('.joinCTA').css({'height' : 'auto' , 'padding' : '15px 0'});
 		$('.joinCTA h2').css({'padding' : '4% 14% 0% 7%'});
 		$('.joinCTA p').css({'padding' : '0% 7%'});
+		$('.ourPeopleIntro').css({'height' : 'auto'});
 		$('.ourPeopleIntro h1').css({'padding' : '0% 7%' , 'margin-top' : '7.5%'});
-		$('.ourPeopleIntro p').css({'padding' : '0% 7%'});
+		$('.ourPeopleIntro p').css({'padding' : '0% 7% 5% 7%'});
 	}
 
 	/* Contact us Accordian */
