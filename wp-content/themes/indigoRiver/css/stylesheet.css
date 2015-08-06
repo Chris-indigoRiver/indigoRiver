@@ -1102,6 +1102,14 @@ header {
 
 /* ========== Homepage ==========*/
 
+#homeSelectServices {
+	position: relative;
+}
+
+#homeValues {
+	position: relative;
+}
+
 .cd-headline {
     padding-left: 0%;
     margin: 0;
