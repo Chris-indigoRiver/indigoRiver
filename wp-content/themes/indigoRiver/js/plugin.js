@@ -105,6 +105,10 @@ $(document).ready(function(){
 	
 	$('#homeSelectServices').css('margin-top' , ($(window).height()));
 
+	if ($(window).width() <= 600){
+		$('#homeSelectServices').css('margin-top' , '0');
+	}
+
 	$('.servicesSlider').bxSlider({
 		mode: 'fade',
 		speed: 500,
