@@ -49,7 +49,7 @@ $(document).ready(function(){
 				$('#pageLocator').animate({'width': '100%'}, 200);
 				$('.appointments').hide();
 				$('.nav').fadeOut();
-				$('.menuLogo').fadeOut();
+				$('.homeNavLogo').fadeOut();
 			}
 			else {
 			$('#pageMenu').animate({'width': '10%'}, 500);
