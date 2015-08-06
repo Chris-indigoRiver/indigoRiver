@@ -3,13 +3,6 @@ Template Name: Home Page
 */ 
 get_header(); ?>
 
-<div style="    backface-visibility: visible;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: visible;">
-
 <header>
 <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
 </header>
@@ -268,7 +261,7 @@ get_header(); ?>
     
 </div>
 
-</div>
+
 
 <?php endwhile; endif; ?>
 
