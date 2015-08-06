@@ -7,6 +7,7 @@ body {
 @font-face {
     font-family: "bebas_neue";
     src: url("../fonts/BebasNeue2/BebasNeue_Bold.ttf");
+    -webkit-font-smoothing: antialiased;
 }
 
 /*Black & White colours used throughout the site*/
@@ -27,6 +28,7 @@ h1 {
     font-weight: 900;
     letter-spacing: 2px;
     margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
 }
 
 h2 {
@@ -35,6 +37,7 @@ h2 {
     font-weight: 900;
     letter-spacing: 2px;
     margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
 }
 
 h3 {
@@ -43,6 +46,7 @@ h3 {
     font-weight: 900;
     letter-spacing: 2px;
     margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*Body copy*/
@@ -54,6 +58,7 @@ p {
     font-size: 16px;
     color: #202020;
     line-height: 30px;
+    -webkit-font-smoothing: antialiased;
 }
 
 small {
@@ -63,10 +68,12 @@ small {
     line-height: 12px;
     width: 400px;
     font-size: 10px;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
 	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
 }
 
 /* ========== Opacities ========== */
