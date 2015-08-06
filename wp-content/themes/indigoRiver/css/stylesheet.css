@@ -1130,12 +1130,15 @@ header {
     text-transform: uppercase;
     position: relative;
     z-index: 10;
-    height: 290px;
+    height: auto;
     line-height: 1;
 }
 
 .cd-intro {
-	padding-top: 80px !important;
+	padding-top: 0 !important;
+    top: 120px;
+    position: absolute;
+    width: 100%
 }
 
 .accreditationsHome {
