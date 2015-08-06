@@ -6,7 +6,6 @@ get_header(); ?>
 <header>
 <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_Black-01.svg"></a>
 
-<?php include('includes/siderbar_menu.php'); ?>
 	<div class="SM-HomeHorizontal homeSM">
         <a target="_blank" href="https://www.facebook.com/IndigoRiverCreative">
         	<div class="facebook SMimg"></div></a>
@@ -17,6 +16,7 @@ get_header(); ?>
     </div>
 </header>
 
+<?php include('includes/siderbar_menu.php'); ?>
 <?php include('includes/sidebar_left.php'); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -29,7 +29,7 @@ get_header(); ?>
     <div id="workWrapper">
         <?php $loop = new WP_Query( array( 'post_type' => 'Journals', 'posts_per_page' => -1 ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-            <a class="workItem" href="">                
+            <a class="workItem" href="<?php the_permalink(); ?>">               
                 <?php 
                     if ( has_post_thumbnail() ) { 
                     // check if the post has a Post Thumbnail assigned to it.
