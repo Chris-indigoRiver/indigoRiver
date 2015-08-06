@@ -1192,6 +1192,7 @@ header {
 #homeValues {
 	background: #202020;
 	padding: 35px 25px 10px 25px;
+	position: relative;
 }
 
 .ourBelief h2 {
