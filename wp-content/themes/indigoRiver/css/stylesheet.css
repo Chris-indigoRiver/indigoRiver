@@ -481,7 +481,7 @@ header {
     position: fixed;
     top: 0;
 	width: 100%;
-	z-index: -1;
+	z-index: 0;
 }
 
 .cd-intro {
@@ -1023,20 +1023,21 @@ header {
 }
 
 .homeNavLogo {
-    left: auto;
-    right: 24px;
-    top: 33px;
-	width: 160px;
+    left: 20px;
+    right: auto;
+    top: 63px;
+    width: 160px;
 }
 
 .nav {
     position: absolute;
     left: 20px;
-    top: 120px;
+    top: auto;
+    bottom: 27%;
 }
 
 .nav ul li h2 {
-	font-size:70px;
+	font-size:50px;
 	margin-top:0;
 }
 
@@ -1110,6 +1111,46 @@ header {
 
 /* ========== Homepage ==========*/
 
+#homeSelectServices {
+	position: relative;
+}
+
+#homeValues {
+	position: relative;
+}
+
+.cd-headline {
+    padding-left: 0%;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'bebas_neue', serif;
+    font-weight: 900;
+    font-size: 85px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+    height: 290px;
+    line-height: 1;
+}
+
+.cd-intro {
+	padding-top: 80px !important;
+}
+
+.accreditationsHome {
+    width: 100%;
+    position: absolute;
+    top: auto;
+    right:auto;
+    bottom: 70px;
+    padding: 0 0 0 8px;
+}
+
+.accreditationsHome img {
+    width: 70%;
+}
+
 #homeOurPeople {
     padding: 0;
 }
@@ -1168,6 +1209,7 @@ header {
 #homeValues {
 	background: #202020;
 	padding: 35px 25px 10px 25px;
+	position: relative;
 }
 
 .ourBelief h2 {
@@ -1187,6 +1229,7 @@ header {
 #footer {
 	padding: 35px 25px;
 	background: #202020;
+	position: relative;
 }
 
 .contactMap2 {
