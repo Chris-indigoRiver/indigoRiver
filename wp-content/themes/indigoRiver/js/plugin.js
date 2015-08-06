@@ -4,16 +4,6 @@ $(document).ready(function(){
 
 	//* responsive classes *//
 	if ($(window).width() <= 600){
-
-
-			$('html').empty();
-			$('html').html('<iframe id="if" style="border:1px solid red;" src="http://www.indigoriver.co"></div>');
-			$('#if').width($(window).width());
-			$('#if').height($(window).height());
-			setTimeout(function(){
-				window.frames[0].stop();
-			}, 3000);
-
 	}
 
 	
