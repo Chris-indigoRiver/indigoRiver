@@ -1,7 +1,9 @@
 <div id="pageLocator">
-	<div class="locatorText">
-    	<p class="animated slideInRight">HELLO</p>
-    </div>
+	<div class="textContainer">
+		<div class="locatorText">
+	    	<p class="animated slideInRight">HELLO</p>
+	    </div>
+	</div>
 	<div class="pagination">
         <div class="locatorLine animated slideInRight" id="LLOne" style="background: rgb(0, 0, 0);"></div>
         <div class="locatorLine animated slideInRight" id="LLTwo" style="background: rgb(204, 204, 204);"></div>
