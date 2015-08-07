@@ -550,7 +550,7 @@ header {
 }
 
 #homeSelectServices {
-    padding: 0 10% 0 10%;
+    padding: 70px 10% 0 10%;
     position: relative;
     background-color: #fff;
 }
@@ -1596,7 +1596,7 @@ header {
 }
 
 .ourBelief {
-	width:65%;
+	width:85%;
     height: auto;
     margin-right: 2%;
     margin-bottom: 20px;
@@ -1611,7 +1611,7 @@ header {
 }
 
 .valuesBottom {
-	width: 80%;
+	width: 95%;
     height: auto;
 }
 
@@ -1737,7 +1737,7 @@ header {
 }
 
 .footerMessage p {
-    width: 40%;
+    width: 100%;
     text-align: center;
     color: #fff;
     font-size: 18px;

@@ -88,7 +88,7 @@ get_header(); ?>
     <article id="helloHome">
         <div class="helloHomeIntro">
             <div class="helloHomeHeader">
-                <h2>Hi There!</h2>
+                <h1>Hi There!</h1>
             </div><?php
             ?><div class="helloHomeMessage">
                 <p>thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
