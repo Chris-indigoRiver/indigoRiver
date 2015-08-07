@@ -16,7 +16,64 @@ get_header(); ?>
         <div class="background_opaque_header">
         </div>
     	<section class="cd-intro animated fadeIn">
-        	<h1 class="cd-headline">With Us<br/>it's always<br/>text</h1>
+        	<h1 class="cd-headline letters type">
+                <span>With Us<br/>it's always<br/></span>
+                <span class="cd-words-wrapper">
+                    <b class="is-visible">
+                    <i>p</i><!--
+                    --><i>e</i><!--
+                    --><i>r</i><!--
+                    --><i>s</i><!--
+                    --><i>o</i><!--
+                    --><i>n</i><!--
+                    --><i>a</i><!--
+                    --><i>l</i>
+                    </b>
+                    <b>
+                    <i>t</i><!--
+                    --><i>r</i><!--
+                    --><i>u</i><!--
+                    --><i>e</i>
+                    </b>
+                    <b>
+                    <i>c</i><!--
+                    --><i>o</i><!--
+                    --><i>u</i><!--
+                    --><i>r</i><!--
+                    --><i>a</i><!--
+                    --><i>g</i><!--
+                    --><i>e</i><!--
+                    --><i>o</i><!--
+                    --><i>u</i><!--
+                    --><i>s</i>
+                    </b>
+                    <b>
+                    <i>f</i><!--
+                    --><i>r</i><!--
+                    --><i>e</i><!--
+                    --><i>s</i><!--
+                    --><i>h</i>
+                    </b>
+                    <b>
+                    <i>s</i><!--
+                    --><i>m</i><!--
+                    --><i>a</i><!--
+                    --><i>r</i><!--
+                    --><i>t</i>
+                    </b>
+                    <b>
+                    <i>i</i><!--
+                    --><i>n</i><!--
+                    --><i>d</i><!--
+                    --><i>i</i><!--
+                    --><i>v</i><!--
+                    --><i>i</i><!--
+                    --><i>d</i><!--
+                    --><i>u</i><!--
+                    --><i>a</i><!--
+                    --><i>l</i>
+                    </b>
+            </h1>
         </section>
         <section class="introCopy animated fadeIn">
             <!--<p>Hi there, thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>-->
