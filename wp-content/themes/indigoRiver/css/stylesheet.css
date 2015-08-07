@@ -1440,7 +1440,7 @@ header {
 	height: auto;
     width: 100%;
     position: relative;
-    padding: 0 10%;
+    padding: 0 10% 50px 10%;
 }
 
 .helloHomeHeader{
@@ -1454,14 +1454,31 @@ header {
 .helloHomeMessage {
 	display: inline-block;
 	vertical-align: top;
-	width: 47.5%;
+	width: 100%;
+    text-align: center;
+    padding: 0 22% 40px 22%;
 }
 
 .helloHomeSelect {
 	height: 300px;
 	width: 100%;
 	background: #202020;
-	display: none;
+}
+
+.selectHalf {
+	display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    text-align: center;
+    height: 300px;
+}
+
+#newBusiness {
+	background: red;
+}
+
+#existingBusiness {
+	background: blue;
 }
 
 .introCopy a p {

@@ -95,6 +95,10 @@ get_header(); ?>
             </div>
         </div>
         <div class="helloHomeSelect">
+            <div class="selectHalf" id="newBusiness">
+            </div><?php
+            ?><div class="selectHalf" id="existingBusiness">
+            </div>
         </div>
     </article>
     <article id="homeSelectServices" class="windowHeight">
