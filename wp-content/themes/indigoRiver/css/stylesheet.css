@@ -1403,6 +1403,39 @@ header {
 
 /* ========== Homepage ==========*/
 
+#helloHome {
+	height: auto;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    padding: 10px 10%;
+}
+
+#helloHomeIntro {
+	height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.helloHomeHeader{
+	display: inline-block;
+	vertical-align: top;
+	width: 47.5%;
+	margin-right: 5%;
+}
+
+.helloHomeMessage {
+	display: inline-block;
+	vertical-align: top;
+	width: 47.5%;
+}
+
+.helloHomeSelect {
+	height: 300px;
+	width: 100%;
+	background: #202020;
+}
+
 .introCopy a p {
 	font-size: 15px;
     width: 170px;

@@ -28,6 +28,18 @@ get_header(); ?>
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/accreditations2.png" alt="Marketing Agency Digital Rar top 100 agency">
         </div>
     </article>
+    <article id="helloHome">
+        <div class="helloHomeIntro">
+            <div class="helloHomeHeader">
+                <h2>Hi There!</h2>
+            </div><?php
+            ?><div class="helloHomeMessage">
+                <p>thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
+            </div>
+        </div>
+        <div class="helloHomeSelect">
+        </div>
+    </article>
     <article id="homeSelectServices" class="windowHeight">
     	<div class="sliderHeader">
         	<h1 class="slider_title">We Specialise In <span class="serviceName"></span></h1>
