@@ -564,6 +564,10 @@ header {
     width: 100%;
 }
 
+.bx-viewport {
+	background:#202020;
+}
+
 .sliderContainer {
 	height: 200px;
 	width: 100%;
@@ -586,7 +590,7 @@ header {
 .sliderText {
 	width: 40%;
 	float: left;
-	background: #666;
+	background: #202020;
 	position: relative;
 }
 
@@ -1479,6 +1483,13 @@ header {
 
 #existingBusiness {
 	background: blue;
+}
+
+.helloHomeContact {
+	height:70px;
+	width: 100%;
+	background: #202020;
+	padding-left: 10px 10%;
 }
 
 .introCopy a p {

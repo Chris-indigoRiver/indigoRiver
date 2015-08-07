@@ -100,6 +100,14 @@ get_header(); ?>
             ?><div class="selectHalf" id="existingBusiness">
             </div>
         </div>
+        <div class="helloHomeContact">
+            <div class="selectContactThird" id="selectPhone">
+            </div><?php
+            ?><div class="selectContactThird" id="selectEmail">
+            </div><?php
+            ?><div class="selectContactThird" id="selectVisit">
+            </div>
+        </div>
     </article>
     <article id="homeSelectServices" class="windowHeight">
     	<div class="sliderHeader">
