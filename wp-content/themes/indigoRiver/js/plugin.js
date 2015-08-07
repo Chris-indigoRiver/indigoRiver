@@ -193,3 +193,44 @@ function resizeOurPeople(){
 	});
 
 }
+
+$(window).on('scroll', function () {
+
+		if(($("#homeSelectServices").offset().top - $(window).scrollTop()) > 100) {			
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLOne").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("HELLO");
+			$("#homeIntro").show();
+		} else {
+			$("#LLOne").css("background", "#CCC");
+		}		
+		if(($("#homeSelectServices").offset().top - $(window).scrollTop()) < 100) {
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLTwo").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("WHAT WE OFFER");
+			$("#homeIntro").hide();			
+		} else {
+			$("#LLTwo").css("background", "#CCC");		
+		}		
+		if(($("#homeOurPeople").offset().top - $(window).scrollTop()) < 100) {
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLThree").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("THE TEAM");
+			$("#homeIntro").hide();
+		} else {
+			$("#LLThree").css("background", "#CCC");
+		}		
+		if(($("#homeValues").offset().top - $(window).scrollTop()) < 100) {
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLFour").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("VALUES");
+			$("#homeIntro").hide();
+		} else {
+			$("#LLFour").css("background", "#CCC");
+		}
+
+});
