@@ -1475,6 +1475,11 @@ header {
     width: 50%;
     text-align: center;
     height: 300px;
+    color: #fff;
+}    
+
+.selectHalf h2 {
+	font-size: 50px;
 }
 
 #newBusiness {

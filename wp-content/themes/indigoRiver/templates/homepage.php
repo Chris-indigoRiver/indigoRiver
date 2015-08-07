@@ -96,8 +96,12 @@ get_header(); ?>
         </div>
         <div class="helloHomeSelect">
             <div class="selectHalf" id="newBusiness">
+                <h2>Starting something new?</h2>
+                <p>Need help creating a new brand, app or organising an event?</p>
             </div><?php
             ?><div class="selectHalf" id="existingBusiness">
+                <h2>Looking to improve your business?</h2>
+                <p>Let us help build upon your existing business</p>
             </div>
         </div>
         <div class="helloHomeContact">
