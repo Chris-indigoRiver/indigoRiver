@@ -883,8 +883,9 @@ header {
 #journalThumbnail h1 {
 	position: absolute;
 	top: 10%;
-	left: 10%;
-	color: #FFF;		
+	left: 15%;
+	color: #FFF;
+	z-index: 10;		
 }	
 
 /* ========== CONTACT US PAGE ========== */

@@ -178,6 +178,8 @@ function resizeOurPeople(){
 	$('.ourPeople img').centerImage();
 
 	$('.sliderThumbnail img').centerImage();
+	$('#journalThumbnail img').centerImage();
+
 
 	$('.ourPeople').each(function(){
 		$(this).height(ourPeople);
