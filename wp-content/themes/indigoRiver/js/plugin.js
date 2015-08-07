@@ -103,10 +103,10 @@ $(document).ready(function(){
 	
 	/* ========== Homepage ========== */
 	
-	$('#homeSelectServices').css('margin-top' , ($(window).height()));
+	$('#helloHome').css('margin-top' , ($(window).height()));
 
 	if ($(window).width() <= 600){
-		$('#homeSelectServices').css('margin-top' , '0');
+		$('#helloHome').css('margin-top' , '0');
 	}
 
 	$('.servicesSlider').bxSlider({
