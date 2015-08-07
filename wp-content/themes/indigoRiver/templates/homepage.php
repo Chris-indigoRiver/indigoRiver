@@ -91,7 +91,7 @@ get_header(); ?>
                 <h1>Hi There!</h1>
             </div><?php
             ?><div class="helloHomeMessage">
-                <p>thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
+                <p>Thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
             </div>
         </div>
         <div class="helloHomeSelect">
@@ -126,6 +126,10 @@ get_header(); ?>
                         </div>
                         <div class="sliderText" id="">
                             <?php the_content(); ?>
+                            <div class="projectExamples">
+                                <div class="singularExample animated slideInRight">
+                                </div>
+                            </div>
                         </div>
                     </div>
               	</li>

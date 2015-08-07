@@ -586,6 +586,7 @@ header {
 	width: 40%;
 	float: left;
 	background: #666;
+	position: relative;
 }
 
 .sliderText p {    
@@ -593,6 +594,21 @@ header {
     padding: 20px;
     font-size: 18px !important;
     line-height: 26px !important;
+}
+
+.projectExamples {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	bottom: 0;
+	left: 0;
+	padding-left: 20%;
+}
+
+.singularExample {
+	background: #202020;
+	width: 100%;
+	height:100px;
 }
 
 #servicesPager {
@@ -1415,13 +1431,15 @@ header {
 	height: auto;
     width: 100%;
     position: relative;
+    padding: 0 10%;
 }
 
 .helloHomeHeader{
 	display: inline-block;
-	vertical-align: top;
-	width: 47.5%;
-	margin-right: 5%;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
 }
 
 .helloHomeMessage {
@@ -1434,6 +1452,7 @@ header {
 	height: 300px;
 	width: 100%;
 	background: #202020;
+	display: none;
 }
 
 .introCopy a p {
