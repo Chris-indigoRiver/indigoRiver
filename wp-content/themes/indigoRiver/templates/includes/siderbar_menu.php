@@ -32,9 +32,17 @@
         <div class="appointments">
         	<div class="navNewsWrapper">
                 <ul class="navNews">
-                  <li><img src="<?php bloginfo('template_url');?>/img/PrintPress.jpg" /></li>
-                  <li><img src="<?php bloginfo('template_url');?>/img/strategy.jpg" /></li>
-                  <li><img src="<?php bloginfo('template_url');?>/img/Video.jpg" /></li>
+                    <?php $loop = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => -1 ) ); ?>
+                    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                        <li>              
+                            <?php 
+                                if ( has_post_thumbnail() ) { 
+                                // check if the post has a Post Thumbnail assigned to it.
+                                    the_post_thumbnail();
+                                } 
+                            ?>
+                        </li>                      
+                    <?php endwhile; wp_reset_query(); ?>
                 </ul>
             </div>
         </div>

@@ -97,7 +97,9 @@ $(document).ready(function(){
 	
 	$('.navNews').bxSlider({
 	  mode: 'vertical',
-	  slideMargin: 5
+	  auto: true,
+	  startSlide: 0,
+	  preloadImages: 'all'
 	});
 	  
 	
@@ -191,6 +193,15 @@ function resizeOurPeople(){
 	$('.ourPeople').each(function(){
 		$(this).height(ourPeople);
 	});
+
+	var newsHeight = $('.navNewsWrapper').height();
+	$('.navNews').height(newsHeight);
+	$('.navNewsWrapper .bx-wrapper .bx-viewport').height(newsHeight);
+	var third = ((newsHeight / 100) * 75);
+	$('.navNewsWrapper .bx-wrapper .bx-viewport ul li').height(third);
+	
+	
+
 
 }
 
