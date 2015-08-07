@@ -1007,6 +1007,38 @@ header {
 ****************************/
 @media only screen and (max-width: 600px) {
 
+#introHome {
+	position: relative;
+}
+
+.introCopy {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 320px;
+    margin: 0 auto;
+    height: auto;
+    padding-left: 0;
+    text-align: center;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.introCopy a p {
+    color: #202020;
+    background: #fff;
+    font-size: 18px;
+    max-width: auto;
+    font-size: 15px;
+    width: 180px;
+    padding: 10px 0px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 100px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
 /* ========== Nav ==========*/
 
 #pageMenu {
@@ -1127,16 +1159,19 @@ header {
     color: #fff;
     font-family: 'bebas_neue', serif;
     font-weight: 900;
-    font-size: 85px;
+    font-size: 60px;
     text-transform: uppercase;
     position: relative;
     z-index: 10;
-    height: 290px;
+    height: auto;
     line-height: 1;
 }
 
 .cd-intro {
-	padding-top: 80px !important;
+	padding-top: 0 !important;
+    top: 120px;
+    position: absolute;
+    width: 100%
 }
 
 .accreditationsHome {
@@ -1783,6 +1818,10 @@ header {
 /* ========== iPad ==========*/
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+
+#introHome {
+	position: relative;
+}
 
 .ourPeopleMobFill {
     position: absolute;

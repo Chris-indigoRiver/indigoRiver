@@ -3,6 +3,9 @@
 $(document).ready(function(){
 
 	//* responsive classes *//
+	if ($(window).width() <= 600){
+	}
+
 	
 	var bodyheight = $(window).height();
     $(".windowHeight").height(bodyheight);
@@ -101,6 +104,10 @@ $(document).ready(function(){
 	/* ========== Homepage ========== */
 	
 	$('#homeSelectServices').css('margin-top' , ($(window).height()));
+
+	if ($(window).width() <= 600){
+		$('#homeSelectServices').css('margin-top' , '0');
+	}
 
 	$('.servicesSlider').bxSlider({
 		mode: 'fade',
