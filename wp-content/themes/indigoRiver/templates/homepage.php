@@ -91,7 +91,7 @@ get_header(); ?>
                 <h1>Hi There!</h1>
             </div><?php
             ?><div class="helloHomeMessage">
-                <p>Thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
+                <p>Thanks for dropping by. We're <span><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_black-01.svg"></span> an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
             </div>
         </div>
         <div class="helloHomeSelect">
