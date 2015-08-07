@@ -82,7 +82,7 @@ get_header(); ?>
             <p>EMAIL talk2us@indigo-river.com</p>-->
         </section>
         <div class="accreditationsHome">
-            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/accreditations2.png" alt="Marketing Agency Digital Rar top 100 agency">
+            <img src="<?php bloginfo('template_url');?>/img/accreditations2.png" alt="Marketing Agency Digital Rar top 100 agency">
         </div>
     </article>
     <article id="helloHome">
