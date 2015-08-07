@@ -97,7 +97,9 @@ $(document).ready(function(){
 	
 	$('.navNews').bxSlider({
 	  mode: 'vertical',
-	  slideMargin: 5
+	  auto: true,
+	  startSlide: 0,
+	  preloadImages: 'all'
 	});
 	  
 	
@@ -185,9 +187,61 @@ function resizeOurPeople(){
 	$('.ourPeople img').centerImage();
 
 	$('.sliderThumbnail img').centerImage();
+	$('#journalThumbnail img').centerImage();
+
 
 	$('.ourPeople').each(function(){
 		$(this).height(ourPeople);
 	});
 
+	var newsHeight = $('.navNewsWrapper').height();
+	$('.navNews').height(newsHeight);
+	$('.navNewsWrapper .bx-wrapper .bx-viewport').height(newsHeight);
+	var third = ((newsHeight / 100) * 75);
+	$('.navNewsWrapper .bx-wrapper .bx-viewport ul li').height(third);
+	
+	
+
+
 }
+
+$(window).on('scroll', function () {
+
+		if(($("#homeSelectServices").offset().top - $(window).scrollTop()) > 100) {			
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLOne").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("HELLO");
+			$("#homeIntro").show();
+		} else {
+			$("#LLOne").css("background", "#CCC");
+		}		
+		if(($("#homeSelectServices").offset().top - $(window).scrollTop()) < 100) {
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLTwo").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("WHAT WE OFFER");
+			$("#homeIntro").hide();			
+		} else {
+			$("#LLTwo").css("background", "#CCC");		
+		}		
+		if(($("#homeOurPeople").offset().top - $(window).scrollTop()) < 100) {
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLThree").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("THE TEAM");
+			$("#homeIntro").hide();
+		} else {
+			$("#LLThree").css("background", "#CCC");
+		}		
+		if(($("#homeValues").offset().top - $(window).scrollTop()) < 100) {
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLFour").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("VALUES");
+			$("#homeIntro").hide();
+		} else {
+			$("#LLFour").css("background", "#CCC");
+		}
+
+});
