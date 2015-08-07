@@ -487,21 +487,21 @@ header {
 .cd-intro {
     -webkit-animation-delay: 1s !important;
     animation-delay: 1s !important;
-    padding-top: 130px !important;
+    padding-top: 200px;
 }
 
 .cd-headline {
-    margin: 0.6em 0 0.37em 0;
-    padding-left: 16.6666667%;
-    text-align: left;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     color: #fff;
     font-family: 'bebas_neue', serif;
     font-weight: 900;
-    font-size: 85px;
+    font-size: 135px;
     text-transform: uppercase;
     position: relative;
     z-index: 10;
-    height: 290px;
+    height: auto;
     line-height: 1;
 }
 
