@@ -1398,7 +1398,13 @@ header {
     width: 100%;
     background-color: #fff;
     position: relative;
-    padding: 15%;
+    padding: 10px 10%;
+}
+
+#helloHomeIntro {
+	height: auto;
+    width: 100%;
+    position: relative;
 }
 
 .helloHomeHeader{
@@ -1412,6 +1418,12 @@ header {
 	display: inline-block;
 	vertical-align: top;
 	width: 47.5%;
+}
+
+.helloHomeSelect {
+	height: 300px;
+	width: 100%;
+	background: #202020;
 }
 
 .introCopy a p {

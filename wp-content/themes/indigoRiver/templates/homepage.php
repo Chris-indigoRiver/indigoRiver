@@ -37,6 +37,8 @@ get_header(); ?>
                 <p>thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
             </div>
         </div>
+        <div class="helloHomeSelect">
+        </div>
     </article>
     <article id="homeSelectServices" class="windowHeight">
     	<div class="sliderHeader">
