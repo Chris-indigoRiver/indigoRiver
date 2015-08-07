@@ -102,10 +102,13 @@ get_header(); ?>
         </div>
         <div class="helloHomeContact">
             <div class="selectContactThird" id="selectPhone">
+                <p>PHONE: <span>01527 757010</span></p>
             </div><?php
             ?><div class="selectContactThird" id="selectEmail">
+                <p>EMAIL: <span>talk2us@indigo-river.com</span></p>
             </div><?php
             ?><div class="selectContactThird" id="selectVisit">
+                <p>ORGANISE A VISIT</p>
             </div>
         </div>
     </article>
