@@ -1041,6 +1041,36 @@ header {
 	position: relative;
 }
 
+#helloHome {
+	background: #fff;
+}
+
+#helloHome h1 {
+	text-align: center;
+}
+
+.helloHomeIntro {
+	padding: 35px 25px 35px 25px;
+}
+
+.helloHomeMessage p span img {
+	vertical-align: middle;
+}
+
+.helloHomeSelect {
+	height: 500px;
+	width: 100%;
+	background: #202020;
+}
+
+.selectHalf {
+	display: none;
+}
+
+.helloHomeContact {
+	display: none;
+}
+
 .introCopy {
     position: absolute;
     z-index: 10;
@@ -1473,13 +1503,13 @@ header {
 }
 
 .helloHomeSelect {
-	height: auto;
+	height: 500px;
 	width: 100%;
 	background: #202020;
 }
 
 .selectHalf {
-	display: inline-block;
+	display: none;
     vertical-align: top;
     width: 50%;
     text-align: center;
@@ -1544,6 +1574,7 @@ header {
 	width: 100%;
 	background: #202020;
 	padding: 10px 0;
+	display: none;
 }
 
 .selectContactThird {
