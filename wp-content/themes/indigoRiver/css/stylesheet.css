@@ -2034,7 +2034,7 @@ header {
 /* ========== Homepage ==========*/
 
 .cd-intro {
-	margin: 0;
+	margin: 0 auto !important;
 }
 
 .helloHomeMessage {
@@ -2042,7 +2042,7 @@ header {
 }
 	
 .helloHome {
-	margin: 0 auto;
+	margin-top: 0;
 }	
 
 .ourPeople {
@@ -2177,6 +2177,10 @@ header {
     top: 0;
     right: 0;
     z-index: 999999;
+}
+
+.cd-intro {
+	margin: 0 auto !important;
 }
 
 
