@@ -117,12 +117,7 @@ $(document).ready(function(){
 		auto: true,
 		autoDelay: 10000,
 		pagerCustom: '#servicesPager',
-		onSliderLoad: function(currentIndex){
-			
-			var title = currentIndex.attr("id");
-			$(".serviceName").empty().text(title);
-			alert(currentIndex);
-		}, onSlideBefore: function($slideElement, oldIndex, newIndex){
+	    onSlideBefore: function($slideElement, oldIndex, newIndex){
 			var title = $slideElement.attr("id");
 			$(".serviceName").empty().text(title);
 			$('.sliderThumbnail img').centerImage();

@@ -31,6 +31,7 @@
                     <?php $loop = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => -1 ) ); ?>
                     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                         <li>              
+                            <h2 class="navNewsTitle"><?php echo the_title(); ?></h2>
                             <?php 
                                 if ( has_post_thumbnail() ) { 
                                 // check if the post has a Post Thumbnail assigned to it.

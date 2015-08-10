@@ -491,7 +491,7 @@ header {
 .navNewsWrapper .bx-wrapper .bx-viewport ul li {
 	width: 100% !important;
 	margin-bottom: 5px;
-	height: 340px;
+	height: 700px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -505,6 +505,13 @@ header {
 .navNewsWrapper .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
 	position: absolute;
 	bottom: 30px;	
+}
+
+.navNewsTitle {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: #FFF;
 }
 
 /* ========== Home Main Structure ==========*/
