@@ -1639,10 +1639,11 @@ header {
     margin-left: -85px;
 	font-size: 15px;
     width: 170px;
-    padding: 10px 0px;
-    border: 1px solid #fff;
+    padding: 6px 0px 10px 0px;
+    /* border: 1px solid #fff; */
+    background-color: #202020;
     text-align: center;
-    border-radius: 100px;
+    /*border-radius: 100px;*/
     font-weight: 600;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
