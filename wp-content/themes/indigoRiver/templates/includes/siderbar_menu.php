@@ -22,12 +22,8 @@
             <li><h2 class="white animated fadeInRight delay-zero-five"><a href="<?php bloginfo('url');?>">WORK</a></h2></li>
             <li><h2 class="white animated fadeInRight delay-one"><a href="<?php bloginfo('url');?>">CONTACT</a></h2></li>
         </ul>
-        <div class="terms">
-        	<small>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</small>
-        	<br>
-            <br>
-            <small>indigoRiver 2015 ©</small>
-        </div>
+        <p>TERMS</p>
+        <p>COOKIES</p>
     </div>
         <div class="appointments">
         	<div class="navNewsWrapper">

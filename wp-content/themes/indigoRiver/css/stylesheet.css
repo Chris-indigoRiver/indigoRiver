@@ -55,6 +55,16 @@ h2 {
     -webkit-font-smoothing: antialiased;
 }
 
+.nav p {
+	font-family: "fira-sans-2",sans-serif;
+	font-style: normal;
+	font-weight: 600;
+    font-size: 16px;
+    color: grey;
+    line-height: 30px;
+    -webkit-font-smoothing: antialiased;
+}
+
 h3 {
     font-family: "bebas_neue",serif;
 	font-size: 27px;
@@ -1057,6 +1067,17 @@ header {
 ***  Palm
 ****************************/
 @media only screen and (max-width: 600px) {
+
+.homeLogo {
+    width: 210px;
+    margin-left: -98px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    opacity: 0.9;
+    z-index: 99999;
+}
 
 #introHome {
 	position: relative;
