@@ -2300,11 +2300,19 @@ h1 {
 }
 
 #homeValues {
-	padding: 0 0 5% 16.6%;
+	padding: 50px 30px;
+}
+.ourBelief {
+    width: 100%;
+}
+
+.valuesBottom {
+	width: 100%;
 }
 
 .valueThird {
-    width: 85%;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 #helloHome {
