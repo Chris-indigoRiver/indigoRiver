@@ -47,6 +47,14 @@ h2 {
     -webkit-font-smoothing: antialiased;
 }
 
+.nav ul li h2 a {
+    font-family: "bebas_neue",serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
 h3 {
     font-family: "bebas_neue",serif;
 	font-size: 27px;
@@ -565,6 +573,7 @@ header {
     padding: 70px 10% 0 10%;
     position: relative;
     background-color: #fff;
+    margin-bottom: -20px;
 }
 
 #homeSelectServices .header .slider_title {
@@ -1101,18 +1110,22 @@ header {
 }
 
 .introCopy a p {
-    color: #202020;
-    background: #fff;
-    font-size: 18px;
-    max-width: auto;
+	position: absolute;
+    left: 50%;
+    bottom: -150px;
+    margin-left: -85px;
     font-size: 15px;
-    width: 180px;
-    padding: 10px 0px;
-    border: 1px solid #fff;
+    width: 170px;
+    padding: 6px 0px 10px 0px;
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+    color: #202020;
     text-align: center;
-    border-radius: 100px;
-    margin: 0 auto;
     font-weight: 600;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .ourBelief p {
