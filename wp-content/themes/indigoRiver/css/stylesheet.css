@@ -2231,6 +2231,24 @@ h1 {
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
 
+h1 {
+    font-family: "bebas_neue",serif;
+	font-size: 85px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    font-family: "bebas_neue",serif;
+	font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
 #introHome {
 	position: relative;
 }
