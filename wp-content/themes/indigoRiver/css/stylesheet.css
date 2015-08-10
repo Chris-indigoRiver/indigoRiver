@@ -2281,6 +2281,10 @@ h3 {
 	width: 80%;
 }
 
+#helloHome {
+	margin-top: 0 !important;
+}
+
 
 #introHome {
 	position: relative;
