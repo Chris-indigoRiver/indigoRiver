@@ -661,7 +661,7 @@ header {
 
 #servicesPager a {
 	text-align: center;
-    font-weight: 900;
+    font-weight: normal;
     padding: 10px 0px;
     color: #202020;
     font-family: 'bebas_neue',serif;
@@ -688,7 +688,7 @@ header {
     text-align: left;
     color: #202020 !important;
     font-family: 'bebas_neue',serif !important;
-    font-weight: 900 !important;
+    font-weight: normal !important;
     font-size: 4.5vw !important;
     text-transform: uppercase;
     cursor: pointer;
@@ -1395,7 +1395,7 @@ h1 {
 
 .cd-intro {
 	padding-top: 0 !important;
-    top: 120px;
+    top: 190px;
     position: absolute;
     width: 100%
 }
@@ -1803,6 +1803,7 @@ h1 {
 }
 
 .introCopy a p span {
+	font-weight: normal;
 	font-size: 40px;
     margin-top: -10px;
     vertical-align: sub;
