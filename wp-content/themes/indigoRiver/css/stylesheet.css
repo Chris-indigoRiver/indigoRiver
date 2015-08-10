@@ -56,12 +56,13 @@ h2 {
 }
 
 .nav p {
-	font-family: "fira-sans-2",sans-serif;
-	font-style: normal;
-	font-weight: 600;
-    font-size: 16px;
-    color: grey;
-    line-height: 30px;
+	font-family: "bebas_neue",serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    color: #fff;
+    line-height: 0px;
+    padding-top: 40px;
     -webkit-font-smoothing: antialiased;
 }
 
