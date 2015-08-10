@@ -79,6 +79,17 @@ small {
 }
 
 a {
+	font-family: "fira-sans-2",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+a p {
+	font-family: "fira-sans-2",sans-serif;
+	font-style: normal;
+	font-weight: 500;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
 }
@@ -665,6 +676,7 @@ header {
 #homeOurPeople {
 	padding: 0 10%;
 	position: relative;
+	background-color: #fff
 }
 
 .ourPeopleIntro {
@@ -1067,6 +1079,10 @@ header {
 	display: none;
 }
 
+#homeSelectServices {
+    padding: 70px 0 0 0;
+}
+
 .helloHomeContact {
 	display: none;
 }
@@ -1097,6 +1113,14 @@ header {
     border-radius: 100px;
     margin: 0 auto;
     font-weight: 600;
+}
+
+.ourBelief p {
+	margin-bottom: 30px;
+}
+
+.valueThird p {
+	margin-bottom: 30px;
 }
 
 /* ========== Nav ==========*/
@@ -1347,9 +1371,9 @@ header {
 }
 
 .footerContact h3 {
-	margin-top:0;
-	color: #fff;
-	margin-bottom: 0;
+    margin-top: 20px;
+    color: #fff;
+    margin-bottom: 0;
 }
 
 .footerContact p {
@@ -1959,6 +1983,10 @@ header {
 }
 
 /* ========== Homepage ==========*/
+
+.helloHomeMessage {
+    padding: 0 12% 60px 12%;
+}
 	
 .ourPeople {
     display: inline-block;
@@ -1981,7 +2009,7 @@ header {
     left: 0;
     width: 100%;
     height: 120px;
-    padding: 110px 0 0 0;
+    padding: 10px 0 0 0;
     z-index: 9;
     background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 24%, rgba(0,0,0,0.6) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(24%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.6)));
