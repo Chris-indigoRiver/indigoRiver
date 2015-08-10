@@ -2295,6 +2295,10 @@ h1 {
 	width: 100%;
 }
 
+#introHome {
+	position: relative;
+}
+
 #homeValues {
 	padding: 0 0 5% 16.6%;
 }
@@ -2311,6 +2315,10 @@ h1 {
 }
 #homeOurPeople {
 	padding:10px 0;
+}
+.ourPeopleIntro {
+    width: 100%;
+    padding-top: 0px;
 }
 
 
