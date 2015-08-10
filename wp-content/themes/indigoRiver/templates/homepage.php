@@ -87,21 +87,21 @@ get_header(); ?>
     </article>
     <article id="helloHome">
         <div class="helloHomeIntro">
-            <div class="helloHomeHeader">
+            <div class="helloHomeHeader hideme">
                 <h1>Hi There!</h1>
             </div><?php
-            ?><div class="helloHomeMessage">
+            ?><div class="helloHomeMessage hideme">
                 <p>Thanks for dropping by. We're <span><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_Black-01.svg"></span> an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>
             </div>
         </div>
         <div class="helloHomeSelect">
-            <div class="selectHalf" id="newBusiness">
+            <div class="selectHalf hideme" id="newBusiness">
                 <div class="selectHalfFill">
                     <h2>Starting something new?</h2>
                     <p>Need help creating a new brand, app or organising an event?</p>
                 </div>
             </div><?php
-            ?><div class="selectHalf" id="existingBusiness">
+            ?><div class="selectHalf hideme" id="existingBusiness">
                 <div class="selectHalfFill">
                     <h2>Looking to improve your business?</h2>
                     <p>Let us help build upon your existing business</p>
