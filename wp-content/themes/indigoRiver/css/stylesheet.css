@@ -1193,6 +1193,7 @@ header {
 }
 
 .appointments {
+	display: none;
     position: absolute;
     right: auto;
     top: auto;
@@ -1207,6 +1208,11 @@ header {
 }
 
 /* ========== Locator bar ==========*/
+
+.locatorText p {
+    margin: 0px;
+    width: auto;
+}
 
 #pageLocator {
     width: 100%;
@@ -1280,12 +1286,12 @@ header {
 
 .cd-headline {
     padding-left: 0%;
-    margin: 0;
+    margin: -20px 0 0 0;    
     text-align: center;
     color: #fff;
     font-family: 'bebas_neue', serif;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 50px;
     text-transform: uppercase;
     position: relative;
     z-index: 10;
@@ -1301,6 +1307,7 @@ header {
 }
 
 .accreditationsHome {
+	display: none;
     width: 100%;
     position: absolute;
     top: auto;
