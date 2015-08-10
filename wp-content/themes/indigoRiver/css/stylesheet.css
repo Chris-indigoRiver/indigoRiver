@@ -2033,10 +2033,18 @@ header {
 
 /* ========== Homepage ==========*/
 
+.cd-intro {
+	margin: 0;
+}
+
 .helloHomeMessage {
     padding: 0 12% 60px 12%;
 }
 	
+.helloHome {
+	margin-top: 0;
+}	
+
 .ourPeople {
     display: inline-block;
     vertical-align: top;
