@@ -122,7 +122,7 @@ get_header(); ?>
     </article>
     <article id="homeSelectServices" class="windowHeight">
     	<div class="sliderHeader">
-        	<h1 class="slider_title">We Specialise In <span class="serviceName"></span></h1>
+        	<h1 class="slider_title">We Specialise In <span class="serviceName">...</span></h1>
             <div id="servicesPager">
                 <?php $loop = new WP_Query( array( 'post_type' => 'services', 'posts_per_page' => -1 ) ); ?>
                 <?php $num = 0; ?>

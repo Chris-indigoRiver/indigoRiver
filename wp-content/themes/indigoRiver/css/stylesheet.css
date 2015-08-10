@@ -678,7 +678,7 @@ header {
 }
 
 .serviceName {	
-    text-align: left !important;
+    text-align: left;
     color: #202020 !important;
     font-family: 'bebas_neue',serif !important;
     font-weight: 900 !important;
@@ -1068,6 +1068,56 @@ header {
 ***  Palm
 ****************************/
 @media only screen and (max-width: 600px) {
+
+/* homepage slider */
+
+#homeSelectServices {
+    padding: 40px 0 0 0;
+}
+
+.sliderThumbnail {
+	display: none;
+}
+
+.sliderText {
+	width: 100%;
+}
+
+.serviceName {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#servicesPager {
+	display: none;
+}
+
+.servicesSliderContainer .bx-controls-direction {
+	position: absolute;
+	top: -50px;
+	width: 100%;
+}
+
+.servicesSliderContainer .bx-controls-direction .bx-prev {
+	background: red;
+	left: 20px;
+}
+
+.servicesSliderContainer .bx-controls-direction .bx-next {
+	background: red;
+	right: 20px;
+}
+
+.slider_title {
+	margin-bottom: 40px;
+}
+
+.projectExamples {
+	display: none;
+}
+
+/* end homepage slider */	
 
 h1 {
     font-family: "bebas_neue",serif;
