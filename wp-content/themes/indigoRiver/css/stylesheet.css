@@ -2256,6 +2256,19 @@ h2 {
     -webkit-font-smoothing: antialiased;
 }
 
+h3 {
+    font-family: "bebas_neue",serif;
+	font-size: 27px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.cd-headline {
+    font-weight: normal;
+}
+
 #introHome {
 	position: relative;
 }
