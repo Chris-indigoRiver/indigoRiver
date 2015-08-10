@@ -117,8 +117,11 @@ $(document).ready(function(){
 		auto: true,
 		autoDelay: 10000,
 		pagerCustom: '#servicesPager',
-		onSlidePrev: function($slideElement, oldIndex, newIndex){
+		onSliderLoad: function(currentIndex){
 			
+			var title = currentIndex.attr("id");
+			$(".serviceName").empty().text(title);
+			alert(currentIndex);
 		}, onSlideBefore: function($slideElement, oldIndex, newIndex){
 			var title = $slideElement.attr("id");
 			$(".serviceName").empty().text(title);
