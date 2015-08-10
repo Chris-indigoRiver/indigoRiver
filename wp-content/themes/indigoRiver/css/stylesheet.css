@@ -2141,6 +2141,71 @@ h1 {
 	margin-top:0;
 }
 
+.locatorText p {
+    margin: 0px;
+    width: auto;
+}
+
+#pageLocator {
+    width: 100%;
+    height: 55px;
+    top: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.locatorText {
+    position: absolute;
+    top: 14px;
+    left: auto;
+    right: 10px;
+    text-align: right;
+    width: 170px;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.textContainer {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    right: 0;
+}
+
+#LLOne {
+    position: fixed;
+    width: 1px;
+    height: 10px;
+    bottom: 23px;
+    left: 15px;
+}
+
+#LLTwo {
+    position: fixed;
+    width: 1px;
+    height: 10px;
+    bottom: 23px;
+    left: 30px;
+}
+
+#LLThree {
+    position: fixed;
+    width: 1px;
+    height: 10px;
+    bottom: 23px;
+    left: 45px;
+}
+
+#LLFour {
+    position: fixed;
+    width: 1px;
+    height: 10px;
+    bottom: 23px;
+    left: 60px;
+}
+
 /* ========== Homepage ==========*/
 
 .cd-intro {
