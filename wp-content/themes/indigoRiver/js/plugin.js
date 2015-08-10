@@ -107,7 +107,7 @@ $(document).ready(function(){
 	
 	$('#helloHome').css('margin-top' , ($(window).height()));
 
-	if ($(window).width() <= 600){
+	if ($(window).width() <= 1060){
 		$('#helloHome').css('margin-top' , '0');
 	}
 
