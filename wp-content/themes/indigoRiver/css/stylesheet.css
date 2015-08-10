@@ -2270,6 +2270,18 @@ h3 {
     font-size: 100px;
 }
 
+.accreditationsHome {
+    width: 380px;
+    position: absolute;
+    top: 65px;
+    right: 8%;
+}
+
+.accreditationsHome img {
+	width: 80%;
+}
+
+
 #introHome {
 	position: relative;
 }
