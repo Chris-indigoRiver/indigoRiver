@@ -75,7 +75,7 @@ get_header(); ?>
                     </b>
             </h1>
         </section>
-        <section class="introCopy animated fadeIn">
+        <section class="introCopy animated slideInUp">
             <!--<p>Hi there, thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>-->
             <a href=""><p>LEARN MORE <span>&#8964;</span> <p></a>
             <!--<p>TEL +44 (0)1527 757010</p>
