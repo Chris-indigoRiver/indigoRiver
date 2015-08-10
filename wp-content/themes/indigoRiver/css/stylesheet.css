@@ -1069,6 +1069,15 @@ header {
 ****************************/
 @media only screen and (max-width: 600px) {
 
+h1 {
+    font-family: "bebas_neue",serif;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
 .homeLogo {
     width: 210px;
     margin-left: -98px;
@@ -2013,6 +2022,15 @@ header {
 ****************************/
 @media only screen and (min-width: 601px) and (max-width: 1060px) {
 
+h1 {
+    font-family: "bebas_neue",serif;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
 /* ========== Nav open ==========*/
 
 .homeNavLogo {
@@ -2035,6 +2053,7 @@ header {
 
 .cd-intro {
 	margin: 0 auto !important;
+	font-size: 105px;
 }
 
 .helloHomeMessage {
@@ -2042,7 +2061,7 @@ header {
 }
 	
 .helloHome {
-	margin-top: 0;
+	margin-top: 0 !important;
 }	
 
 .ourPeople {
@@ -2161,6 +2180,10 @@ header {
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
 
+.cd-intro {
+	margin: 0 auto !important;
+	font-size: 105px;
+}
 
 
 }
@@ -2181,6 +2204,11 @@ header {
 
 .cd-intro {
 	margin: 0 auto !important;
+}
+
+.cd-intro {
+	margin: 0 auto !important;
+	font-size: 105px;
 }
 
 

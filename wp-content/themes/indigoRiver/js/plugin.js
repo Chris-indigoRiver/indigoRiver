@@ -81,7 +81,7 @@ $(document).ready(function(){
 			}
 			else {
 			$('#pageMenu').animate({'width': '10%'}, 500);
-			$('#pageLocator').animate({'width': '11%'}, 200);
+			$('#pageLocator').animate({'width': '10%'}, 200);
 			$(this).css({'left' : '50%' , 'width' : '30%'});
 			$('.menuSM').css({'padding-left' : '50%'});
 			$('.nav').fadeOut();
