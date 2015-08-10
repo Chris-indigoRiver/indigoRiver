@@ -4,7 +4,6 @@ Template Name: Home Page
 get_header(); ?>
 
 <header>
-<a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
 </header>
 <?php include('includes/siderbar_menu.php'); ?>
 <?php include('includes/sidebar_left.php'); ?>
@@ -15,6 +14,7 @@ get_header(); ?>
 	<article id="introHome" class="windowHeight">
         <div class="background_opaque_header">
         </div>
+        <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
     	<section class="cd-intro animated fadeIn">
         	<h1 class="cd-headline letters type">
                 <span>With Us<br/>it's always<br/></span>
@@ -75,9 +75,9 @@ get_header(); ?>
                     </b>
             </h1>
         </section>
-        <section class="introCopy animated fadeIn">
+        <section class="introCopy animated slideInUp">
             <!--<p>Hi there, thanks for dropping by. We're an award-winning advertising agency based in Warwickshire. We use strategically brilliant, creatively inspired digital and direct communications to help brands speak to their customers as individuals.</p>-->
-            <a href=""><p>Learn more <span>→</span> <p></a>
+            <a href="" class="animated slideInUp"><p>LEARN MORE <span>&#8964;</span> <p></a>
             <!--<p>TEL +44 (0)1527 757010</p>
             <p>EMAIL talk2us@indigo-river.com</p>-->
         </section>
@@ -122,7 +122,7 @@ get_header(); ?>
     </article>
     <article id="homeSelectServices" class="windowHeight">
     	<div class="sliderHeader">
-        	<h1 class="slider_title">We Specialise In <span class="serviceName"></span></h1>
+        	<h1 class="slider_title">We Specialise In <span class="serviceName">STRATEGY</span></h1>
             <div id="servicesPager">
                 <?php $loop = new WP_Query( array( 'post_type' => 'services', 'posts_per_page' => -1 ) ); ?>
                 <?php $num = 0; ?>

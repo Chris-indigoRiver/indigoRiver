@@ -103,7 +103,7 @@ $(document).ready(function(){
 			}
 			else {
 			$('#pageMenu').animate({'width': '10%'}, 500);
-			$('#pageLocator').animate({'width': '11%'}, 200);
+			$('#pageLocator').animate({'width': '10%'}, 200);
 			$(this).css({'left' : '50%' , 'width' : '30%'});
 			$('.menuSM').css({'padding-left' : '50%'});
 			$('.nav').fadeOut();
@@ -129,7 +129,7 @@ $(document).ready(function(){
 	
 	$('#helloHome').css('margin-top' , ($(window).height()));
 
-	if ($(window).width() <= 600){
+	if ($(window).width() <= 1060){
 		$('#helloHome').css('margin-top' , '0');
 	}
 
@@ -139,9 +139,7 @@ $(document).ready(function(){
 		auto: true,
 		autoDelay: 10000,
 		pagerCustom: '#servicesPager',
-		onSlidePrev: function($slideElement, oldIndex, newIndex){
-			
-		}, onSlideBefore: function($slideElement, oldIndex, newIndex){
+	    onSlideBefore: function($slideElement, oldIndex, newIndex){
 			var title = $slideElement.attr("id");
 			$(".serviceName").empty().text(title);
 			$('.sliderThumbnail img').centerImage();
