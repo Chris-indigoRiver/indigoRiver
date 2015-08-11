@@ -967,12 +967,24 @@ header {
 	width: 100%;
 }
 
-.journalContent h2, p {	
+.journalContent h2 {	
     font-family: 'fira-sans-2';
     font-weight: 500;
     font-size: 16px;
     color: #FFF;
     line-height: 30px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.journalContent p {	
+    font-family: 'fira-sans-2';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 30px;
+    width: 80%;
+    margin: 30px auto;
 }	
 
 /* ========== CONTACT US PAGE ========== */
@@ -2437,7 +2449,7 @@ h1 {
     padding: 40px 30px 0 30px;
 }
 
-/* ========== Work ==========*/
+/* ========== Homepage ==========*/
 
 .workIntroTitle {
     padding-left: 30px;
@@ -2445,7 +2457,6 @@ h1 {
 
 .workIntroCopy {
     padding-left: 30px !important;
-    color: #202020;
 }
 
 #workWrapper {
@@ -2456,18 +2467,6 @@ h1 {
 .workItem {
     position: relative;
     width: 50%;
-}
-
-.workHalfFill {
-    background: rgba(20, 20, 20, 0.3);
-}
-
-.workHalfFill h2 {
-    opacity: 1;
-}
-
-.workContentWrap p {
-    opacity: 1;
 }
 
 }
