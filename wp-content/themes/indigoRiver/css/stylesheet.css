@@ -1128,7 +1128,7 @@ header {
 }
 
 .servicesSliderContainer .bx-controls-direction .bx-next {
-	background:url(../img/arrow-left.png) center center no-repeat;
+	background:url(../img/arrow-right.png) center center no-repeat;
 	background-size: 100%;
 	right: 20px;
 }
