@@ -2147,10 +2147,10 @@ h1 {
 }
 
 .accreditationsHome {
-    width: 380px;
+    width: 300px;
     position: absolute;
-    top: 80px;
-    right: -5%;
+    top: 85px;
+    right: 30px;
 }
 
 /* ========== Nav open ==========*/
