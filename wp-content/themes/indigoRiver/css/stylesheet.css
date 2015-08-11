@@ -1133,7 +1133,7 @@ header {
 
 .slider_title {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 40px;
 }
 
@@ -1143,6 +1143,7 @@ header {
 
 .serviceName {
     text-align: center;
+    font-size: 40px;
     color: #202020 !important;
     font-family: 'bebas_neue',serif !important;
     font-weight: normal !important;
