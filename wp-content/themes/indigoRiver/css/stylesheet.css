@@ -1613,7 +1613,7 @@ h3 {
 	position: absolute;
 	font-family: "bebas_neue", serif;
 	font-size: 30px;
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 .contactMap2 {
@@ -2339,11 +2339,13 @@ h1 {
 }
 
 .ourPeopleIntro h1 {
-    padding: 0 6%;
+    padding: 0 30px !important;
+    margin-top: 30px !important;
 }
 
 .ourPeopleIntro p {
-    padding: 0 6%;
+    padding: 0 30px !important;
+    margin-bottom: 30px !important;
 }
 
 .ourPeopleFill {
@@ -2392,7 +2394,7 @@ h1 {
 }
 
 .joinCTA p {
-	padding: 10px 30px;
+	padding: 10px 30px !important;
 }
 
 #introHome {
@@ -2728,6 +2730,15 @@ h1 {
 #homeSelectServices {
 	padding:70px 0 0 0 ;
 	height: 800px !important;
+}
+
+.ourPeopleIntro h1 {
+    padding: 0 30px !important;
+    margin-top: 30px;
+}
+
+.ourPeopleIntro p {
+    padding: 0 30px !important;
 }
 
 }
