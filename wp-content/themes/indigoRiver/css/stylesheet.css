@@ -1447,6 +1447,7 @@ h1 {
 
 .ourPeopleIntro {
 	width: 100%;
+	height: auto !important;
 }
 
 .ourPeopleMobFill {
@@ -1483,6 +1484,7 @@ h1 {
 
 .joinCTA {
 	background: #fff;
+	height: auto !important;
 }
 
 .joinCTA h2 {
