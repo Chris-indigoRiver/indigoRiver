@@ -50,6 +50,19 @@ get_header(); ?>
         <div class="friendWrap">
             <div class="client">
                 <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-01.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-02.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-03.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-04.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-05.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-06.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-07.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-08.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-09.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-10.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-11.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-12.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-13.png" alt=""/>
+                <img src="<?php bloginfo('template_url');?>/img/client-logos/logo-client-14.png" alt=""/>
             </div>
         </div>
     </div>
