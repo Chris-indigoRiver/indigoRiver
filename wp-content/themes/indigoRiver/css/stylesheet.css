@@ -1600,7 +1600,7 @@ h3 {
 	position: absolute;
 	font-family: "bebas_neue", serif;
 	font-size: 30px;
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 .contactMap2 {
@@ -2379,7 +2379,7 @@ h1 {
 }
 
 .joinCTA p {
-	padding: 10px 30px;
+	padding: 10px 30px !important;
 }
 
 #introHome {
