@@ -2444,7 +2444,7 @@ h1 {
 }
 
 .workIntroCopy {
-    padding-left: 30px;
+    padding-left: 30px !important;
 }
 
 #workWrapper {
@@ -2509,6 +2509,10 @@ h3 {
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
+}
+
+#pageMenu {
+	height: 55px !important;
 }
 
 .homeLogo {
