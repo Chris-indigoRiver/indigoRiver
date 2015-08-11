@@ -960,11 +960,19 @@ header {
 
 .journalContent {
 	margin: 0 10%;
-	padding: 0 20px;
+	padding: 0px;
 }
 
 .journalContent img {
 	width: 100%;
+}
+
+.journalContent h2, p {	
+    font-family: 'fira-sans-2';
+    font-weight: 500;
+    font-size: 16px;
+    color: #202020;
+    line-height: 30px;
 }	
 
 /* ========== CONTACT US PAGE ========== */
