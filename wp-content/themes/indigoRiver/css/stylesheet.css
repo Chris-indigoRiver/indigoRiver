@@ -1018,6 +1018,8 @@ header {
 #vacancies {
 	background: #202020;
 	overflow: hidden;
+	position: relative;
+    width: 100%;
 }
 
 .vacanciesHeader {
