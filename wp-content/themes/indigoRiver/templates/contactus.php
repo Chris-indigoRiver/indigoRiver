@@ -4,7 +4,6 @@ Template Name: Contact Us
 get_header(); ?>
 
 <header>
-<a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
 
 
 	<div class="SM-HomeHorizontal homeSM">
@@ -22,7 +21,8 @@ get_header(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-<div id="mainWrapper">    
+<div id="mainWrapper">
+    <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>    
     <div id="contactUsIntro">
         <div class="background_opaque2"></div>
         <h1 class="contactUsHeader">CONTACT</h1>
