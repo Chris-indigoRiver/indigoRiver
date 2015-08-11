@@ -2132,6 +2132,23 @@ h1 {
     -webkit-font-smoothing: antialiased;
 }
 
+.homeLogo {
+    width: 210px;
+    height: auto;
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
+.accreditationsHome {
+    width: 380px;
+    position: absolute;
+    top: 80px;
+    right: -5%;
+}
+
 /* ========== Nav open ==========*/
 
 .homeNavLogo {
@@ -2306,6 +2323,14 @@ h1 {
 	height: auto !important;
 }
 
+.joinCTA h2 {
+	padding: 20px 30px 0 30px;
+}
+
+.joinCTA p {
+	padding: 10px 30px;
+}
+
 #introHome {
 	position: relative;
 }
@@ -2386,6 +2411,23 @@ h3 {
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
+}
+
+.homeLogo {
+    width: 210px;
+    height: auto;
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
+.accreditationsHome {
+    width: 380px;
+    position: absolute;
+    top: 80px;
+    right: -5%;
 }
 
 .cd-headline {
