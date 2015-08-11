@@ -21,7 +21,7 @@ get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div id="mainWrapper">
-    <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
+    <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_Black-01.svg"></a>
     <article id="workIntro">
         <h1 class="workIntroTitle">Latest from the agency</h1>
         <p class="workIntroCopy">From initial strategy to final concept we are with you every step of the way. We use our hearts to craft ground-breaking insights and compelling communications and our brains to create sophisticated modeling and analytics.</p>
