@@ -232,7 +232,7 @@ $(window).on('scroll', function () {
 			$("#LLOne").css("background", "#000");
 			$(".locatorText p").empty();
 			$(".locatorText p").text("HELLO");
-			$(".cd-headline").show();
+			$(".cd-intro").show();
 		} else {
 			$("#LLOne").css("background", "#CCC");
 		}		
@@ -241,7 +241,7 @@ $(window).on('scroll', function () {
 			$("#LLTwo").css("background", "#000");
 			$(".locatorText p").empty();
 			$(".locatorText p").text("WHAT WE OFFER");
-			$(".cd-headline").hide();			
+			$(".cd-intro").hide();			
 		} else {
 			$("#LLTwo").css("background", "#CCC");		
 		}		
@@ -250,7 +250,7 @@ $(window).on('scroll', function () {
 			$("#LLThree").css("background", "#000");
 			$(".locatorText p").empty();
 			$(".locatorText p").text("THE TEAM");
-			$(".cd-headline").hide();
+			$(".cd-intro").hide();
 		} else {
 			$("#LLThree").css("background", "#CCC");
 		}		
@@ -259,7 +259,7 @@ $(window).on('scroll', function () {
 			$("#LLFour").css("background", "#000");
 			$(".locatorText p").empty();
 			$(".locatorText p").text("VALUES");
-			$(".cd-headline").hide();
+			$(".cd-intro").hide();
 		} else {
 			$("#LLFour").css("background", "#CCC");
 		}
