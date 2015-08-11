@@ -967,7 +967,17 @@ header {
 	width: 100%;
 }
 
-.journalContent h2, p {	
+.journalContent h2 {	
+    font-family: 'fira-sans-2';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 30px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.journalContent p {	
     font-family: 'fira-sans-2';
     font-weight: 500;
     font-size: 16px;
