@@ -2332,11 +2332,12 @@ h1 {
 
 .ourPeopleIntro h1 {
     padding: 0 30px !important;
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
 
 .ourPeopleIntro p {
     padding: 0 30px !important;
+    margin-bottom: 30px !important;
 }
 
 .ourPeopleFill {
