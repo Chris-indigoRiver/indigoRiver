@@ -1145,7 +1145,7 @@ header {
     text-align: center;
     color: #202020 !important;
     font-family: 'bebas_neue',serif !important;
-    font-weight: 900 !important;
+    font-weight: normal !important;
     font-size: 50px !important;
     text-transform: uppercase;
     cursor: pointer;
@@ -1160,7 +1160,7 @@ header {
 h1 {
     font-family: "bebas_neue",serif;
     font-size: 45px;
-    font-weight: 900;
+    font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
