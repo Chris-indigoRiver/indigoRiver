@@ -1122,12 +1122,14 @@ header {
 }
 
 .servicesSliderContainer .bx-controls-direction .bx-prev {
-	background: red;
+	background:url(../img/arrow-left.png) center center no-repeat;
+	background-size: 100%;
 	left: 20px;
 }
 
 .servicesSliderContainer .bx-controls-direction .bx-next {
-	background: red;
+	background:url(../img/arrow-left.png) center center no-repeat;
+	background-size: 100%;
 	right: 20px;
 }
 
