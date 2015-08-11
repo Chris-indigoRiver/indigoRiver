@@ -941,7 +941,7 @@ header {
 
 .singleJournal {
 	position: relative;
-	background: red;
+	
 }
 
 #journalThumbnail {
@@ -959,6 +959,11 @@ header {
 
 .journalContent {
 	margin: 0 10%;
+	padding: 0 20px;
+}
+
+.journalContent img {
+	width: 100%;
 }	
 
 /* ========== CONTACT US PAGE ========== */
