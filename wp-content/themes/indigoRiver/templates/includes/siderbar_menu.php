@@ -19,8 +19,8 @@
     <div class="nav">
     	<ul>
         	<li><h2 class="white animated fadeInRight"><a href="<?php bloginfo('url');?>">US</a></h2></li>
-            <li><h2 class="white animated fadeInRight delay-zero-five"><a href="<?php bloginfo('url');?>">WORK</a></h2></li>
-            <li><h2 class="white animated fadeInRight delay-one"><a href="<?php bloginfo('url');?>">CONTACT</a></h2></li>
+            <li><h2 class="white animated fadeInRight delay-zero-five"><a href="<?php bloginfo('url');?>/work">WORK</a></h2></li>
+            <li><h2 class="white animated fadeInRight delay-one"><a href="<?php bloginfo('url');?>/contact">CONTACT</a></h2></li>
         </ul>
         <p>TERMS</p>
         <p>COOKIES</p>
