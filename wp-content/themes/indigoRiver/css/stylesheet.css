@@ -1143,11 +1143,10 @@ header {
 
 .serviceName {
     text-align: center;
-    font-size: 40px;
     color: #202020 !important;
     font-family: 'bebas_neue',serif !important;
     font-weight: normal !important;
-    font-size: 50px !important;
+    font-size: 40px !important;
     text-transform: uppercase;
     cursor: pointer;
     margin: 5% 0 !important;
