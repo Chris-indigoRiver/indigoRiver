@@ -1646,7 +1646,7 @@ h1 {
     width: 100%;
     background-color: #fff;
     position: relative;
-    padding: 10px 10%;
+    padding: 10px 10% 0px 10%;
 }
 
 #helloHomeIntro {
@@ -2381,6 +2381,12 @@ h1 {
 ***  Desk
 ****************************/
 @media only screen and (min-width: 1061px) {
+
+.cd-headline {
+    font-weight: normal;
+    font-size: 18vh;
+}
+
 }	
 
 
@@ -2506,6 +2512,16 @@ h1 {
     -webkit-font-smoothing: antialiased;
 }
 
+.homeLogo {
+    width: 210px;
+    height: auto;
+    position: absolute;
+    left: 14%;
+    top: 55px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
 .cd-intro {
 	margin: 0 auto !important;
 	font-size: 105px;
@@ -2546,6 +2562,17 @@ h1 {
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
+}
+
+.accreditationsHome {
+    width: 300px;
+    position: absolute;
+    top: 85px;
+    right: 30px;
+}
+
+.accreditationsHome img {
+	width: 100%;
 }
 
 .locatorText p {
