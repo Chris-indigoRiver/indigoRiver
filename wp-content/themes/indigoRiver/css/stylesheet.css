@@ -2437,7 +2437,7 @@ h1 {
     padding: 40px 30px 0 30px;
 }
 
-/* ========== Homepage ==========*/
+/* ========== Work ==========*/
 
 .workIntroTitle {
     padding-left: 30px;
@@ -2455,6 +2455,14 @@ h1 {
 .workItem {
     position: relative;
     width: 50%;
+}
+
+.workHalfFill {
+    background: rgba(20, 20, 20, 0.3);
+}
+
+.workHalfFill h2 {
+    opacity: 1;
 }
 
 }
