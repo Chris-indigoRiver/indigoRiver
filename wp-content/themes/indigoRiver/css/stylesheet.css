@@ -1448,6 +1448,7 @@ h1 {
 .ourPeopleIntro {
 	width: 100%;
 	height: auto !important;
+	padding: 15px 0px 25px 0px;
 }
 
 .ourPeopleMobFill {
@@ -1485,6 +1486,7 @@ h1 {
 .joinCTA {
 	background: #fff;
 	height: auto !important;
+	padding: 15px 0px 25px 0px;
 }
 
 .joinCTA h2 {
