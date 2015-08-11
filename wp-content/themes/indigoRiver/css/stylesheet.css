@@ -1544,7 +1544,7 @@ h3 {
 /* ========== Footer ==========*/
 
 #footer {
-	padding: 35px 25px;
+	padding: 0px 25px 35px 25px;
 	background: #202020;
 	position: relative;
 }
