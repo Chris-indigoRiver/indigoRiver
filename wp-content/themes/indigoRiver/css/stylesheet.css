@@ -2469,6 +2469,16 @@ h1 {
     width: 50%;
 }
 
+/* ========== Work ==========*/
+
+.friendWrap {
+	padding: 0 30px;
+}
+
+.ourFriendsTitle {
+	padding: 0 30px;
+}
+
 }
 
 /****************************
