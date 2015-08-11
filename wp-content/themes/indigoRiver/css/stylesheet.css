@@ -787,6 +787,7 @@ header {
 	background: #f9f9f9;
 	width: 100%;
 	overflow: hidden;
+	padding-bottom: 50px;
 }
 
 .workIntroTitle {
@@ -2428,6 +2429,25 @@ h1 {
     padding: 40px 30px 0 30px;
 }
 
+/* ========== Homepage ==========*/
+
+.workIntroTitle {
+    padding-left: 30px;
+}
+
+.workIntroCopy {
+    padding-left: 30px;
+}
+
+#workWrapper {
+    padding: 0;
+    overflow: hidden;
+}
+
+.workItem {
+    position: relative;
+    width: 50%;
+}
 
 }
 
