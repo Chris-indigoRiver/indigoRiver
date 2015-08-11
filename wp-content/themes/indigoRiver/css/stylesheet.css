@@ -1151,7 +1151,7 @@ header {
 }
 
 .projectExamples {
-	display: none;
+	padding: 0 30px;
 }
 
 .serviceName {
