@@ -2331,12 +2331,12 @@ h1 {
 }
 
 .ourPeopleIntro h1 {
-    padding: 0 30px;
+    padding: 0 30px !important;
     margin-top: 30px;
 }
 
 .ourPeopleIntro p {
-    padding: 0 30px;
+    padding: 0 30px !important;
 }
 
 .ourPeopleFill {
