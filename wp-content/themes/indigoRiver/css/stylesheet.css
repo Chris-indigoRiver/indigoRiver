@@ -910,7 +910,7 @@ header {
 	.ourFriendsTitle {
 		padding-top: 10%;
 	    padding-left: 16.6%;
-	    color: #202020;
+	    color: #fff;
 	    margin-bottom: 30px;
 	    font-size: 50px;
 	    -webkit-animation-delay: 1s;
@@ -919,9 +919,9 @@ header {
 	}
 
 .friendWrap {
-	width: 100%;
+    width: 100%;
     height: auto;
-    padding: 0 6.6666% 0 16.6666%;
+    padding: 0 16.6666% 0 16.6666%;
     margin: 25px 0 15px 0;
 }
 
