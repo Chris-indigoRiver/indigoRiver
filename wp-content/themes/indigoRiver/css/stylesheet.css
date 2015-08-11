@@ -1133,6 +1133,10 @@ header {
 	right: 20px;
 }
 
+.bx-wrapper .bx-next:hover {
+    background-position: 0px 0;
+}
+
 .slider_title {
     text-align: center;
     font-size: 40px;
