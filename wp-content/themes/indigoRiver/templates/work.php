@@ -39,7 +39,7 @@ get_header(); ?>
                 <div class="workHalfFill">
                     <article class="workContentWrap">
                         <h2><?php the_title(); ?></h2>
-                        <p><?php the_excerpt(); ?></p>
+                        <p><?php echo get_field("custom_excerpt"); ?></p>
                     </article>
                 </div>
             </a>
