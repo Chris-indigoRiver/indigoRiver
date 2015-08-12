@@ -1000,6 +1000,10 @@ header {
 	padding: 0px;
 }
 
+#journalContent {
+    background: #fff;
+}
+
 .journalContent img {
 	width: 100%;
 }
