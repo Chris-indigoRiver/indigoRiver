@@ -1781,6 +1781,32 @@ h3 {
     transition: ease-out 0.1s;
 }
 
+.ourFriendsTitle {
+    padding-top: 50px !important;
+    padding-left: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 50px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    line-height: 75px;
+}
+
+.client {
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.friendWrap {
+    width: 100%;
+    height: auto;
+    padding: 0 30px;
+    margin: 25px 0 15px 0;
+}
+
 /* ========== Contact ==========*/
 
 .vacanciesHeader {
@@ -2718,6 +2744,30 @@ h3 {
     color: #fff;
     padding-left: 5%;
     margin-top: 5px;
+}
+
+.workHalfFill {
+    background: rgba(20, 20, 20, 0.6);
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
+.workHalfFill h2 {
+    opacity: 1;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
+.workHalfFill p {
+    opacity: 1;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
 }
 
 }
