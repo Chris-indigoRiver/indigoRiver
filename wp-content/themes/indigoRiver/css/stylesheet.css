@@ -2395,6 +2395,16 @@ h1 {
     -webkit-font-smoothing: antialiased;
 }
 
+.mobHomeLogo {
+    width: 210px;
+    height: auto;
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
 .homeLogo {
     width: 210px;
     height: auto;
@@ -2696,6 +2706,16 @@ h1 {
 ***  Desk
 ****************************/
 @media only screen and (min-width: 1061px) {
+
+.mobHomeLogo {
+    width: 210px;
+    height: auto;
+    position: absolute;
+    left: 16.5%;
+    top: 60px;
+    opacity: 0.9;
+    z-index: 99999;
+}
 
 .cd-intro {
     -webkit-animation-delay: 1s !important;
