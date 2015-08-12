@@ -574,6 +574,7 @@ header {
     background: url(../img/hi-there.jpg) center no-repeat;
     background-size: cover;
     height: 600px;
+    opacity: 0.9;
 }
 
 /* ============ SELECT SERVICES ============*/
