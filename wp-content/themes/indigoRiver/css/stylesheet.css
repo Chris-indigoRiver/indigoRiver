@@ -508,25 +508,23 @@ header {
 }
 
 .navNewsTitle {
-	position: absolute;
-	top: 50px;
-	left: 50px;
-	color: #FFF;
+    padding: 30px;
+    margin-bottom: 100px;
+    color: #FFF;
 }
 
 .navNewsExcerpt {
-	position: absolute;
-	top: 50px;
-	left: 550px;
-	color: #FFF;
+    color: #FFF;
+    padding: 0 30px;
 }
 
 .navNewsLogo {
-	position: absolute;
-	top: 250px;
-	left: 50px;
-	color: #FFF;
-	width: 200px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    color: #FFF;
+    height: 100px !important;
+    width: 200px;
 }
 
 /* ========== Home Main Structure ==========*/
