@@ -570,6 +570,11 @@ header {
     max-width: 750px;
 }
 
+.helloHomeSelect {
+	background:url(../img/hi-there.jpg) bottom left no-repeat;
+    background-size: cover;
+}
+
 /* ============ SELECT SERVICES ============*/
 
 .servicesSliderContainer {
@@ -1018,6 +1023,8 @@ header {
 #vacancies {
 	background: #202020;
 	overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 .vacanciesHeader {
@@ -1701,6 +1708,16 @@ h3 {
 .workItem {
     position: relative;
     width: 100%;
+}
+
+/* ========== Contact ==========*/
+
+.vacanciesHeader {
+	padding-left: 30px;
+}
+
+.vacanciesCopy {
+	padding-left: 30px;
 }
 
 }
