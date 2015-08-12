@@ -2308,6 +2308,7 @@ h1 {
     top: auto;
     left: 0;
     bottom: 0;
+    z-index: 9999;
 }
 
 .locatorText {
