@@ -11,6 +11,8 @@ get_header(); ?>
 <div id="mainWrapper">
     <div class="singleJournal">
         <div id="journalThumbnail">
+            <div class="journalThumbnailOpacity">
+            </div>
             <h1><?php echo the_title(); ?></h1>
             <?php 
                 if ( has_post_thumbnail() ) { 

@@ -508,10 +508,40 @@ header {
 }
 
 .navNewsTitle {
-	position: absolute;
-	top: 50px;
-	left: 50px;
-	color: #FFF;
+    padding: 30px;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+
+.navNewsExcerpt {
+    color: #FFF;
+    padding: 0 30px;
+}
+
+.navNewsLogo {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    color: #FFF;
+    height: 100px !important;
+    width: 200px;
+}
+
+.navNews li {
+    float: none;
+    list-style: none;
+    position: relative;
+    width: 0px;
+    height: auto !important;
+    padding-bottom: 30px;
+ }
+
+.navNews li:nth-child(even) {
+ 	background-color: grey;
+}
+
+.navNews li:nth-child(odd) {
+ 	background-color: #404040;
 }
 
 /* ========== Home Main Structure ==========*/
@@ -568,6 +598,13 @@ header {
 	font-size:18px;
     width: 80%;
     max-width: 750px;
+}
+
+.helloHomeSelect {
+    background: url(../img/hi-there.jpg) center no-repeat;
+    background-size: cover;
+    height: 600px;
+    opacity: 0.9;
 }
 
 /* ============ SELECT SERVICES ============*/
@@ -655,7 +692,7 @@ header {
 }
 
 #servicesPager {
-	margin: 50px auto 20px auto;    
+	margin: 50px auto 60px auto;    
     text-align: center;
 }
 
@@ -897,7 +934,7 @@ header {
 		padding: 0 30px 0 0;
 	    color: #fff;
 	    opacity: 0;
-	    width: 90%;
+	    width: 100%;
 	}
 
 .ourFriends {
@@ -950,6 +987,21 @@ header {
 	height: 700px;
 }
 
+.journalThumbnailOpacity {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: -moz-linear-gradient(top, rgba(32,32,32,0.8) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(32,32,32,0.8)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top, rgba(32,32,32,0.8) 0%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top, rgba(32,32,32,0.8) 0%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top, rgba(32,32,32,0.8) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(32,32,32,0.8) 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6202020', endColorstr='#00000000',GradientType=0 );
+}
+
 #journalThumbnail h1 {
 	position: absolute;
 	top: 10%;
@@ -961,6 +1013,10 @@ header {
 .journalContent {
 	margin: 0 10%;
 	padding: 0px;
+}
+
+#journalContent {
+    background: #fff;
 }
 
 .journalContent img {
@@ -1018,7 +1074,7 @@ header {
 #vacancies {
 	background: #202020;
 	overflow: hidden;
-	position: relative;
+    position: relative;
     width: 100%;
 }
 
@@ -1107,6 +1163,21 @@ header {
 ***  Palm
 ****************************/
 @media only screen and (max-width: 600px) {
+
+.mobHomeLogo {    
+	width: 140px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    top: 70px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
+.mobHomeLogo img {
+    width: 100%;
+}
 
 /* homepage slider */
 
@@ -1260,9 +1331,8 @@ h3 {
 }
 
 .helloHomeSelect {
-	height: 500px;
+	height: 250px;
 	width: 100%;
-	background: #202020;
 }
 
 .selectHalf {
@@ -1380,6 +1450,8 @@ h3 {
     top: auto;
     left: 0;
     bottom: 0;
+    z-index: 9999;
+    border-top: 1px solid #E4E4E4;
 }
 
 .locatorText {
@@ -1454,12 +1526,12 @@ h3 {
 
 .cd-headline {
     padding-left: 0%;
-    margin: -20px 0 0 0;    
+    margin: -50px 0 0 0;    
     text-align: center;
     color: #fff;
     font-family: 'bebas_neue', serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 70px;
     text-transform: uppercase;
     position: relative;
     z-index: 10;
@@ -1696,6 +1768,35 @@ h3 {
 
 /* ========== Work ==========*/
 
+.homeLogo {
+    width: 210px;
+    margin-left: 0px;
+    height: auto;
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
+.workIntroTitle {
+    padding-top: 52%;
+    padding-left: 30px;
+    color: #202020;
+    margin-bottom: 30px;
+    font-size: 50px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    line-height: 55px;
+}
+
+.workIntroCopy {
+    font-size: 18px;
+    font-weight: 500;
+    width: 95%;
+    padding-left: 30px !important;
+}
+
 #workWrapper {
 	padding: 0;
 }
@@ -1703,6 +1804,88 @@ h3 {
 .workItem {
     position: relative;
     width: 100%;
+}
+
+.workHalfFill {
+    background: rgba(20, 20, 20, 0.6);
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
+.workHalfFill h2 {
+    opacity: 1;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
+.workHalfFill p {
+    opacity: 1;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
+.ourFriendsTitle {
+    padding-top: 50px !important;
+    padding-left: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 50px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    line-height: 75px;
+}
+
+.client {
+    height: auto;
+    width: auto;
+    margin-right: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.client img {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.friendWrap {
+    width: 100%;
+    height: auto;
+    padding: 0 30px;
+    margin: 25px 0 15px 0;
+}
+
+/* ========== Contact ==========*/
+
+.homeSM {
+	display: none;
+}
+
+.contactUsHeader {
+	padding-top: 52%;
+    padding-left: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 50px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    line-height: 55px;
+}
+
+.vacanciesHeader {
+	padding-left: 30px;
+}
+
+.vacanciesCopy {
+	padding-left: 30px;
 }
 
 }
@@ -1760,12 +1943,6 @@ h3 {
 .helloHomeMessage p span img {
     width: 100px;
     vertical-align: bottom;
-}
-
-.helloHomeSelect {
-	height: 500px;
-	width: 100%;
-	background: #202020;
 }
 
 .selectHalf {
@@ -2282,6 +2459,7 @@ h1 {
     top: auto;
     left: 0;
     bottom: 0;
+    z-index: 9999;
 }
 
 .locatorText {
@@ -2642,6 +2820,30 @@ h3 {
     color: #fff;
     padding-left: 5%;
     margin-top: 5px;
+}
+
+.workHalfFill {
+    background: rgba(20, 20, 20, 0.6);
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
+.workHalfFill h2 {
+    opacity: 1;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
+.workHalfFill p {
+    opacity: 1;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
 }
 
 }
