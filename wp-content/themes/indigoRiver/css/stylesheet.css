@@ -1795,9 +1795,16 @@ h3 {
 .client {
     height: auto;
     width: auto;
-    margin-right: 20px;
+    margin-right: 0px;
     display: inline-block;
     vertical-align: top;
+}
+
+.client img {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
 }
 
 .friendWrap {
