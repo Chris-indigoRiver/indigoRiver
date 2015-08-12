@@ -1831,6 +1831,17 @@ h3 {
 
 /* ========== Contact ==========*/
 
+.contactUsHeader {
+	padding-top: 52%;
+    padding-left: 30px;
+    color: #202020;
+    margin-bottom: 30px;
+    font-size: 50px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    line-height: 55px;
+}
+
 .vacanciesHeader {
 	padding-left: 30px;
 }
