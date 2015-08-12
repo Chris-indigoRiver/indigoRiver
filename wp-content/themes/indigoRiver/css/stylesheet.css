@@ -571,8 +571,9 @@ header {
 }
 
 .helloHomeSelect {
-	background:url(../img/hi-there.jpg) bottom left no-repeat;
+    background: url(../img/hi-there.jpg) center no-repeat;
     background-size: cover;
+    height: 600px;
 }
 
 /* ============ SELECT SERVICES ============*/
