@@ -1130,6 +1130,17 @@ header {
 ****************************/
 @media only screen and (max-width: 600px) {
 
+.mobHomeLogo {    
+	width: 140px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    top: 80px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
 /* homepage slider */
 
 #homeSelectServices {

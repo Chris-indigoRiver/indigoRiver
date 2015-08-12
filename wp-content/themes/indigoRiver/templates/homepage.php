@@ -14,7 +14,7 @@ get_header(); ?>
 	<article id="introHome" class="windowHeight">
         <div class="background_opaque_header">
         </div>
-        <a class="homeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
+        <a class="homeLogo mobHomeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
     	<section class="cd-intro animated fadeIn">
         	<h1 class="cd-headline letters type">
                 <span>With Us<br/>it's always<br/></span>
