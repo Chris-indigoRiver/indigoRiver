@@ -2495,6 +2495,10 @@ h1 {
 /* ========== Contact ==========*/
 
 
+.contactUsHeader {
+	padding-left: 30px;
+}
+
 .vacanciesHeader {
 	padding-left: 30px;
 }
@@ -2505,6 +2509,7 @@ h1 {
 
 .accordian {
 	padding-left: 30px;
+	padding-right: 30px;
 }
 
 }
