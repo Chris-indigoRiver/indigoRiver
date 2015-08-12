@@ -1757,7 +1757,7 @@ h3 {
 }
 
 .workHalfFill {
-    background: rgba(20, 20, 20, 0.9);
+    background: rgba(20, 20, 20, 0.6);
     -webkit-transition: ease-out 0.1s;
     -moz-transition: ease-out 0.1s;
     -o-transition: ease-out 0.1s;
