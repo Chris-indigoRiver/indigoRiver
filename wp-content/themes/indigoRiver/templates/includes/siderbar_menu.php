@@ -32,6 +32,8 @@
                     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                         <li>              
                             <h2 class="navNewsTitle"><?php echo the_title(); ?></h2>
+                            <p class="navNewsExcerpt"><?php echo get_field("custom_excerpt"); ?></p>
+                            <img src="<?php echo get_field("logo_field"); ?>" alt="indigoRiver Creative marketing agency <?php echo the_title(); ?>" />
                             <?php 
                                 if ( has_post_thumbnail() ) { 
                                 // check if the post has a Post Thumbnail assigned to it.
