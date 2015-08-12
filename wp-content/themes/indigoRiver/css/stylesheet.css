@@ -1141,6 +1141,10 @@ header {
     z-index: 99999;
 }
 
+.mobHomeLogo img {
+    width: 100%;
+}
+
 /* homepage slider */
 
 #homeSelectServices {
