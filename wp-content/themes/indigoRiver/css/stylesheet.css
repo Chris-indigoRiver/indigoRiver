@@ -527,6 +527,23 @@ header {
     width: 200px;
 }
 
+.navNews li {
+    float: none;
+    list-style: none;
+    position: relative;
+    width: 0px;
+    height: auto;
+    padding-bottom: 30px;
+ }
+
+.navNews li:nth-child(even) {
+ 	background-color: grey;
+}
+
+.navNews li:nth-child(odd) {
+ 	background-color: #404040;
+}
+
 /* ========== Home Main Structure ==========*/
 
 #mainWrapper {
