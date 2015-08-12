@@ -1831,10 +1831,14 @@ h3 {
 
 /* ========== Contact ==========*/
 
+.homeSM {
+	display: none;
+}
+
 .contactUsHeader {
 	padding-top: 52%;
     padding-left: 30px;
-    color: #202020;
+    color: #fff;
     margin-bottom: 30px;
     font-size: 50px;
     -webkit-animation-delay: 1s;

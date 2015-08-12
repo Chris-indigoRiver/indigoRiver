@@ -34,7 +34,7 @@
                             <h2 class="navNewsTitle"><?php echo the_title(); ?></h2>
                             <p class="navNewsExcerpt"><?php echo get_field("custom_excerpt"); ?></p>
                             <?php if(get_field("logo_field")) { ?>
-                            <img class="navNewsLogo" src="<?php echo get_field("logo_field"); ?>" alt="indigoRiver Creative marketing agency <?php echo the_title(); ?>" />
+                            <!--<img class="navNewsLogo" src="<?php echo get_field("logo_field"); ?>" alt="indigoRiver Creative marketing agency <?php echo the_title(); ?>" />-->
                             <?php } ?>
                             <?php 
                                 if ( has_post_thumbnail() ) { 
