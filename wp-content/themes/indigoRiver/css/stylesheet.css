@@ -1756,6 +1756,30 @@ h3 {
     width: 100%;
 }
 
+.workHalfFill {
+    background: rgba(20, 20, 20, 0.9);
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
+.workHalfFill h2 {
+    opacity: 1;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
+.workHalfFill p {
+    opacity: 1;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    -o-transition: ease-out 0.1s;
+    transition: ease-out 0.1s;
+}
+
 /* ========== Contact ==========*/
 
 .vacanciesHeader {
