@@ -2405,6 +2405,10 @@ h1 {
     z-index: 99999;
 }
 
+.mobHomeLogo img {
+    width: 100%;
+}
+
 .homeLogo {
     width: 210px;
     height: auto;
@@ -2715,6 +2719,10 @@ h1 {
     top: 60px;
     opacity: 0.9;
     z-index: 99999;
+}
+
+.mobHomeLogo img {
+    width: 100%;
 }
 
 .cd-intro {
