@@ -1718,6 +1718,35 @@ h3 {
 
 /* ========== Work ==========*/
 
+.homeLogo {
+    width: 210px;
+    margin-left: 0px;
+    height: auto;
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    opacity: 0.9;
+    z-index: 99999;
+}
+
+.workIntroTitle {
+    padding-top: 52%;
+    padding-left: 30px;
+    color: #202020;
+    margin-bottom: 30px;
+    font-size: 50px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    line-height: 55px;
+}
+
+.workIntroCopy {
+    font-size: 18px;
+    font-weight: 500;
+    width: 95%;
+    padding-left: 30px;
+}
+
 #workWrapper {
 	padding: 0;
 }
