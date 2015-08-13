@@ -3,10 +3,10 @@ Template Name: Work
 */ 
 get_header(); ?>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 <?php include('templates/includes/siderbar_menu.php'); ?>
 <?php include('templates/includes/sidebar_left.php'); ?>
-
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div id="mainWrapper">
     <div class="singleJournal">
