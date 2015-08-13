@@ -219,6 +219,7 @@ function resizeOurPeople(){
 	$('.navNewsWrapper .bx-wrapper .bx-viewport').height(newsHeight);
 	var third = ((newsHeight / 100) * 75);
 	$('.navNewsWrapper .bx-wrapper .bx-viewport ul li').height(third);
+	$('.navNewsWrapper .bx-wrapper .bx-viewport ul li').css("margin-top": third);
 	
 	
 
