@@ -32,7 +32,7 @@ body {
 h1 {
     font-family: "bebas_neue",serif;
 	font-size: 85px;
-    font-weight: 900;
+    font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
@@ -41,7 +41,7 @@ h1 {
 h2 {
     font-family: "bebas_neue",serif;
 	font-size: 60px;
-    font-weight: 900;
+    font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
@@ -49,7 +49,7 @@ h2 {
 
 .nav ul li h2 a {
     font-family: "bebas_neue",serif;
-    font-weight: 900;
+    font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
@@ -58,7 +58,7 @@ h2 {
 .nav p {
 	font-family: "bebas_neue",serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: normal;
     font-size: 26px;
     color: #fff;
     line-height: 0px;
@@ -69,7 +69,7 @@ h2 {
 h3 {
     font-family: "bebas_neue",serif;
 	font-size: 27px;
-    font-weight: 900;
+    font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
@@ -574,7 +574,7 @@ header {
     padding: 0;
     color: #fff;
     font-family: 'bebas_neue', serif;
-    font-weight: 900;
+    font-weight: normal;
     font-size: 135px;
     text-transform: uppercase;
     position: relative;
@@ -1530,7 +1530,7 @@ h3 {
     text-align: center;
     color: #fff;
     font-family: 'bebas_neue', serif;
-    font-weight: 900;
+    font-weight: normal;
     font-size: 70px;
     text-transform: uppercase;
     position: relative;
@@ -2389,7 +2389,7 @@ h3 {
 h1 {
     font-family: "bebas_neue",serif;
     font-size: 45px;
-    font-weight: 900;
+    font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
@@ -2883,7 +2883,7 @@ h3 {
 h1 {
     font-family: "bebas_neue",serif;
     font-size: 45px;
-    font-weight: 900;
+    font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
@@ -2935,7 +2935,7 @@ h1 {
 h1 {
     font-family: "bebas_neue",serif;
     font-size: 45px;
-    font-weight: 900;
+    font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
