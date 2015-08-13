@@ -14,12 +14,8 @@ get_header(); ?>
             <div class="journalThumbnailOpacity">
             </div>
             <h1><?php echo the_title(); ?></h1>
-            <?php 
-                if ( has_post_thumbnail() ) { 
-                // check if the post has a Post Thumbnail assigned to it.
-                    the_post_thumbnail();
-                } 
-            ?>    
+            <h2><?php echo get_field("journal_sub_header"); ?></h2>
+            <img src="<?php echo get_field("journal_background_image"); ?>" alt=""/>    
         </div>
         <div class="journalContent">
             <?php echo the_content(); ?>    
