@@ -1009,6 +1009,13 @@ header {
 	color: #FFF;
 	z-index: 10;		
 }
+#journalThumbnail h2 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: #FFF;
+    z-index: 10;        
+}
 
 .journalContent {
 	margin: 0 10%;
