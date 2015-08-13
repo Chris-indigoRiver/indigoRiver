@@ -121,7 +121,8 @@ $(document).ready(function(){
 	  mode: 'vertical',
 	  auto: true,
 	  startSlide: 0,
-	  preloadImages: 'all'
+	  preloadImages: 'all',
+	  maxSlides: 3
 	});
 	  
 	
@@ -219,7 +220,7 @@ function resizeOurPeople(){
 	$('.navNewsWrapper .bx-wrapper .bx-viewport').height(newsHeight);
 	var third = ((newsHeight / 100) * 75);
 	$('.navNewsWrapper .bx-wrapper .bx-viewport ul li').height(third);
-	$('.navNewsWrapper .bx-wrapper .bx-viewport').css("margin-top", third);
+	//$('.navNewsWrapper .bx-wrapper .bx-viewport').css("margin-top", third);
 	
 	
 
