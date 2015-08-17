@@ -272,7 +272,7 @@ $(window).on('scroll', function () {
 			$(".locatorLine").css("background", "#CCC");
 			$("#LLOne").css("background", "#000");
 			$(".locatorText p").empty();
-			$(".locatorText p").text("HELLO");
+			$(".locatorText p").text("STUDIO");
 			$(".cd-intro").show();
 		} else {
 			$("#LLOne").css("background", "#CCC");
@@ -281,7 +281,7 @@ $(window).on('scroll', function () {
 			$(".locatorLine").css("background", "#CCC");
 			$("#LLTwo").css("background", "#000");
 			$(".locatorText p").empty();
-			$(".locatorText p").text("WHAT WE OFFER");
+			$(".locatorText p").text("CLIENTS");
 			$(".cd-intro").hide();			
 		} else {
 			$("#LLTwo").css("background", "#CCC");		
