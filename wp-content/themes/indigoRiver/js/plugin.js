@@ -2,24 +2,6 @@
 
 $(document).ready(function(){
 
-
-//  $(document).ready(function () {
-//    $('#block').vide('video/ocean'); // Non declarative initialization
-//
-//    var instance = $('#block').data('vide'); // Get the instance
-//    var video = instance.getVideoObject(); // Get the video object
-//    instance.destroy(); // Destroy instance
-//
-    $('#videoBG').vide({
-      'mp4': 'video/ocean',
-      'webm': 'video/ocean',
-      'ogv': 'video/ocean',
-      'poster': 'video/ocean',
-    });
-//  });
-
-
-
 	//scroll animations
 
 	/* Every time the window is scrolled ... */
