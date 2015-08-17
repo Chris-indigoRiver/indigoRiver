@@ -125,9 +125,8 @@ $(document).ready(function(){
 	  maxSlides: 3
 	});
 
-	var test = $('.navNews').children().first();
-	$('.navNews').append(test);	 
-	console.log(test); 
+	var test = $( '.navNews' ).children().first().clone().appendTo( '.navNews' );	 
+	
 	
 	/* ========== Homepage ========== */
 	
