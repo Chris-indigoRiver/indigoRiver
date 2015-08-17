@@ -566,6 +566,10 @@ header {
     -webkit-animation-delay: 1s !important;
     animation-delay: 1s !important;
     padding-top: 220px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .cd-headline {
