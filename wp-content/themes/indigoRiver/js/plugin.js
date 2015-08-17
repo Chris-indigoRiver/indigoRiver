@@ -225,7 +225,8 @@ function resizeOurPeople(){
 	$('.navNewsWrapper .bx-wrapper .bx-viewport ul li').height(third);
 	//$('.navNewsWrapper .bx-wrapper .bx-viewport').css("margin-top", third);
 	
-	
+	var windowHeight = $(window).height();
+	$("#videoBG").height(windowHeight);
 
 
 }
