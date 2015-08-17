@@ -266,4 +266,25 @@ $(window).on('scroll', function () {
 			$("#LLFour").css("background", "#CCC");
 		}
 
+		//work
+
+		if(($("#workIntro").offset().top - $(window).scrollTop()) > 100) {			
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLOne").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("HELLO");
+			$(".cd-intro").show();
+		} else {
+			$("#LLOne").css("background", "#CCC");
+		}
+		if(($("#ourFriends").offset().top - $(window).scrollTop()) < 100) {
+			$(".locatorLine").css("background", "#CCC");
+			$("#LLTwo").css("background", "#000");
+			$(".locatorText p").empty();
+			$(".locatorText p").text("WHAT WE OFFER");
+			$(".cd-intro").hide();			
+		} else {
+			$("#LLTwo").css("background", "#CCC");		
+		}
+
 });
