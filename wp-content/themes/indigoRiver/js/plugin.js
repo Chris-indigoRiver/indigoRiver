@@ -150,6 +150,9 @@ $(document).ready(function(){
 		}
 	});
 
+		var test = $('.servicesSlider').children().first();
+		alert(test);
+
 		/* SET HEIGHT OF SLIDER */
 		
 		var sliderheight = $('#homeSelectServices').height();
