@@ -13,6 +13,9 @@ get_header(); ?>
 
 <div id="mainWrapper">
 	<article id="introHome" class="windowHeight">
+        <video width="100%" height="auto" controls>
+          <source src="<?php bloginfo('template_url');?>/img/iR_Studio_Sequences0008.mp4" type="video/mp4">
+        </video>
         <div class="background_opaque_header">
         </div>
         <a class="mobHomeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
