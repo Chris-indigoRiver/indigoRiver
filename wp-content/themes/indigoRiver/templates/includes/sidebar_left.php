@@ -1,7 +1,21 @@
+<?php
+
+	if ($slug == "Home") {
+		$pageTitle == "HELLO";
+	}
+	elseif ($slug == "Work") {
+		$pageTitle == "STUDIO";
+	}
+	elseif ($slug == "Contact") {
+		$pageTitle == "GET IN TOUCH";
+	}
+
+?>
+
 <div id="pageLocator">
 	<div class="textContainer">
 		<div class="locatorText">
-	    	<p class="animated slideInRight">HELLO</p>
+	    	<p class="animated slideInRight"><?php echo $pageTitle; ?></p>
 	    </div>
 	</div>
 	<div class="pagination">

@@ -273,7 +273,6 @@ $(window).on('scroll', function () {
 			$("#LLOne").css("background", "#000");
 			$(".locatorText p").empty();
 			$(".locatorText p").text("STUDIO");
-			$(".cd-intro").show();
 		} else {
 			$("#LLOne").css("background", "#CCC");
 		}
@@ -282,7 +281,6 @@ $(window).on('scroll', function () {
 			$("#LLTwo").css("background", "#000");
 			$(".locatorText p").empty();
 			$(".locatorText p").text("CLIENTS");
-			$(".cd-intro").hide();			
 		} else {
 			$("#LLTwo").css("background", "#CCC");		
 		}
