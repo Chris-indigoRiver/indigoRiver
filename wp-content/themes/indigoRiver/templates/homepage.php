@@ -13,20 +13,11 @@ get_header(); ?>
 
 <div id="mainWrapper">
 	<article id="introHome" class="windowHeight">
-        <div id="videoBG">
-          data-vide-bg="mp4: http://www.indigoriver.co/wp-content/themes/indigoRiver/media/video_bg.mp4, 
-            webm: video/ocean, 
-            ogv: video/ocean, 
-            poster: video/ocean"
-          data-vide-options="position: 0% 50%">
-        </div>
-
-
-            <!--<video id="videoBG" controls preload autoplay>
+            <video id="videoBG" controls preload autoplay>
               <source src="<?php bloginfo('template_url');?>/media/video_bg.mp4" type="video/mp4">
               
               Your browser does not support the video tag.
-            </video>-->
+            </video>
         <div class="background_opaque_header">
         </div>
         <a class="mobHomeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>
