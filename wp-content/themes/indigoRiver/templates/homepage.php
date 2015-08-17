@@ -14,7 +14,7 @@ get_header(); ?>
 <div id="mainWrapper">
 	<article id="introHome" class="windowHeight">
         <video width="100%" height="auto" controls>
-          <source src="<?php bloginfo('template_url');?>/img/iR_Studio_Sequences0008.mp4" type="video/mp4">
+          <source src="<?php bloginfo('template_url');?>/img/iR_Studio_Sequences0008_1.mp4" type="video/mp4">
         </video>
         <div class="background_opaque_header">
         </div>
