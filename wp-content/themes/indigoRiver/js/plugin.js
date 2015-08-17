@@ -124,7 +124,9 @@ $(document).ready(function(){
 	  preloadImages: 'all',
 	  maxSlides: 3
 	});
-	  
+
+	var test = $('.navNews').children().first();
+	$('.navNews').append(test);	  
 	
 	/* ========== Homepage ========== */
 	
@@ -149,9 +151,6 @@ $(document).ready(function(){
 				
 		}
 	});
-
-		var test = $('.servicesSlider').children().first();
-		$('.servicesSlider').append(test);
 
 		/* SET HEIGHT OF SLIDER */
 		
