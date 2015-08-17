@@ -126,7 +126,8 @@ $(document).ready(function(){
 	});
 
 	var test = $('.navNews').children().first();
-	$('.navNews').append(test);	  
+	$('.navNews').append(test);	 
+	console.log(test); 
 	
 	/* ========== Homepage ========== */
 	
