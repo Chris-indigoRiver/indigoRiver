@@ -151,7 +151,7 @@ $(document).ready(function(){
 	});
 
 		var test = $('.servicesSlider').children().first();
-		alert(test);
+		$('.servicesSlider').append(test);
 
 		/* SET HEIGHT OF SLIDER */
 		
