@@ -5,10 +5,11 @@ get_header(); ?>
 
 <header>
 </header>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php include('includes/siderbar_menu.php'); ?>
 <?php include('includes/sidebar_left.php'); ?>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div id="mainWrapper">
 	<article id="introHome" class="windowHeight">
