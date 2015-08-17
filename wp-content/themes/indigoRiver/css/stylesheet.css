@@ -546,6 +546,11 @@ header {
 
 /* ========== Home Main Structure ==========*/
 
+#videoBG {
+    width: auto;
+    height: 100%;
+}
+
 #mainWrapper {
 	width: 100%;
 	overflow: hidden;	
