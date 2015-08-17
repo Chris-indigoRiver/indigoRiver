@@ -2,8 +2,6 @@
 
 $(document).ready(function(){
 
-$('#videoBG').vide({});
-
 	//scroll animations
 
 	/* Every time the window is scrolled ... */
