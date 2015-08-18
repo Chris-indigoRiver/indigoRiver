@@ -169,6 +169,7 @@ $(document).ready(function(){
 	});
 
 	$("#videoBG").peach_video();
+	$('#videoBG')[0].play();
 
 });
 
