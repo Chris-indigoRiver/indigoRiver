@@ -137,17 +137,6 @@ $(document).ready(function(){
 		}
 	});
 
-		/* SET HEIGHT OF SLIDER */
-		
-		var sliderheight = $('#homeSelectServices').height();
-		var sliderheader = $('.sliderHeader').height();
-		var sheight = (sliderheight - sliderheader);		
-    	$(".servicesSliderContainer .bx-viewport").height(sheight);
-    	$(".sliderContainer").height(sheight);
-    	$(".sliderThumbnail").height(sheight);
-    	$(".sliderText").height(sheight);
-    	$(".servicesSlider").height(sheight);
-
 
 	$('.ourPeople').each(function() {
 		$(this).height($(this).width() + $(this).width() / 100 * 50);
@@ -186,6 +175,17 @@ $(window).on('resize', function(){
 });
 
 function resizeOurPeople(){
+
+	/* SET HEIGHT OF SLIDER */
+		
+	var sliderheight = $('#homeSelectServices').height();
+	var sliderheader = $('.sliderHeader').height();
+	var sheight = (sliderheight - sliderheader);		
+	$(".servicesSliderContainer .bx-viewport").height(sheight);
+	$(".sliderContainer").height(sheight);
+	$(".sliderThumbnail").height(sheight);
+	$(".sliderText").height(sheight);
+	$(".servicesSlider").height(sheight);
 
 	//* responsive classes *//
 	if ($(window).width() <= 600){
