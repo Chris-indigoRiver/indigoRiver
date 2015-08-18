@@ -2,8 +2,6 @@
 
 $(document).ready(function(){
 
-	$("#videoBG").peach_video();
-
 	//scroll animations
 
 	/* Every time the window is scrolled ... */
@@ -197,6 +195,7 @@ function resizeOurPeople(){
 	
 	var bodyheight = $(window).height();
     $(".windowHeight").height(bodyheight);
+    $(".mainSlider").height();
 
     /* Change Height of work Items */
     var workItemHeight = $(".workItem").width();
@@ -227,9 +226,10 @@ function resizeOurPeople(){
 	$('.navNewsWrapper .bx-wrapper .bx-viewport ul li').height(third);
 	//$('.navNewsWrapper .bx-wrapper .bx-viewport').css("margin-top", third);
 	
-	var windowHeight = $(window).height();
-	$("#videoBG").height(windowHeight);
+	//var windowHeight = $(window).height();
+	//$("#videoBG").height(windowHeight);
 
+	$("#videoBG").peach_video();
 
 }
 
