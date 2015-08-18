@@ -144,6 +144,7 @@ $(document).ready(function(){
 		var sheight = (sliderheight - sliderheader);		
     	$(".servicesSliderContainer .bx-viewport").height(sheight);
     	$(".sliderContainer").height(sheight);
+    	$(".sliderThumbnail").height(sheight);
     	$(".sliderText").height(sheight);
     	$(".servicesSlider").height(sheight);
 
