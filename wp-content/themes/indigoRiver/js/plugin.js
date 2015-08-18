@@ -168,6 +168,8 @@ $(document).ready(function(){
 		 }
 	});
 
+	$("#videoBG").peach_video();
+
 });
 
 $(window).on('resize', function(){
@@ -228,9 +230,6 @@ function resizeOurPeople(){
 	
 	//var windowHeight = $(window).height();
 	//$("#videoBG").height(windowHeight);
-
-	$("#videoBG").peach_video();
-
 }
 
 $(window).on('scroll', function () {
