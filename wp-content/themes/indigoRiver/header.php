@@ -13,6 +13,7 @@
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/center/jquery.blImageCenter.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/headline_js/main.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/jquery.vibe.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url');?>/js/peach_responsive_video.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/js/plugin.js"></script>
 <script src="//use.typekit.net/ozh5zle.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>

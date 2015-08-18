@@ -13,11 +13,13 @@ get_header(); ?>
 
 <div id="mainWrapper">
 	<article id="introHome" class="windowHeight">
+        <div class="mainSlider">
             <video id="videoBG" controls preload autoplay>
               <source src="<?php bloginfo('template_url');?>/media/video_bg.mp4" type="video/mp4">
               
               Your browser does not support the video tag.
             </video>
+        </div>
         <div class="background_opaque_header">
         </div>
         <a class="mobHomeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>

@@ -2,6 +2,8 @@
 
 $(document).ready(function(){
 
+	$("#videoBG").peach_video();
+
 	//scroll animations
 
 	/* Every time the window is scrolled ... */
