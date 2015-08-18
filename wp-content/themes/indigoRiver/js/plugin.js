@@ -145,6 +145,7 @@ $(document).ready(function(){
     	$(".servicesSliderContainer .bx-viewport").height(sheight);
     	$(".sliderContainer").height(sheight);
     	$(".sliderText").height(sheight);
+    	$(".servicesSlider").height(sheight);
 
 
 	$('.ourPeople').each(function() {
