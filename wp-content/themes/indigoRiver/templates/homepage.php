@@ -14,7 +14,7 @@ get_header(); ?>
 <div id="mainWrapper">
 	<article id="introHome" class="windowHeight">
         <div class="mainSlider" class="windowHeight">
-            <video id="videoBG" controls preload autoplay>
+            <video id="videoBG" preload autoplay>
               <source src="<?php bloginfo('template_url');?>/media/video_bg.mp4" type="video/mp4">
               
               Your browser does not support the video tag.
