@@ -181,15 +181,15 @@ function resizeOurPeople(){
 
 	/* SET HEIGHT OF SLIDER */
 		
-	var sliderheight = $('#homeSelectServices').height();
-	var sliderheader = $('.sliderHeader').height();
-	var sheight = (sliderheight - sliderheader);
-	$(".sliderContainer").height(sheight);
-	$(".servicesSliderContainer .bx-wrapper").height(sheight);		
-	$(".servicesSliderContainer .bx-viewport").height(sheight);
-	$(".servicesSlider").height(sheight);
-	$(".sliderThumbnail").height(sheight);
-	$(".sliderText").height(sheight);
+	//var sliderheight = $('#homeSelectServices').height();
+	//var sliderheader = $('.sliderHeader').height();
+	//var sheight = (sliderheight - sliderheader);
+	//$(".sliderContainer").height(sheight);
+	//$(".servicesSliderContainer .bx-wrapper").height(sheight);		
+	//$(".servicesSliderContainer .bx-viewport").height(sheight);
+	//$(".servicesSlider").height(sheight);
+	//$(".sliderThumbnail").height(sheight);
+	//$(".sliderText").height(sheight);
 	
 
 	//* responsive classes *//
