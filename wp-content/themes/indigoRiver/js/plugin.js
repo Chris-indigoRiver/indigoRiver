@@ -212,6 +212,10 @@ function resizeOurPeople(){
 	$(".sliderContainer").height(sheight);
 	$(".sliderThumbnail").height(sheight);
 	$(".sliderText").height(sheight);
+
+	var newsheight = $(".appointments").height();
+	var nheight = newsheight / 3;
+	$(".navNews li").height(nheight);
 }
 
 $(window).on('scroll', function () {
