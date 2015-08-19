@@ -190,6 +190,12 @@ function resizeOurPeople(){
 	//$(".servicesSlider").height(sheight);
 	//$(".sliderThumbnail").height(sheight);
 	//$(".sliderText").height(sheight);
+
+	var sliderheight = $('#homeSelectServices').height();
+	var sliderheader = $('.sliderHeader').height();
+	var sheight = (sliderheight - sliderheader);
+
+	$(".sliderContainer").height(sheight);
 	
 
 	//* responsive classes *//
