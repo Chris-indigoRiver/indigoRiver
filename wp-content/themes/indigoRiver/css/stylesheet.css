@@ -1009,12 +1009,16 @@ header {
     font-family: 'bebas_neue',serif;
     font-weight: 900;
     position: absolute;
-    left: 80px;
+    left: 30%;
     top: 70px;
     -webkit-transition: 100ms ease-out 0.3s;
     -moz-transition: 100ms ease-out 0.3s;
     -o-transition: 100ms ease-out 0.3s;
     transition: 100ms ease-out 0.3s;
+}
+
+.postFooterPrev h2 a {
+    color: #FFF !important;
 }
 
 .postFooterNext h2 {
@@ -1029,6 +1033,10 @@ header {
     -moz-transition: 100ms ease-out 0.3s;
     -o-transition: 100ms ease-out 0.3s;
     transition: 100ms ease-out 0.3s;
+}
+
+.postFooterNext h2 a {
+    color: #FFF !important;
 }
 
 .previousJournalPost {}
