@@ -238,10 +238,9 @@ function resizeOurPeople(){
 	var sliderheight = $('#homeSelectServices').height();
 	var sliderheader = $('.sliderHeader').height();
 	var sheight = (sliderheight - sliderheader);
-
-	alert(sliderheight);
-
 	$(".sliderContainer").height(sheight);
+	$(".sliderThumbnail").height(sheight);
+	$(".sliderText").height(sheight);
 }
 
 $(window).on('scroll', function () {
