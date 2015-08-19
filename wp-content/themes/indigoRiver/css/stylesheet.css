@@ -456,7 +456,6 @@ header {
     font-weight: normal;
     color: #fff;
     line-height: 0px;
-    padding-top: 40px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -496,6 +495,24 @@ header {
     color: #FFF;       
     height: 100px !important;      
     width: 200px;      
+}
+
+.navNews .bx-prev {
+    display: block;
+    position: absolute;
+    top: 0px;
+    background: red;
+    width: 50px;
+    height: 50px;
+}
+
+.navNews .bx-next {
+    display: block;
+    position: absolute;
+    top: 0px;
+    background: red;
+    width: 50px;
+    height: 50px;
 }
 
 /* ========== Home Main Structure ==========*/
