@@ -463,6 +463,12 @@ header {
 	background:#fff;
 }
 
+.navNews li {
+    width: 100%;
+    height: 100px;
+    background: red;
+}
+
 /* ========== Home Main Structure ==========*/
 
 .mainSlider {
