@@ -144,8 +144,6 @@ $(document).ready(function(){
 
 	$('.ourPeople img').centerImage();
 
-	resizeOurPeople();
-
 	//responsiveness for homepage
 
 	if ($(window).width() <= 1060){
@@ -170,6 +168,8 @@ $(document).ready(function(){
 
 	$("#videoBG").peach_video();
 	$('#videoBG')[0].play();
+
+	resizeOurPeople();
 
 });
 
