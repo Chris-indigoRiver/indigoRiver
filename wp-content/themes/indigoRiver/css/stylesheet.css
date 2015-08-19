@@ -980,9 +980,52 @@ header {
 
 /* ========== Single Journal Page ========== */
 
+.postFooterContainer {
+    height:auto; 
+    width:100%;
+}
+
+.postFooterPrev {
+    width: 50%; 
+    vertical-align: top; 
+    display: inline-block; 
+    height: 200px;
+    background-size: cover; 
+}
+
+.postControlsOpaque {}
+
+.previousHeader{}
+
+.previousJournalPost {}
+
+.postFooterNext {
+    background-size: cover;
+}
+
+.nextHeader {}
+
+.nextJournalPost {}
+
+.postFooterBack {
+    width:100%; 
+    height:300px; 
+    background:#202020;
+}
+
+.postFooterBack h2 {
+    color: #f9f9f9; 
+    font-size: 50px; 
+    text-align: center; 
+    padding-top: 100px;
+}
+
+
+
+
+
 .singleJournal {
-	position: relative;
-	
+	position: relative;	
 }
 
 #journalThumbnail {

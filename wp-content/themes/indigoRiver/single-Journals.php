@@ -21,6 +21,38 @@ get_header(); ?>
             <?php echo the_content(); ?>    
         </div>
     </div>
+    <div class="postFooterContainer">
+        <?php
+            $Image = get_previous_post();
+            $attr = wp_get_attachment_image_src( get_post_thumbnail_id( $Image->ID ), 'single-post-thumbnail' );
+        ?>
+        <div class="postFooterPrev" style="background:url(<?php echo $attr[0]; ?>);">
+            <div class="postControlsOpaque">
+            </div>
+            <h2 class="previousHeader"><?php
+                echo previous_post('%', 'PREVIOUS', 'no');
+            ?></h2>
+            <?php 
+                echo '<div class="previousJournalPost">' . previous_post('%', '', 'yes') . '</div>';
+            ?>
+        </div><?php
+        ?><?php
+            $Image = get_next_post();
+            $attr = wp_get_attachment_image_src( get_post_thumbnail_id( $Image->ID ), 'single-post-thumbnail' );
+        ?><div class="postFooterNext"  style="background:url(<?php echo $attr[0]; ?>); ">
+            <div class="postControlsOpaque">
+            </div>
+            <h2 class="nextHeader"><?php
+                echo next_post('%', 'NEXT', 'no'); 
+            ?></h2>
+            <?php
+                echo '<div class="nextJournalPost">' . next_post('%', '', 'yes') . '</div>'; 
+            ?>
+        </div>
+        <div class="postFooterBack">
+            <a href="<?php bloginfo('url');?>/work"><h2>Back to featured works</h2></a>
+        </div>
+    </div>
 </div>
 
 <?php endwhile; endif; ?>
