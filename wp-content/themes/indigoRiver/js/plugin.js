@@ -195,6 +195,8 @@ function resizeOurPeople(){
 	var sliderheader = $('.sliderHeader').height();
 	var sheight = (sliderheight - sliderheader);
 
+	alert(sheight);
+
 	$(".sliderContainer").height(sheight);
 	
 
