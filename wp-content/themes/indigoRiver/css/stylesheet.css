@@ -469,6 +469,7 @@ header {
 	top:0;
 	width:0%;
 	height:100%;
+    overflow: hidden;
 }
 
 .navNews li {
