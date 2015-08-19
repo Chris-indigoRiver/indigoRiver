@@ -504,6 +504,8 @@ header {
     background: red !important;
     width: 50px !important;
     height: 50px !important;
+    margin: 0px !important;
+    right: 50px !important;
 }
 
 .navNewsWrapper .bx-next {
@@ -513,6 +515,8 @@ header {
     background: red !important;
     width: 50px !important;
     height: 50px !important;
+    margin: 0px !important;
+    right: 0px !important;
 }
 
 /* ========== Home Main Structure ==========*/
