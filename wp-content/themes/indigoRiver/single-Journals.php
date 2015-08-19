@@ -21,7 +21,6 @@ get_header(); ?>
             <?php echo the_content(); ?>    
         </div>
     </div>
-    <h1>TEST</h1>
     <div class="postFooterContainer">
         <?php
             $Image = get_previous_post();

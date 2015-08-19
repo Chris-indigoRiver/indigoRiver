@@ -1003,12 +1003,32 @@ header {
     background: rgba(0, 0, 0, 0.75);
 }
 
-.previousHeader{
-    opacity: 1 !important;
-    top: 10px !important;
-    left: 0px !important;
-    font-family: 'bebas_neue' !important;
-    font-size: 40px !important;
+.postFooterPrev h2 {
+    color: #fff !important;
+    font-size: 50px;
+    font-family: 'bebas_neue',serif;
+    font-weight: 900;
+    position: absolute;
+    left: 80px;
+    top: 70px;
+    -webkit-transition: 100ms ease-out 0.3s;
+    -moz-transition: 100ms ease-out 0.3s;
+    -o-transition: 100ms ease-out 0.3s;
+    transition: 100ms ease-out 0.3s;
+}
+
+.postFooterNext h2 {
+    color: #fff !important;
+    font-size: 50px;
+    font-family: 'bebas_neue',serif;
+    font-weight: 900;
+    position: absolute;
+    right: 80px;
+    top: 70px;
+    -webkit-transition: 100ms ease-out 0.3s;
+    -moz-transition: 100ms ease-out 0.3s;
+    -o-transition: 100ms ease-out 0.3s;
+    transition: 100ms ease-out 0.3s;
 }
 
 .previousJournalPost {}
