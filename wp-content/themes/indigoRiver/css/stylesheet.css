@@ -508,6 +508,7 @@ header {
     margin: 0px !important;
     right: 50px !important;
     left: auto !important;
+    background: url("../img/arrow-left.png");
 }
 
 .navNewsWrapper .bx-next {
@@ -520,6 +521,7 @@ header {
     margin: 0px !important;
     right: 0px !important;
     left: auto !important;
+    background: url("../img/arrow-right.png");
 }
 
 /* ========== Home Main Structure ==========*/
