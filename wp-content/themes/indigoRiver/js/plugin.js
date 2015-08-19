@@ -166,10 +166,12 @@ $(document).ready(function(){
 		 }
 	});
 
+	resizeOurPeople();
+
 	$("#videoBG").peach_video();
 	$('#videoBG')[0].play();
 
-	resizeOurPeople();
+
 
 });
 
@@ -180,24 +182,6 @@ $(window).on('resize', function(){
 function resizeOurPeople(){
 
 	/* SET HEIGHT OF SLIDER */
-		
-	//var sliderheight = $('#homeSelectServices').height();
-	//var sliderheader = $('.sliderHeader').height();
-	//var sheight = (sliderheight - sliderheader);
-	//$(".sliderContainer").height(sheight);
-	//$(".servicesSliderContainer .bx-wrapper").height(sheight);		
-	//$(".servicesSliderContainer .bx-viewport").height(sheight);
-	//$(".servicesSlider").height(sheight);
-	//$(".sliderThumbnail").height(sheight);
-	//$(".sliderText").height(sheight);
-
-	var sliderheight = $('#homeSelectServices').height();
-	var sliderheader = $('.sliderHeader').height();
-	var sheight = (sliderheight - sliderheader);
-
-	alert(sliderheight);
-
-	$(".sliderContainer").height(sheight);
 	
 
 	//* responsive classes *//
@@ -231,15 +215,33 @@ function resizeOurPeople(){
 		$(this).height(ourPeople);
 	});
 
-	var newsHeight = $('.navNewsWrapper').height();
-	$('.navNews').height(newsHeight);
-	$('.navNewsWrapper .bx-wrapper .bx-viewport').height(newsHeight);
-	var third = ((newsHeight / 100) * 75);
-	$('.navNewsWrapper .bx-wrapper .bx-viewport ul li').height(third);
+	//var newsHeight = $('.navNewsWrapper').height();
+	//$('.navNews').height(newsHeight);
+	//$('.navNewsWrapper .bx-wrapper .bx-viewport').height(newsHeight);
+	//var third = ((newsHeight / 100) * 75);
+	//$('.navNewsWrapper .bx-wrapper .bx-viewport ul li').height(third);
 	//$('.navNewsWrapper .bx-wrapper .bx-viewport').css("margin-top", third);
 	
 	//var windowHeight = $(window).height();
 	//$("#videoBG").height(windowHeight);
+
+	//var sliderheight = $('#homeSelectServices').height();
+	//var sliderheader = $('.sliderHeader').height();
+	//var sheight = (sliderheight - sliderheader);
+	//$(".sliderContainer").height(sheight);
+	//$(".servicesSliderContainer .bx-wrapper").height(sheight);		
+	//$(".servicesSliderContainer .bx-viewport").height(sheight);
+	//$(".servicesSlider").height(sheight);
+	//$(".sliderThumbnail").height(sheight);
+	//$(".sliderText").height(sheight);
+
+	var sliderheight = $('#homeSelectServices').height();
+	var sliderheader = $('.sliderHeader').height();
+	var sheight = (sliderheight - sliderheader);
+
+	alert(sliderheight);
+
+	$(".sliderContainer").height(sheight);
 }
 
 $(window).on('scroll', function () {
