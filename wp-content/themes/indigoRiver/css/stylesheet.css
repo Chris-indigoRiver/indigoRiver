@@ -509,6 +509,7 @@ header {
     right: 50px !important;
     left: auto !important;
     background: url("../img/arrow-left.png") !important;
+    background-size: 50px 50px !important;
 }
 
 .navNewsWrapper .bx-next {
@@ -522,6 +523,7 @@ header {
     right: 0px !important;
     left: auto !important;
     background: url("../img/arrow-right.png") !important;
+    background-size: 50px 50px !important;
 }
 
 /* ========== Home Main Structure ==========*/
