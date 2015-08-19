@@ -110,6 +110,7 @@ $(document).ready(function(){
 	  auto: true,
 	  startSlide: 0,
 	  preloadImages: 'all',
+	  minSlides: 3,
 	  maxSlides: 3
 	});
 
