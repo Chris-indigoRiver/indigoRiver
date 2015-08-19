@@ -497,7 +497,7 @@ header {
     width: 200px;      
 }
 
-.navNews .bx-prev {
+.navNewsWrapper .bx-prev {
     display: block;
     position: absolute;
     top: 0px;
@@ -506,7 +506,7 @@ header {
     height: 50px;
 }
 
-.navNews .bx-next {
+.navNewsWrapper .bx-next {
     display: block;
     position: absolute;
     top: 0px;
