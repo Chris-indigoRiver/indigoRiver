@@ -466,7 +466,7 @@ header {
 .navNews li {
     width: 100% !important;
     height: 100px;
-    background: red;
+    background-color: grey; 
 }
 
 .navNewsTitle {     
@@ -487,14 +487,6 @@ header {
     color: #FFF;       
     height: 100px !important;      
     width: 200px;      
-}
-
-.navNews li:nth-child(even) {       
-    background-color: grey;     
-}      
-       
-.navNews li:nth-child(odd) {   
-    background-color: #404040;      
 }
 
 /* ========== Home Main Structure ==========*/
