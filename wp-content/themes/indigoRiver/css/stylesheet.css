@@ -469,6 +469,34 @@ header {
     background: red;
 }
 
+.navNewsTitle {     
+    padding: 30px;     
+    margin-bottom: 100px;      
+    color: #FFF;       
+}      
+       
+.navNewsExcerpt {      
+    color: #FFF;       
+    padding: 0 30px;       
+}      
+       
+.navNewsLogo {     
+    position: absolute;        
+    top: 40px;     
+    right: 50px;       
+    color: #FFF;       
+    height: 100px !important;      
+    width: 200px;      
+}
+
+.navNews li:nth-child(even) {       
+    background-color: grey;     
+}      
+       
+.navNews li:nth-child(odd) {   
+    background-color: #404040;      
+}
+
 /* ========== Home Main Structure ==========*/
 
 .mainSlider {
