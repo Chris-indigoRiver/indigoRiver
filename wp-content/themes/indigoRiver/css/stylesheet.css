@@ -990,16 +990,35 @@ header {
     vertical-align: top; 
     display: inline-block; 
     height: 200px;
-    background-size: cover; 
+    background-size: cover;
+    position: relative; 
 }
 
-.postControlsOpaque {}
+.postControlsOpaque {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
 
-.previousHeader{}
+.previousHeader{
+    opacity: 1 !important;
+    top: 10px !important;
+    left: 0px !important;
+    font-family: 'bebas_neue' !important;
+    font-size: 40px !important;
+}
 
 .previousJournalPost {}
 
 .postFooterNext {
+    position: relative;
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;
+    height: 200px;
     background-size: cover;
 }
 
