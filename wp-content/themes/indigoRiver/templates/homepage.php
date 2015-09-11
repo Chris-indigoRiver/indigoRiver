@@ -13,9 +13,18 @@ get_header(); ?>
 
 <div id="mainWrapper">
 	<article id="introHome" class="windowHeight">
+        <!--old vid
         <video width="100%" height="auto" controls>
           <source src="<?php bloginfo('template_url');?>/img/iR_Studio_Sequences0008_1.mp4" type="video/mp4">
         </video>
+        -->
+        <div class="mainSlider" class="windowHeight">
+            <video id="videoBG" autoplay loop>
+              <source src="<?php bloginfo('template_url');?>/media/video_bg.mp4" type="video/mp4">
+              
+              Your browser does not support the video tag.
+            </video>
+        </div>
         <div class="background_opaque_header">
         </div>
         <a class="mobHomeLogo" href="http://indigo-river.com/"><img src="<?php bloginfo('template_url');?>/img/IndigoRiver_Logo_White-01.svg"></a>

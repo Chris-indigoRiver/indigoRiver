@@ -22,8 +22,8 @@
             <li><h2 class="white animated fadeInRight delay-zero-five"><a href="<?php bloginfo('url');?>/work">WORK</a></h2></li>
             <li><h2 class="white animated fadeInRight delay-one"><a href="<?php bloginfo('url');?>/contact">CONTACT</a></h2></li>
         </ul>
-        <p>TERMS</p>
-        <p>COOKIES</p>
+        <p><a href="<?php bloginfo('url');?>/terms">TERMS</a></p>
+        <p><a href="<?php bloginfo('url');?>/cookies">COOKIES</a></p>
     </div>
         <div class="appointments">
         	<div class="navNewsWrapper">
