@@ -131,6 +131,10 @@ a p {
     width: 100%;
 }
 
+.cardWrap {
+    padding: 0 10%;
+}
+
 .card {
     opacity: 0;
     transition: all 300ms ease-in-out;
