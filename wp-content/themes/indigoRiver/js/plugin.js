@@ -238,7 +238,7 @@ $(window).on('scroll', function () {
 		} else {
 			$("#LLTwo").css("background", "#CCC");		
 		}		
-		if(($("#homeOurPeople").offset().top - $(window).scrollTop()) < 100) {
+		if(($(".homeOurPeople").offset().top - $(window).scrollTop()) < 100) {
 			$(".locatorLine").css("background", "#CCC");
 			$("#LLThree").css("background", "#000");
 			$(".locatorText p").empty();
