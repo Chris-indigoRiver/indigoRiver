@@ -131,6 +131,29 @@ a p {
     width: 100%;
 }
 
+.card {
+    transition: all 300ms ease-in-out;
+}
+
+.is-visible {
+    opacity:1;
+    animation-name: slideInUp;
+    animation-duration:1s;
+    animation-fill-mode:both;
+}
+@keyframes slideInUp {
+    from {
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+.slideInUp {
+    animation-name: slideInUp;
+}
+
 /* ================================ HEADER ================================= */
 
 header {
