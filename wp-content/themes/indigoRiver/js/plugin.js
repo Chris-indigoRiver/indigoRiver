@@ -259,7 +259,7 @@ $(window).on('scroll', function () {
 
 		//work
 
-		if(($("#workIntro").offset().top - $(window).scrollTop()) > 100) {			
+		/*if(($("#workIntro").offset().top - $(window).scrollTop()) > 100) {			
 			$(".locatorLine").css("background", "#CCC");
 			$("#LLOne").css("background", "#000");
 			$(".locatorText p").empty();
@@ -274,6 +274,6 @@ $(window).on('scroll', function () {
 			$(".locatorText p").text("CLIENTS");
 		} else {
 			$("#LLTwo").css("background", "#CCC");		
-		}
+		}*/
 
 });
