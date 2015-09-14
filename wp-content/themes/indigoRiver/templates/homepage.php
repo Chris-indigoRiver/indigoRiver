@@ -174,7 +174,7 @@ get_header(); ?>
         </div>
         
     </article>
-    <article id="homeOurPeople cardWrap">
+    <article class="homeOurPeople cardWrap">
     	<div class="ourPeopleIntro">
         	<h1 class="People_title white">Our People</h1>
             <p class="white">The heartbeat of our agency, where the magic happens. Without these guys and girls none of the things we do would be possible. In fact, there’s only one thing our team cares about more than our business and that’s our clients’ business.</p>
