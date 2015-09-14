@@ -16,6 +16,24 @@ $(window).resize(function(){
 	
 		//$('.workThird img').centerImage();
 
+		//appear on scroll
+
+		$(window).scroll(function(){
+        	startSlideUp();
+	    });
+
+	    function startSlideUp() {
+	        var wScroll = $(window).scrollTop();
+	        if ($('.cardWrap').offset().top - $(window).height() / 2 < wScroll) {
+	            $('.card').each(function (i) {
+	                setTimeout(function () {
+	                    $('.card').eq(i).addClass('is-visible');
+	                }, 100 * i);
+	            });
+	        }
+	    }
+
+		//
 		
 		resizeOurPeople();	
 		
