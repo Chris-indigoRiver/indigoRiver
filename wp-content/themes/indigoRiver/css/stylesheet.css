@@ -1175,6 +1175,10 @@ header {
     margin: 30px auto;
 }	
 
+#journalContent p a {
+	background: #303030;
+}
+
 /* ========== CONTACT US PAGE ========== */
 
 .page-template-contactus header {

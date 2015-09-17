@@ -1,3 +1,12 @@
+<?php
+$ip=$_SERVER['REMOTE_ADDR']; 
+if ($ip == 92.19.214.0) { 
+
+} else { 
+	header('Location: http://www.indigo-river.com');
+} 
+?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
