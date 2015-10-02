@@ -525,7 +525,7 @@ header {
 
 .navNewsTitle {     
     padding: 30px;     
-    margin-bottom: 100px;      
+    margin-bottom: 50px;      
     color: #FFF; 
     position: relative;      
 }      
@@ -533,7 +533,8 @@ header {
 .navNewsExcerpt {      
     color: #FFF;       
     padding: 0 30px;  
-    position: relative;     
+    position: relative;  
+    font-weight: 900;   
 }      
        
 .navNewsLogo {     
