@@ -533,7 +533,7 @@ header {
 
 .navNewsTitle {     
     padding: 30px;     
-    margin-bottom: 50px;      
+    margin-bottom: 0px;      
     color: #FFF; 
     position: relative;      
 }      
@@ -544,7 +544,7 @@ header {
     position: relative;
     font-weight: 900;
     line-height: 22px;
-    background-color: rgba(30, 30, 30, 0.72);
+    background-color: rgba(30, 30, 30, 0.9);
     margin: 0 30px;
 }      
        
