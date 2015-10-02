@@ -609,10 +609,10 @@ header {
     background-size: 50px 50px !important;
 }
 .navNewsWrapper .bx-next:hover {
-    background: #f5f5f5 !important;
+    background:url("../img/arrowDown.png") #505050 center no-repeat !important;
 }
 .navNewsWrapper .bx-prev:hover {
-    background: #f5f5f5 !important;
+    background:url("../img/arrowUp.png") #505050 center no-repeat !important;
 }
 
 /* ========== Home Main Structure ==========*/
