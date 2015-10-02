@@ -49,6 +49,9 @@
                                     //the_post_thumbnail();
                                 } 
                             ?>
+                            <div class="menuPostLink">
+                                <p>Learn More</p>
+                            </div>
                         </li>                      
                     <?php endwhile; wp_reset_query(); ?>
                 </ul>
