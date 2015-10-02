@@ -608,6 +608,7 @@ header {
     left: 0 !important;
     background: url("../img/arrowDown.png") #404040 center no-repeat !important;
     background-size: 50px 50px !important;
+    border-top: 1px solid grey;
 }
 .navNewsWrapper .bx-next:hover {
     background:url("../img/arrowDown.png") #505050 center no-repeat !important;
