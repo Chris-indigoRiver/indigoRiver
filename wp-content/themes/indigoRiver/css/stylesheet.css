@@ -578,6 +578,7 @@ header {
         }
 
 .navNewsWrapper .bx-prev {
+    background: #fff;
     display: block !important;
     position: absolute !important;
     top: 0px !important;
@@ -591,6 +592,7 @@ header {
 }
 
 .navNewsWrapper .bx-next {
+    background: #fff;
     display: block !important;
     position: absolute !important;
     top: 50px !important;
@@ -601,6 +603,12 @@ header {
     left: 0 !important;
     background: url("../img/arrow-right.png") !important;
     background-size: 50px 50px !important;
+}
+.navNewsWrapper .bx-next:hover {
+    background: #f5f5f5;
+}
+.navNewsWrapper .bx-prev:hover {
+    background: #f5f5f5;
 }
 
 /* ========== Home Main Structure ==========*/
