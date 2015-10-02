@@ -50,7 +50,7 @@
                                 } 
                             ?>
                             <div class="menuPostLink">
-                                <a href="<?php $url ?>"><p>Learn More</p></a>
+                                <a href="<?php echo $url ?>"><p>Learn More</p></a>
                             </div>
                         </li>                      
                     <?php endwhile; wp_reset_query(); ?>
