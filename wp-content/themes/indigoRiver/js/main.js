@@ -115,8 +115,7 @@ $(window).resize(function(){
   			prevText: '',
 			pagerCustom: '#bx-pager',
 		  	onSliderLoad: function(){
-		  		$('.navNewsWrapper .bx-prev')addClass("square");
-		  		$('.navNewsWrapper .bx-next')addClass("square");
+		  		$('.bx-wrapper .bx-controls-direction a')addClass("square");
 		  	},
 			onSlideBefore: function($slideElement, oldIndex, newIndex){
 				//$('#'+$slideElement.attr('slide')).animate({bottom: $(homeSelectServices).height()-225},300);
