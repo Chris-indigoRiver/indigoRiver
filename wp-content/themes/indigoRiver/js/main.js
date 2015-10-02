@@ -18,7 +18,7 @@ $(window).resize(function(){
 
 		//appear on scroll
 
-		$(window).scroll(function(){
+		/*$(window).scroll(function(){
         	startSlideUp();
 	    });
 
@@ -31,7 +31,7 @@ $(window).resize(function(){
 	                }, 100 * i);
 	            });
 	        }
-	    }
+	    }*/
 
 		//
 		
