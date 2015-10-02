@@ -277,15 +277,16 @@ $(window).resize(function(){
 				event.preventDefault(); 
 				$("#bx-pager-link").click(); 
 			});
+
+			$('.navNewsWrapper .bx-prev').addClass("square");
+			$('.navNewsWrapper .bx-next').addClass("square");
+
 		});	
 
 		$(window).resize(function(){
 			$('.square').height(divWidth);
 		});	
 
-		$('.navNewsWrapper .bx-prev').addClass("square");
-		$('.navNewsWrapper .bx-next').addClass("square");	
-		
 		$('.beliefImg').each(function() {
 			$(this).height($(this).width() + 50);
 		});
