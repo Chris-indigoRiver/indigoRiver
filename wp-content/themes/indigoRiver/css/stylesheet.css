@@ -526,12 +526,14 @@ header {
 .navNewsTitle {     
     padding: 30px;     
     margin-bottom: 100px;      
-    color: #FFF;       
+    color: #FFF; 
+    position: relative;      
 }      
        
 .navNewsExcerpt {      
     color: #FFF;       
-    padding: 0 30px;       
+    padding: 0 30px;  
+    position: relative;     
 }      
        
 .navNewsLogo {     
