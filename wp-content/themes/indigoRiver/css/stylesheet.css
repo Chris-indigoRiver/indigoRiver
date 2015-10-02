@@ -500,6 +500,10 @@ header {
     overflow: hidden;
 }
 
+.navNews {
+    padding-left: 10%;
+}
+
 .navNews li {
     width: 100% !important;
     height: 100px;
@@ -567,6 +571,11 @@ header {
         height: 50px;
         padding: 10px 20px;
     }
+        .menuPostLink a p {
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
 
 .navNewsWrapper .bx-prev {
     display: block !important;

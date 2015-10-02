@@ -31,9 +31,7 @@
                     <?php $loop = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => -1 ) ); ?>
                     <?php while ( $loop->have_posts() ) : $loop->the_post();
                     $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-                    //$post_url = wp_get_url(
-
- ?>
+                    ?>
                         <li style="background: url(<?php echo  $url ?>) center no-repeat;
         background-size: cover;">
                         <div class="menu_opaque">
