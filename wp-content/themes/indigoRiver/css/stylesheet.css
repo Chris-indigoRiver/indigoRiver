@@ -580,6 +580,7 @@ header {
 
 .bx-wrapper .bx-controls-direction a {
     height: 75px !important;
+    cursor: pointer;
 }
 
 .navNewsWrapper .bx-prev {
