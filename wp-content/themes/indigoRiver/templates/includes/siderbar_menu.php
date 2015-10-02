@@ -50,7 +50,7 @@
                                 } 
                             ?>
                             <div class="menuPostLink">
-                                <p>Learn More</p>
+                                <a href="<?php get_post_permalink($id) ?>"><p>Learn More</p></a>
                             </div>
                         </li>                      
                     <?php endwhile; wp_reset_query(); ?>

@@ -561,11 +561,11 @@ header {
     .menuPostLink {
         position: absolute;
         background: #fff;
-        bottom:0;
+        bottom: 5px;
         right: 0;
-        width:200px;
-        height:80px;
-        padding:20px;
+        width: 200px;
+        height: 50px;
+        padding: 10px 20px;
     }
 
 .navNewsWrapper .bx-prev {
