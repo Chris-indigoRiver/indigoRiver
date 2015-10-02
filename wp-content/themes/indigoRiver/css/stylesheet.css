@@ -504,7 +504,12 @@ header {
     width: 100% !important;
     height: 100px;
 }
-
+    .menu_opaque {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+    }
     .navNews li:nth-child(1) {
         background: url(http://logonoid.com/images/obey-logo.png) center no-repeat;
         background-size: cover;

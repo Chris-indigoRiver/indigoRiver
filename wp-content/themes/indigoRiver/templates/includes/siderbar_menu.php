@@ -35,6 +35,8 @@
  ?>
                         <li style="background: url(<?php echo  $url ?>) center no-repeat;
         background-size: cover;">
+                        <div class="menu_opaque">
+                        </div>
 
                             <h2 class="navNewsTitle"><?php echo the_title(); ?></h2>
                             <p class="navNewsExcerpt"><?php echo get_field("custom_excerpt"); ?></p>
