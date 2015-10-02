@@ -503,7 +503,10 @@ header {
 .navNews li {
     width: 100% !important;
     height: 100px;
-    background-color: grey; 
+}
+
+.navNews li:nth-child(1) {
+    background: url(http://logonoid.com/images/obey-logo.png);
 }
 
 .navNewsTitle {     
