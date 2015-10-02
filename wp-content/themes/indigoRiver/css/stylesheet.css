@@ -505,9 +505,18 @@ header {
     height: 100px;
 }
 
-.navNews li:nth-child(1) {
-    background: url(http://logonoid.com/images/obey-logo.png);
-}
+    .navNews li:nth-child(1) {
+        background: url(http://logonoid.com/images/obey-logo.png);
+        background-size: cover;
+    }
+    .navNews li:nth-child(2) {
+        background: url(http://a1.dspncdn.com/media/692x/33/56/a9/3356a9f9af3d87b5c8cc9d1e4722c5a3.jpg);
+        background-size: cover;
+    }
+    .navNews li:nth-child(3) {
+        background: url(http://a1.dspncdn.com/media/692x/bc/24/c4/bc24c48a2e72c1b0bf5b911eabfa3262.jpg);
+        background-size: cover;
+    }
 
 .navNewsTitle {     
     padding: 30px;     
