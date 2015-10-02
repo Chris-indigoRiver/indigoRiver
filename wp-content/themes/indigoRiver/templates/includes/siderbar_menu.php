@@ -29,8 +29,13 @@
         	<div class="navNewsWrapper">
                 <ul class="navNews">
                     <?php $loop = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => -1 ) ); ?>
-                    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                        <li>              
+                    <?php while ( $loop->have_posts() ) : $loop->the_post();
+                    $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+
+ ?>
+                        <li style="background: url(<?php echo  $url ?>) center no-repeat;
+        background-size: cover;">
+
                             <h2 class="navNewsTitle"><?php echo the_title(); ?></h2>
                             <p class="navNewsExcerpt"><?php echo get_field("custom_excerpt"); ?></p>
                             <?php if(get_field("logo_field")) { ?>
