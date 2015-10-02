@@ -520,7 +520,7 @@ header {
         background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
         background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-        border-bottom: 6px solid #202020;
+        border-bottom: 2px solid #f5f5f5;
     }
     .navNews li:nth-child(1) {
         background: url(http://logonoid.com/images/obey-logo.png) center no-repeat;
@@ -565,7 +565,7 @@ header {
     .menuPostLink {
         position: absolute;
         background: #fff;
-        bottom: 5px;
+        bottom: 1px;
         right: 0;
         width: 200px;
         height: 50px;
