@@ -578,7 +578,6 @@ header {
         }
 
 .navNewsWrapper .bx-prev {
-    background: #fff;
     display: block !important;
     position: absolute !important;
     top: 0px !important;
@@ -587,12 +586,11 @@ header {
     height: 50px !important;
     margin: 0px !important;
     left: 0 !important;
-    background: url("../img/arrow-left.png") !important;
+    background: url("../img/arrow-left.png") #fff !important;
     background-size: 50px 50px !important;
 }
 
 .navNewsWrapper .bx-next {
-    background: #fff;
     display: block !important;
     position: absolute !important;
     top: 50px !important;
@@ -601,14 +599,14 @@ header {
     height: 50px !important;
     margin: 0px !important;
     left: 0 !important;
-    background: url("../img/arrow-right.png") !important;
+    background: url("../img/arrow-right.png") #fff !important;
     background-size: 50px 50px !important;
 }
 .navNewsWrapper .bx-next:hover {
-    background: #f5f5f5;
+    background: #f5f5f5 !important;
 }
 .navNewsWrapper .bx-prev:hover {
-    background: #f5f5f5;
+    background: #f5f5f5 !important;
 }
 
 /* ========== Home Main Structure ==========*/
