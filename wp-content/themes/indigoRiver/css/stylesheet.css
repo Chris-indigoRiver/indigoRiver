@@ -578,6 +578,10 @@ header {
             letter-spacing: 3px;
         }
 
+.bx-wrapper .bx-controls-direction a {
+    height: 75px !important;
+}
+
 .navNewsWrapper .bx-prev {
     display: block !important;
     position: absolute !important;
@@ -590,6 +594,7 @@ header {
     background: url("../img/arrow-left.png") #fff !important;
     background-size: 50px 50px !important;
 }
+
 
 .navNewsWrapper .bx-next {
     display: block !important;
