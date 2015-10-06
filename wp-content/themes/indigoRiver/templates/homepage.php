@@ -187,6 +187,8 @@ get_header(); ?>
                         the_post_thumbnail();
                     } 
                 ?>
+                <div class="background_opaque_header">
+                </div>
                 <h2 style="position:relative; text-align:center;"><?php the_title(); ?></h2>
                 <?php the_content(); ?>
             </div>
