@@ -30,7 +30,7 @@ get_header(); ?>
     <div class="footerContact" id="contactDetails">
         <div class="footerDetails footerLeft">
             <h3>Tel</h3>
-            <a class="white" href="tel:01527 757010"><p>01527 757010</p></a>
+            <a href="tel:01527 757010"><p class="white">01527 757010</p></a>
             <h3>Email</h3>
             <a href="mailto:talk2us@indigo-river.com">talk2us@indigo-river.com</a>
         </div>
