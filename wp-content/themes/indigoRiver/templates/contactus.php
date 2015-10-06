@@ -32,7 +32,7 @@ get_header(); ?>
             <h3>Tel</h3>
             <a href="tel:01527 757010"><p class="white">01527 757010</p></a>
             <h3>Email</h3>
-            <a href="mailto:talk2us@indigo-river.com">talk2us@indigo-river.com</a>
+            <a class="white" href="mailto:talk2us@indigo-river.com">talk2us@indigo-river.com</a>
         </div>
         <div class="footerDetails footerCenter">
             <h3>Address</h3>        
