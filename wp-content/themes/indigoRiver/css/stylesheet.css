@@ -2153,6 +2153,10 @@ h3 {
     line-height: 55px;
 }
 
+#vacancies {
+    padding: 0 0 100px 0;
+}
+
 .vacanciesHeader {
 	padding-left: 30px;
 }
