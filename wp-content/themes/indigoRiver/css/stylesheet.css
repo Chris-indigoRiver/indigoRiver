@@ -2153,6 +2153,11 @@ h3 {
     line-height: 55px;
 }
 
+.accordian {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 #vacancies {
     padding: 0 0 100px 0;
 }
