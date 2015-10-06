@@ -367,7 +367,7 @@ get_header(); ?>
             </div>
         </div><?php
         ?><div class="joinCTA">
-            <h2>Intrigued? Join us
+            <h2>Intrigued? <br>Join us
             </h2>
             <p>We always love hearing from fun and committed people so if you’re the sort of person who plays seriously and works with a smile on their face.<br><br> Why not <a href="mailto:careers@indigo-river.com?subject=Hello indigoRiver"><span class="black" style="border-bottom:1px solid; font-weight:800;">drop us a line?</span></a>
             </p>

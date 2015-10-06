@@ -2368,6 +2368,7 @@ h3 {
 
 .ourPeopleIntro h1 {
 	padding: 0 7%;
+    font-size: 60px;
 }
 
 .ourPeopleIntro p {
@@ -2448,7 +2449,7 @@ h3 {
 
 .joinCTA h2 {
 	letter-spacing:2px; 
-	font-size: 27px; 
+	font-size: 60px; 
 	color:#202020;
 	padding: 20px 14% 0% 7%;
 }
