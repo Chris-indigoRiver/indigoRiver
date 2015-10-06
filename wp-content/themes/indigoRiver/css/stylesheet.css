@@ -777,17 +777,26 @@ header {
             font-size: 40px;
             letter-spacing: 0px;
         }
+    .sliderThumbnail .fcBorder {
+        position: absolute;
+        top: 61px;
+        width: 97%;
+        height: 1px;
+        background: rgb(255, 255, 255);
+        margin: 0 auto;
+    }
 
 .sliderText {
 	width: 40%;
 	float: left;
 	background: #202020;
 	position: relative;
+    display: none;
 }
 
 .sliderText p {    
     color: #FFFFFF;
-    padding: 20px;
+    padding: 80px 50px 0px 50px;
     font-size: 18px !important;
     line-height: 30px !important;
 }
