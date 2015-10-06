@@ -1734,7 +1734,7 @@ h3 {
 
 #homeSelectServices {
 	position: relative;
-    height: 175px;
+    height: 175px !important;
 }
 
 .sliderContainer {
