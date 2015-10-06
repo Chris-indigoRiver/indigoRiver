@@ -1630,7 +1630,7 @@ h3 {
 .homeNavLogo {
     left: 20px;
     right: auto;
-    top: 63px;
+    top: 85px;
     width: 160px;
 }
 
@@ -1795,7 +1795,7 @@ h3 {
 
 #homeOurPeople {
     padding: 0;
-    height: auto !important;
+    position: inherit;
 }
 
 .ourPeople {
@@ -1977,7 +1977,7 @@ h3 {
 }
 
 .footerMessage p {
-    width: 80%;
+    width: 100%;
     text-align: center;
     color: #fff;
     font-size: 12px;
