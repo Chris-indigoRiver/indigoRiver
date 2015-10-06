@@ -1682,7 +1682,7 @@ h3 {
 
 #LLOne {
     position: fixed;
-    width: 1px;
+    width: 2px;
     height: 10px;
     bottom: 23px;
     left: 15px;
@@ -1698,7 +1698,7 @@ h3 {
 
 #LLThree {
     position: fixed;
-    width: 1px;
+    width: 2px;
     height: 10px;
     bottom: 23px;
     left: 45px;
@@ -2690,7 +2690,7 @@ h1 {
     left: auto;
     right: 10px;
     text-align: right;
-    width: 170px;
+    width: 300px;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
