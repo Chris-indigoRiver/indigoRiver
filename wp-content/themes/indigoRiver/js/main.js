@@ -106,6 +106,7 @@ $(window).resize(function(){
 			
 		var slider = $('.bxslider').bxSlider({
 			mode: 'fade',
+			pause: 100,
 			speed: 500,
 			auto: true,
 			autoDelay: 1000,
