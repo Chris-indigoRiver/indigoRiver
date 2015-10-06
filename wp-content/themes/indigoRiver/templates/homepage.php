@@ -187,7 +187,7 @@ get_header(); ?>
                         the_post_thumbnail();
                     } 
                 ?>
-                <h2 style="position:relative;"><?php the_title(); ?></h2>
+                <h2 style="position:relative; left: 25px;"><?php the_title(); ?></h2>
                 <?php the_content(); ?>
             </div>
             <?php endwhile; wp_reset_query(); ?>

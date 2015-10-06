@@ -1482,7 +1482,7 @@ header {
 }
 
 .sliderText p {
-    color: #202020;
+    color: #fff;
     padding: 0 30px;
     font-size: 16px !important;
     line-height: 25px !important;
@@ -1768,6 +1768,7 @@ h3 {
         height: auto !important;
         padding: 30px 0;
         overflow: hidden;
+        color: #fff;
     }
     /*.sliderText:nth-child(odd) {
         background: red;
