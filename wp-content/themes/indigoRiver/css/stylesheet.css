@@ -1787,6 +1787,10 @@ h3 {
     background: #fff;
 }
 
+.servicesHomeMob img {
+    width: 100%;
+}
+
 #homeValues {
 	position: relative;
 }
