@@ -1283,7 +1283,7 @@ header {
 }
 
 .page-template-templatescontactus-php footer {
-    display: none;
+    display: none !important;
 }
 
 #contactUsIntro {
