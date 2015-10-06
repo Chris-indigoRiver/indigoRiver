@@ -108,7 +108,7 @@ $(window).resize(function(){
 			mode: 'fade',
 			speed: 500,
 			auto: true,
-			autoDelay: 10000,
+			autoDelay: 1000,
 			nextSelector: '#slider-next',
  			prevSelector: '#slider-prev',
   			nextText: '',
