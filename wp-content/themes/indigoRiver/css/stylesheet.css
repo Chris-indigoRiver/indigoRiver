@@ -1767,6 +1767,7 @@ h3 {
     .sliderText {
         height: auto !important;
         padding: 30px 0;
+        overflow: hidden;
     }
     /*.sliderText:nth-child(odd) {
         background: red;
