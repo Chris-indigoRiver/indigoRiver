@@ -324,7 +324,7 @@ $(window).resize(function(){
 				$(this).animate({'width': '10%'}, 500);
 				$('.pageLocator').animate({'width': '11%'}, 200);
 				$('.nav').css('display' , 'none');
-				$('.appointments').css('display' , 'none');
+				$('.appointments').css({'display' , 'none'});
 				$('.menuLogo').css('display' , 'none');
 			}
 		});
