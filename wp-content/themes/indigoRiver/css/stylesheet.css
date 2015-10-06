@@ -2811,7 +2811,7 @@ h1 {
 }
 
 .joinCTA {
-	width: 100%;
+	width:60%;
 	height: auto !important;
 }
 
@@ -2851,7 +2851,7 @@ h1 {
 	height: 800px !important;
 }
 #homeOurPeople {
-	padding:0 0 10px 0;
+	padding:0 0 0px 0;
 }
 .ourPeopleIntro {
     width: 100%;
