@@ -1486,6 +1486,7 @@ header {
     padding: 0 30px;
     font-size: 16px !important;
     line-height: 25px !important;
+    position: relative;
 }
 
 .projectExamples {
