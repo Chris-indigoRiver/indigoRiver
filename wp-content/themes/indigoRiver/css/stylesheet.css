@@ -100,7 +100,7 @@ small {
 a {
 	font-family: "fira-sans-2",sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 900;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
 }
@@ -108,7 +108,7 @@ a {
 a p {
 	font-family: "fira-sans-2",sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 900;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
 }
@@ -2510,6 +2510,8 @@ h3 {
     color: #fff;
     font-family: "fira-sans-2", serif;
     display: inline;
+    position: relative;
+    z-index: 9999;
 }
 
 .footerRight a {
