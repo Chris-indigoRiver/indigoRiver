@@ -312,20 +312,41 @@ $(window).resize(function(){
 		$( ".menuIcon" ).click(function() {
 			$(this).toggleClass('on');
 			if($(this).hasClass('on')){
-				$(this).css('background' , 'transparent');
-				$(this).delay(100).animate({'width': '99%'}, 500);
-				$('.pageLocator').animate({'width': '50%'}, 200);
-				$('.nav').css({'display' : 'block'});
-				$('.appointments').css({'display' : 'block'});
-				$('.menuLogo').css({'display' : 'block'});
-				$('.locatorLine').addClass('animated fadeOut');
+				if (width =< 600){
+					$(this).css('background' , 'transparent');
+					$(this).delay(100).animate({'width': '50px'}, 500);
+					$('.pageLocator').animate({'width': '50%'}, 200);
+					$('.nav').css({'display' : 'block'});
+					$('.appointments').css({'display' : 'block'});
+					$('.menuLogo').css({'display' : 'block'});
+					$('.locatorLine').addClass('animated fadeOut');
+				}
+				else if (width => 601){
+					$(this).css('background' , 'transparent');
+					$(this).delay(100).animate({'width': '99%'}, 500);
+					$('.pageLocator').animate({'width': '50%'}, 200);
+					$('.nav').css({'display' : 'block'});
+					$('.appointments').css({'display' : 'block'});
+					$('.menuLogo').css({'display' : 'block'});
+					$('.locatorLine').addClass('animated fadeOut');
+				}
 			}else{
-				$(this).css('background' , '#f9f9f9');
-				$(this).animate({'width': '10%'}, 500);
-				$('.pageLocator').animate({'width': '11%'}, 200);
-				$('.nav').css('display' , 'none');
-				$('.appointments').css({'display' , 'none'});
-				$('.menuLogo').css('display' , 'none');
+				if (width =< 600){
+					$(this).css('background' , '#f9f9f9');
+					$(this).animate({'width': '10%'}, 500);
+					$('.pageLocator').animate({'width': '11%'}, 200);
+					$('.nav').css('display' , 'none');
+					$('.appointments').css({'display' , 'none'});
+					$('.menuLogo').css('display' , 'none');
+				}
+				else if (width => 601){
+					$(this).css('background' , '#f9f9f9');
+					$(this).animate({'width': '10%'}, 500);
+					$('.pageLocator').animate({'width': '11%'}, 200);
+					$('.nav').css('display' , 'none');
+					$('.appointments').css({'display' , 'none'});
+					$('.menuLogo').css('display' , 'none');
+				}
 			}
 		});
 		
