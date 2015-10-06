@@ -133,7 +133,7 @@ get_header(); ?>
             </div>
         </div>
     </article>
-    <article id="homeSelectServices" class="windowHeight">
+    <article id="homeSelectServices" class="">
     	<div class="sliderHeader">
         	<h1 class="slider_title">We Specialise In <span class="serviceName">STRATEGY</span></h1>
             <div id="servicesPager">
@@ -159,6 +159,9 @@ get_header(); ?>
 									the_post_thumbnail();
 								} 
 							?>
+                            <div class="homeSlideTitle">
+                                <?php echo the_title(); ?>
+                            </div>
                         </div>
                         <div class="sliderText" id="">
                             <?php the_content(); ?>
@@ -366,7 +369,7 @@ get_header(); ?>
         ?><div class="joinCTA">
             <h2>Intrigued? Join us
             </h2>
-            <p>We always love hearing from fun and committed people so if you’re the sort of person who plays seriously and works with a smile on their face.<br> Why not <a href="mailto:careers@indigo-river.com?subject=Hello indigoRiver"><span class="black" style="border-bottom:1px solid; font-weight:800;">drop us a line?</span></a>
+            <p>We always love hearing from fun and committed people so if you’re the sort of person who plays seriously and works with a smile on their face.<br><br> Why not <a href="mailto:careers@indigo-river.com?subject=Hello indigoRiver"><span class="black" style="border-bottom:1px solid; font-weight:800;">drop us a line?</span></a>
             </p>
         </div>
     </article>
