@@ -180,13 +180,13 @@ get_header(); ?>
         <div class="servicesHomeMob">
             <?php $loop = new WP_Query( array( 'post_type' => 'services', 'posts_per_page' => -1 ) ); ?>
             <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-            <?php 
-                if ( has_post_thumbnail() ) { 
-                // check if the post has a Post Thumbnail assigned to it.
-                    the_post_thumbnail();
-                } 
-            ?>
             <div class="sliderText" id="">
+                <?php 
+                    if ( has_post_thumbnail() ) { 
+                    // check if the post has a Post Thumbnail assigned to it.
+                        the_post_thumbnail();
+                    } 
+                ?>
                 <h2><?php the_title(); ?></h2>
                 <?php the_content(); ?>
             </div>
