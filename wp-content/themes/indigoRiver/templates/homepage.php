@@ -173,9 +173,12 @@ get_header(); ?>
             </ul>
         </div>
         <div class="servicesHomeMob">
-            <div class="" id="">
+            <?php $loop = new WP_Query( array( 'post_type' => 'services', 'posts_per_page' => -1 ) ); ?>
+            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+            <div class="sliderText" id="">
                 <?php the_content(); ?>
             </div>
+            <?php endwhile; wp_reset_query(); ?>
         </div>
         
     </article>
