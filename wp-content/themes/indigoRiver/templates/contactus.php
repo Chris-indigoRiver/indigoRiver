@@ -27,7 +27,7 @@ get_header(); ?>
         <div class="background_opaque2"></div>
         <h1 class="contactUsHeader">CONTACT</h1>
     </div>
-    <div class="footerContact">
+    <div class="footerContact" id="contactDetails">
         <div class="footerDetails footerLeft">
             <h3>Tel</h3>
             <a href="tel:01527 757010"><p>01527 757010</p></a>
