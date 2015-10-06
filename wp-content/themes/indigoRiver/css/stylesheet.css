@@ -1734,8 +1734,11 @@ h3 {
 
 #homeSelectServices {
 	position: relative;
-    height: 175px !important;
+    height: auto !important;
 }
+    .sliderText {
+        height: auto !important;
+    }
 
 .servicesHomeMob {
     height: 100px;
