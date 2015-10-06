@@ -170,7 +170,7 @@ get_header(); ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="fcBorder">
+                        <div class="fcBorder" id="slideBorder">
                         </div>
                     </div>
               	</li>
