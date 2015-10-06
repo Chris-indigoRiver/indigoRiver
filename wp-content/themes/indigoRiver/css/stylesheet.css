@@ -1442,6 +1442,11 @@ header {
     background-position: 0px 0;
 }
 
+/* disabling slider */
+.bx-wrapper {
+    display: none;
+}
+
 .slider_title {
     text-align: center;
     font-size: 40px;
