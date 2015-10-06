@@ -763,6 +763,20 @@ header {
 	float: left;
 	background: #969696;
 }
+    .homeSlideTitle {
+        position: absolute;
+        z-index: 99999;
+        left: 0%;
+        background-color: #fff;
+        width: auto;
+        height: auto;
+        padding: 10px 25px 0px 25px;
+    }
+        .homeSlideTitle h2 {
+            color: #202020;
+            font-size: 40px;
+            letter-spacing: 0px;
+        }
 
 .sliderText {
 	width: 40%;
