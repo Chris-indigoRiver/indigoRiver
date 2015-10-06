@@ -160,7 +160,7 @@ get_header(); ?>
 								} 
 							?>
                             <div class="homeSlideTitle">
-                                <?php echo '<h2>' the_title(); echo '</h2>' ?></h2>
+                                <?php echo the_title(); ?></h2>
                             </div>
                         </div>
                         <div class="sliderText" id="">
