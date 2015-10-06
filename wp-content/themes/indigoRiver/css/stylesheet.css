@@ -1282,6 +1282,10 @@ header {
     width: 100%;
 }
 
+.page-template-templatescontactus-php footer {
+    display: none;
+}
+
 #contactUsIntro {
     background: url(../img/contactHeader.jpg) center center no-repeat;
     background-size: cover;
@@ -1933,10 +1937,6 @@ h3 {
 
 #contactDetails {
     margin: 0 25px;
-}
-
-.page-template-templatescontactus-php footer {
-    display: none;
 }
 
 .footerContact h3 {
