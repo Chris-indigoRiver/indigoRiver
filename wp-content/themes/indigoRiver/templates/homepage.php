@@ -172,6 +172,11 @@ get_header(); ?>
                 <?php endwhile; wp_reset_query(); ?>
             </ul>
         </div>
+        <div class="servicesHomeMob">
+            <div class="" id="">
+                <?php the_content(); ?>
+            </div>
+        </div>
         
     </article>
     <article class="cardWrap" id="homeOurPeople">

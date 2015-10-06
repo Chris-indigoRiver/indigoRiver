@@ -1737,6 +1737,11 @@ h3 {
     height: 175px !important;
 }
 
+.servicesHomeMob {
+    height: 100px;
+    width: 100%;
+}
+
 .sliderContainer {
 	background: #fff;
 }
@@ -2324,6 +2329,10 @@ h3 {
     width: 20%;
 	overflow: hidden;
 	position: relative;
+}
+
+.servicesHomeMob {
+    display: none;
 }
 
 .ourPeopleIntro {
