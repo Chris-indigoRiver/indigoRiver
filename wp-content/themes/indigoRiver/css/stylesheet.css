@@ -2706,7 +2706,7 @@ h1 {
 
 #LLOne {
     position: fixed;
-    width: 1px;
+    width: 2px;
     height: 10px;
     bottom: 23px;
     left: 15px;
@@ -2722,7 +2722,7 @@ h1 {
 
 #LLThree {
     position: fixed;
-    width: 1px;
+    width: 2px;
     height: 10px;
     bottom: 23px;
     left: 45px;
@@ -2861,8 +2861,6 @@ h1 {
 .footerContact {
     padding: 40px 30px 0 30px;
 }
-
-/* ========== Homepage ==========*/
 
 .workIntroTitle {
     padding-left: 30px;
