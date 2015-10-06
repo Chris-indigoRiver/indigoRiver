@@ -1935,6 +1935,10 @@ h3 {
     margin: 0 25px;
 }
 
+.page-template-templatescontactus-php footer {
+    display: none;
+}
+
 .footerContact h3 {
     margin-top: 20px;
     color: #fff;
