@@ -1767,12 +1767,12 @@ h3 {
         height: auto !important;
         padding: 30px 0;
     }
-    .sliderText:nth-child(odd) {
+    /*.sliderText:nth-child(odd) {
         background: red;
     }
     .sliderText:nth-child(even) {
         background: grey;
-    }
+    }*/
 
 .servicesHomeMob {
     height: 100px;
