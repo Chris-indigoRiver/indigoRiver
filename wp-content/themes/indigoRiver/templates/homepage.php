@@ -182,12 +182,12 @@ get_header(); ?>
         </div>
         
     </article>
-    <article class="cardWrap" id="homeOurPeople">
+    <article class="" id="homeOurPeople">
     	<div class="ourPeopleIntro">
         	<h1 class="People_title white">Our People</h1>
             <p class="white">The heartbeat of our agency, where the magic happens. Without these guys and girls none of the things we do would be possible. In fact, there’s only one thing our team cares about more than our business and that’s our clients’ business.</p>
         </div><?php
-        ?><div class="ourPeople card">
+        ?><div class="ourPeople ">
         	<img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JAY.png" alt="indigoriver digital marketing agency web developer"/>
             <div class="ourPeopleFill">
                 <h2>Jay</h2>
@@ -198,7 +198,7 @@ get_header(); ?>
                 <p>Senior Web Developer</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-W.png" alt="indigoriver digital marketing agency art director"/>
             <div class="ourPeopleFill">
                 <h2>Emma W</h2>
@@ -209,7 +209,7 @@ get_header(); ?>
                 <p>Art Director</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JAX.png" alt="indigoriver digital marketing agency web developer"/>
             <div class="ourPeopleFill">
                 <h2>Jax</h2>
@@ -220,7 +220,7 @@ get_header(); ?>
                 <p>Our Shy Junior Web Developer</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SARAH.png" alt="indigoriver digital marketing agency financial"/>
             <div class="ourPeopleFill">
                 <h2>Sarah</h2>
@@ -231,7 +231,7 @@ get_header(); ?>
                 <p>Financial & HR</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/DAMIAN2.png" alt="indigoriver digital marketing agency md"/>
              <div class="ourPeopleFill">
                 <h2>Damian</h2>
@@ -242,7 +242,7 @@ get_header(); ?>
                 <p>MD & CD</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/ANDY4.png" alt="indigoriver digital marketing agency Account Manager"/>
             <div class="ourPeopleFill">
                 <h2>Andy</h2>
@@ -253,7 +253,7 @@ get_header(); ?>
                 <p>Account Manager</p>
             </div>
         </div><?php
-        ?><div class="ourPeople card">
+        ?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/LORNA2.png" alt="indigoriver digital marketing agency business development"/>
             <div class="ourPeopleFill">
                 <h2>Lorna</h2>
@@ -264,7 +264,7 @@ get_header(); ?>
                 <p>Head of Business Development</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/CLARE2.png" alt="indigoriver digital marketing agency creative"/>
             <div class="ourPeopleFill">
                 <h2>Clare</h2>
@@ -275,7 +275,7 @@ get_header(); ?>
                 <p>Creative</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/EMMA-H2.png" alt="indigoriver digital marketing agency operations"/>
             <div class="ourPeopleFill">
                 <h2>Emma H</h2>
@@ -286,7 +286,7 @@ get_header(); ?>
                 <p>Head of Operations</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/JACK2.png" alt="indigoriver digital marketing agency ux &amp; ui"/>
             <div class="ourPeopleFill">
                 <h2>Jack</h2>
@@ -297,7 +297,7 @@ get_header(); ?>
                 <p>UX & UI</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/BOBBI2.png" alt="indigoriver digital marketing agency strategist"/>
             <div class="ourPeopleFill">
                 <h2>Bobbi</h2>
@@ -308,7 +308,7 @@ get_header(); ?>
                 <p>Strategist / Senior Account Manager</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/CHRIS.png" alt="indigoriver digital marketing agency web developer"/>
             <div class="ourPeopleFill">
                 <h2>Chris</h2>
@@ -319,7 +319,7 @@ get_header(); ?>
                 <p>Web Developer</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/SIMON.png" alt="indigoriver digital marketing agency senior artworker"/>
             <div class="ourPeopleFill">
                 <h2>Simon</h2>
@@ -330,7 +330,7 @@ get_header(); ?>
                 <p>Senior Artworker</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/GUNEET3.png" alt="indigoriver digital marketing agency creative services"/>
             <div class="ourPeopleFill">
                 <h2>Guneet</h2>
@@ -341,7 +341,7 @@ get_header(); ?>
                 <p>Creative Services Manager</p>
             </div>
         </div><?php
-		?><div class="ourPeople card">
+		?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/MITCH.png" alt="indigoriver digital marketing agency account executive"/>
             <div class="ourPeopleFill">
                 <h2>Mitch</h2>
@@ -352,7 +352,7 @@ get_header(); ?>
                 <p>Account Executive</p>
             </div>
         </div><?php
-        ?><div class="ourPeople card">
+        ?><div class="ourPeople ">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/ELLIOT3.png" alt="indigoriver digital marketing agency Junior Web Developer"/>
             <div class="ourPeopleFill">
                 <h2>Elliot</h2>
