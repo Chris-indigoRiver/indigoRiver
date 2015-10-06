@@ -235,6 +235,17 @@ get_header(); ?>
             </div>
         </div><?php
 		?><div class="ourPeople card">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/ANDY4.png" alt="indigoriver digital marketing agency Account Manager"/>
+            <div class="ourPeopleFill">
+                <h2>Andy</h2>
+                <p>Account Manager</p>
+            </div>
+             <div class="ourPeopleMobFill mob">
+                <h2>Andy</h2>
+                <p>Account Manager</p>
+            </div>
+        </div><?php
+        ?><div class="ourPeople card">
             <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/LORNA2.png" alt="indigoriver digital marketing agency business development"/>
             <div class="ourPeopleFill">
                 <h2>Lorna</h2>
@@ -312,7 +323,7 @@ get_header(); ?>
             </div>
         </div><?php
 		?><div class="ourPeople card">
-            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/GUNEET.png" alt="indigoriver digital marketing agency creative services"/>
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/GUNEET3.png" alt="indigoriver digital marketing agency creative services"/>
             <div class="ourPeopleFill">
                 <h2>Guneet</h2>
                 <p>Creative Services Manager</p>
@@ -331,6 +342,17 @@ get_header(); ?>
              <div class="ourPeopleMobFill mob">
                 <h2>Mitch</h2>
                 <p>Account Executive</p>
+            </div>
+        </div><?php
+        ?><div class="ourPeople card">
+            <img src="http://www.indigo-river.com/wp-content/themes/html5blank-stable/img/people/ELLIOT3.png" alt="indigoriver digital marketing agency Junior Web Developer"/>
+            <div class="ourPeopleFill">
+                <h2>Elliot</h2>
+                <p>Junior Web Developer</p>
+            </div>
+             <div class="ourPeopleMobFill mob">
+                <h2>Elliot</h2>
+                <p>Junior Web Developer</p>
             </div>
         </div><?php
         ?><div class="joinCTA">
