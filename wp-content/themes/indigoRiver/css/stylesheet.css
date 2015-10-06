@@ -1615,10 +1615,11 @@ h3 {
 .menuSM {
     position: absolute;
     top: 0px;
-    left: 30px;
+    left: -44%;
 }
     .menuSM a {
         display: inline-block;
+        margin-right: 20px;
     }
 
 .homeNavLogo {
