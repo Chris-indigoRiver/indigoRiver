@@ -1612,6 +1612,15 @@ h3 {
     width: 50px !important;
 }
 
+.menuSM {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+    .menuSM a {
+        display: inline-block;
+    }
+
 .homeNavLogo {
     left: 20px;
     right: auto;
