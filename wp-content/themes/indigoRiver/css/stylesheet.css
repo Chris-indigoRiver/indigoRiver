@@ -1739,6 +1739,12 @@ h3 {
         height: auto !important;
         margin: 20px 0;
     }
+    .sliderText:nth-child(odd) {
+        background: red;
+    }
+    .sliderText:nth-child(even) {
+        background: grey;
+    }
 
 .servicesHomeMob {
     height: 100px;
