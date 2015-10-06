@@ -2308,7 +2308,7 @@ h3 {
 }
 
 .ourPeopleIntro {
-	width: 60%;
+	width: 40%;
 	padding-top: 70px;
 }    
 
@@ -2386,7 +2386,7 @@ h3 {
 .joinCTA {
     display: inline-block;
     vertical-align: top;
-    width: 60%;
+    width: 40%;
     height: 100%;
     background: #fff;
     position: relative;
