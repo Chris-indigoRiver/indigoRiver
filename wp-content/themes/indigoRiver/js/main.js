@@ -313,7 +313,7 @@ $(window).resize(function(){
 		$( ".menuIcon" ).click(function() {
 			$(this).toggleClass('on');
 			if($(this).hasClass('on')){
-				if (width =< 600){
+				if (width =< 1060){
 					$(this).css('background' , 'transparent');
 					$(this).delay(100).animate({'width': '50px'}, 500);
 					$('.pageLocator').animate({'width': '50%'}, 200);
@@ -322,7 +322,7 @@ $(window).resize(function(){
 					$('.menuLogo').css({'display' : 'block'});
 					$('.locatorLine').addClass('animated fadeOut');
 				}
-				else if (width => 601){
+				else if (width => 1061){
 					$(this).css('background' , 'transparent');
 					$(this).delay(100).animate({'width': '99%'}, 500);
 					$('.pageLocator').animate({'width': '50%'}, 200);
@@ -332,7 +332,7 @@ $(window).resize(function(){
 					$('.locatorLine').addClass('animated fadeOut');
 				}
 			}else{
-				if (width =< 600){
+				if (width =< 1060){
 					$(this).css('background' , '#f9f9f9');
 					$(this).animate({'width': '10%'}, 500);
 					$('.pageLocator').animate({'width': '11%'}, 200);
@@ -340,7 +340,7 @@ $(window).resize(function(){
 					$('.appointments').css({'display' , 'none'});
 					$('.menuLogo').css('display' , 'none');
 				}
-				else if (width => 601){
+				else if (width => 1061){
 					$(this).css('background' , '#f9f9f9');
 					$(this).animate({'width': '10%'}, 500);
 					$('.pageLocator').animate({'width': '11%'}, 200);
