@@ -1608,6 +1608,10 @@ h3 {
     animation-delay: 2s;
 }
 
+.introCopy a {
+    display: block;
+}
+
 .introCopy a p {
 	position: absolute;
     left: 50%;
