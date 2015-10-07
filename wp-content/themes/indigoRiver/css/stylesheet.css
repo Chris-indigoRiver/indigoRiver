@@ -3103,7 +3103,7 @@ h3 {
 }
 
 #pageMenu {
-	height: 55px !important;
+	height: 55px;
 }
 
 .homeLogo {
