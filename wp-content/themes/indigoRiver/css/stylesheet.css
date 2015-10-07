@@ -478,6 +478,7 @@ header {
 .nav ul li h2 a {
 	color:#fff;
     position: relative;
+    cursor: pointer;
 }
 
 .nav a:active {
