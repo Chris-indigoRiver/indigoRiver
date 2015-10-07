@@ -59,7 +59,7 @@ $(document).ready(function(){
 		$(this).toggleClass('on');
 		if($(this).hasClass('on')){
 			//$('#pageMenu').css('background' , 'transparent');
-			if ($(window).width() <= 600){
+			if ($(window).width() <= 1060){
 				$('.appointments').animate({'width' : '100%'});
 				$('#pageMenu').animate({'height': '100%'});
 				$('.appointments').fadeIn();
@@ -67,7 +67,7 @@ $(document).ready(function(){
 				$('.homeNavLogo').delay(1000).fadeIn(400);
 				$('.nav').css({'display' : 'block'});
 			}
-			else if ($(window).width() >= 601){
+			else if ($(window).width() >= 1061){
 				$('#pageLocator').animate({'width': '50%'}, 200);
 				$('#pageMenu').delay(100).animate({'width': '100%'}, 500);
 				$(".menuIcon").css({'left' : '50px' , 'width' : '10%'});
@@ -79,7 +79,7 @@ $(document).ready(function(){
 				$('.homeNavLogo').css({'display' : 'block'});
 			}
 		}else{
-			if ($(window).width() <= 600){
+			if ($(window).width() <= 1060){
 				$('.appointments').animate({'width' : '100%'});
 				$('#pageMenu').animate({'width': '100%'});
 				$('#pageMenu').animate({'height': '55px'})
