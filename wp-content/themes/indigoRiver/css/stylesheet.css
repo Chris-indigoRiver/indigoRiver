@@ -479,6 +479,10 @@ header {
 	color:#fff;
 }
 
+.nav a:active {
+    top: 3px;
+}
+
 .nav a {
     font-family: "bebas_neue",serif;
     font-style: normal;
