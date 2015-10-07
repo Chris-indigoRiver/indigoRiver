@@ -80,7 +80,7 @@ h3 {
 p {
 	font-family: "fira-sans-2",sans-serif;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 500;
     font-size: 16px;
     color: #202020;
     line-height: 25px;
@@ -100,7 +100,7 @@ small {
 a {
 	font-family: "fira-sans-2",sans-serif;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 500;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
 }
@@ -108,7 +108,7 @@ a {
 a p {
 	font-family: "fira-sans-2",sans-serif;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 500;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
 }
@@ -554,7 +554,7 @@ header {
         color: #FFF;
         padding: 20px 30px 80px 30px;
         position: relative;
-        font-weight: 900;
+        font-weight: 500;
         line-height: 22px;
         background-color: rgb(47, 47, 47);
         margin: 0;
